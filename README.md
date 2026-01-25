@@ -52,5 +52,4 @@ Raw sequencing data from SeqCenter analyzed using the following steps:
         MB3_S147_R2_001.fastq.gz 
         run_fastp.sh (this is to automate the execution of fastap)
     
-  - 
-  - 
+ 
