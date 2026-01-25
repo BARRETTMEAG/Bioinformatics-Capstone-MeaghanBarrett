@@ -34,16 +34,23 @@ Raw sequencing data from SeqCenter analyzed using the following steps:
 # Folders
   - Illumina Data contains the raw data that came from Professor Lauren Brooks (UVU Professor).
   - Illumina Raw Files: 
-    AC2_S144_R1_001.fastq.gz		AC2_S144_R2_001.fastq.gz		
-    BS1_S145_R1_001.fastq.gz		SBDF1_S141_R1_001.fastq.gz
-    BS1_S145_R2_001.fastq.gz		SBDF1_S141_R2_001.fastq.gz
-    BS2_S143_R1_001.fastq.gz		SBEBB3_S140_R1_001.fastq.gz
-    BS2_S143_R2_001.fastq.gz		SBEBB3_S140_R2_001.fastq.gz
-    C2_S146_R1_001.fastq.gz			C2_S146_R2_001.fastq.gz
-    WT4_S142_R1_001.fastq.gz    WT4_S142_R2_001.fastq.gz
-    MB3_S147_R1_001.fastq.gz    MB3_S147_R2_001.fastq.gz 
-    run_fastp.sh 
+        AC2_S144_R1_001.fastq.gz
+        AC2_S144_R2_001.fastq.gz		
+        BS1_S145_R1_001.fastq.gz
+        BS1_S145_R2_001.fastq.gz		
+        BS2_S143_R2_001.fastq.gz
+        BS2_S143_R1_001.fastq.gz
+        SBDF1_S141_R2_001.fastq.gz
+        SBDF1_S141_R1_001.fastq.gz
+        SBEBB3_S140_R2_001.fastq.gz
+        SBEBB3_S140_R1_001.fastq.gz
+        C2_S146_R1_001.fastq.gz
+        C2_S146_R2_001.fastq.gz
+        WT4_S142_R1_001.fastq.gz
+        WT4_S142_R2_001.fastq.gz
+        MB3_S147_R1_001.fastq.gz
+        MB3_S147_R2_001.fastq.gz 
+        run_fastp.sh (this is to automate the execution of fastap)
     
   - 
   - 
-
