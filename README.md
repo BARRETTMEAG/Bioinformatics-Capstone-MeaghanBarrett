@@ -5,7 +5,7 @@ Contains a microbial genome analysis workflow using the raw data sequence genera
 
 # Overview
 
-The goal is to process and analyze raw bacterial for Salmonella Serovars seqencing data to produce assemble, annotated genomes, and interpreting their biological features.
+The goal is to process and analyze raw genomes for Salmonella Serovars seqencing data to produce assemble, annotated genomes, and interpreting their biological features.
 
 # Workflow
 
