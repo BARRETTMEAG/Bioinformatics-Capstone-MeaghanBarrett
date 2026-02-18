@@ -1,0 +1,10 @@
+# Conda installer
+Miniconda3-*.sh
+
+# Downloaded genome data
+assemblies/
+genomes_raw/
+
+# macOS system files
+.DS_Store
+
