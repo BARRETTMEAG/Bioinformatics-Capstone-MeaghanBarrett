@@ -1,0 +1,2 @@
+assemblies/* filter=lfs diff=lfs merge=lfs -text
+genomes_raw/* filter=lfs diff=lfs merge=lfs -text
