@@ -1,6 +1,6 @@
 ## Scripts Overview
 
-1- download_genomes.sh contains the script used to download the salmonella genomes (genomes_raw).
+1- download_genomes.sh contains the script used to download the salmonella genomes (assembilies folder), which was further trimmed down into genomes_raw, this contains the 13 genomes that will be used for this project.
 
 2- run_busco.sh contains the script used to organize raw data for assessment summary (parse_busco_summaries.sh) found in busco_results.
 
