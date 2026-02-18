@@ -1,0 +1,340 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /Users/meaghanbarrett/Desktop/Classes/UVU/BIO4600/Bioinformatics-Capstone-MeaghanBarrett/busco_downloads/lineages/bacteria_odb10/hmms/95696at2.hmm
+# target sequence database:        busco_results/GCF_000171315.1_BUSCO/prodigal_output/predicted_genes/predicted.faa
+# per-dom hits tabular output:     busco_results/GCF_000171315.1_BUSCO/run_bacteria_odb10/hmmer_output/95696at2.out
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       95696at2  [M=490]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                          -----------
+   9.3e-233  771.2   8.4   7.5e-165  547.3   1.2    2.8  3  NZ_ABEL01000001.1:609138-611159|+  NZ_ABEL01000001.1_589 # 609138 #
+    1.5e-08   31.8   0.1    3.2e-08   30.7   0.1    1.5  2  NZ_ABEL01000026.1:12079-13413|-    NZ_ABEL01000026.1_13 # 12079 # 1
+    7.4e-08   29.4   0.0    4.2e-07   26.9   0.0    1.9  2  NZ_ABEL01000001.1:630261-631622|+  NZ_ABEL01000001.1_610 # 630261 #
+    1.4e-07   28.5   0.0     0.0011   15.7   0.0    2.1  2  NZ_ABEL01000012.1:37722-39920|+    NZ_ABEL01000012.1_31 # 37722 # 3
+    3.1e-07   27.4   0.4    0.00013   18.7   0.1    2.2  2  NZ_ABEL01000013.1:18699-20870|-    NZ_ABEL01000013.1_21 # 18699 # 2
+    3.9e-07   27.1   0.0      1e-06   25.7   0.0    1.6  2  NZ_ABEL01000022.1:18085-19350|-    NZ_ABEL01000022.1_16 # 18085 # 1
+    6.1e-07   26.4   1.6    2.3e-05   21.2   0.6    2.2  2  NZ_ABEL01000006.1:166154-168043|-  NZ_ABEL01000006.1_158 # 166154 #
+    1.4e-06   25.2   0.0    0.00018   18.3   0.0    2.3  2  NZ_ABEL01000003.1:333281-335362|+  NZ_ABEL01000003.1_294 # 333281 #
+    2.9e-06   24.2   0.2     0.0028   14.4   0.0    2.2  2  NZ_ABEL01000004.1:230214-231974|+  NZ_ABEL01000004.1_210 # 230214 #
+    0.00011   18.9   0.0      0.049   10.2   0.0    2.2  2  NZ_ABEL01000002.1:335266-336639|-  NZ_ABEL01000002.1_321 # 335266 #
+     0.0014   15.3   0.0       0.11    9.1   0.0    2.1  2  NZ_ABEL01000013.1:20809-22146|-    NZ_ABEL01000013.1_22 # 20809 # 2
+     0.0077   12.9   0.0      0.041   10.5   0.0    2.0  1  NZ_ABEL01000016.1:19584-21431|+    NZ_ABEL01000016.1_22 # 19584 # 2
+
+
+Domain annotation for each sequence (and alignments):
+>> NZ_ABEL01000001.1:609138-611159|+  NZ_ABEL01000001.1_589 # 609138 # 611159 # 1 # ID=48_589;partial=00;start_type=ATG;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  227.5   0.1   1.7e-70   6.4e-68       1     123 [.      35     157 ..      35     163 .. 0.97
+   2 !  547.3   1.2    2e-167  7.5e-165     115     477 ..     168     590 ..     161     601 .. 0.89
+   3 ?   -1.0   0.1      0.34   1.2e+02     462     490 .]     633     662 ..     619     662 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 227.5 bits;  conditional E-value: 1.7e-70
+                           95696at2   1 qvllGvtGsGktftvanviekvqrptlvlahnktlaaqlyselkeffpenaveyfvsyydyyqPeayvpssdtyie 76 
+                                        q+llGvtGsGktft+anvi+++qrpt+vla+nktlaaqly+e+keffpenaveyfvsyydyyqPeayvpssdt+ie
+  NZ_ABEL01000001.1:609138-611159|+  35 QTLLGVTGSGKTFTIANVIADLQRPTMVLAPNKTLAAQLYGEMKEFFPENAVEYFVSYYDYYQPEAYVPSSDTFIE 110
+                                        79************************************************************************** PP
+
+                           95696at2  77 kdssineeieklrlsatkallerrdvivvasvsciyglgspellrkl 123
+                                        kd+s+ne+ie++rlsatkallerrdv+vvasvs+iyglg+p+l  k+
+  NZ_ABEL01000001.1:609138-611159|+ 111 KDASVNEHIEQMRLSATKALLERRDVVVVASVSAIYGLGDPDLYLKM 157
+                                        ******************************************97665 PP
+
+  == domain 2  score: 547.3 bits;  conditional E-value: 2e-167
+                           95696at2 115 gspellrklvelqyernd..fkrgtfrvrgdvveifpa.....alrvelfgdeieki...dpltg..........i 170
+                                         + ++lr+l+elqy+rnd  f+rgtfrvrg+v++ifpa     alrvelf++e+e++   dpltg          i
+  NZ_ABEL01000001.1:609138-611159|+ 168 DQRAILRRLAELQYTRNDqaFQRGTFRVRGEVIDIFPAesddiALRVELFDEEVERLslfDPLTGqvestvprytI 243
+                                        57789************87789***************86666679**********975556777555555555559 PP
+
+                           95696at2 171 ypashyvt......kaieeikeeleerle......klleaqrleqrteydlemlkelGycsGienysryldgrepg 234
+                                        yp++hyvt      +a+eeik+el++r +      klle+qrl+qrt++dlem++elGycsGienysr+l+gr pg
+  NZ_ABEL01000001.1:609138-611159|+ 244 YPKTHYVTprerilQAMEEIKDELADRRKvllannKLLEEQRLSQRTQFDLEMMNELGYCSGIENYSRFLSGRGPG 319
+                                        ******9866666689********9986433333399*************************************** PP
+
+                           95696at2 235 ep.atlldylp.dallvideshvtvpqiramykgdrsrketlveyGfrlpsaldnrPlkfeef.....qvvyvsat 303
+                                        ep +tl+dylp d llv+deshvt+pqi++my+gdr+rketlveyGfrlpsa+dnrPlkfeef     q++yvsat
+  NZ_ABEL01000001.1:609138-611159|+ 320 EPpPTLFDYLPaDGLLVVDESHVTIPQIGGMYRGDRARKETLVEYGFRLPSAMDNRPLKFEEFealapQTIYVSAT 395
+                                        9637******9789*************************************************7777779****** PP
+
+                           95696at2 304 Pgeye........veqvirPtGlldPeievrp...qvddlleeik.......rvlvttltkrmaedlteylkeagi 361
+                                        Pg+ye        v+qv+rPtGlldP ievrp   qvddll+ei+       rvlvttltkrmaedlteyl+e+g 
+  NZ_ABEL01000001.1:609138-611159|+ 396 PGNYEleksgdevVDQVVRPTGLLDPIIEVRPvatQVDDLLSEIRqraaineRVLVTTLTKRMAEDLTEYLEEHGE 471
+                                        ****955555555579**************987779*******9654555558*********************** PP
+
+                           95696at2 362 kvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaildadkeGflrsersliqtiGraarnv. 436
+                                        +vrylhsdidt+er+eiirdlrlgefdvlvGinllreGld+PevslvaildadkeGflrsersliqtiGraarnv 
+  NZ_ABEL01000001.1:609138-611159|+ 472 RVRYLHSDIDTVERMEIIRDLRLGEFDVLVGINLLREGLDMPEVSLVAILDADKEGFLRSERSLIQTIGRAARNVn 547
+                                        **************************************************************************76 PP
+
+                           95696at2 437 gkvilyad.itesmkkaideterrre.qiayneehgitpeaak 477
+                                        gk+ily+d it sm+kai eterrre q++yneehgitp+  +
+  NZ_ABEL01000001.1:609138-611159|+ 548 GKAILYGDkITPSMAKAIGETERRREkQQKYNEEHGITPQGLN 590
+                                        9*****9879************99964899*********9655 PP
+
+  == domain 3  score: -1.0 bits;  conditional E-value: 0.34
+                           95696at2 462 qiayneehgitpeaakelefe.aaklrdel 490
+                                        q++  e +g + ++a++lefe aa++rd+l
+  NZ_ABEL01000001.1:609138-611159|+ 633 QQKIHELEGQMMQHAQNLEFEeAAQIRDQL 662
+                                        555556667778999****954899**986 PP
+
+>> NZ_ABEL01000026.1:12079-13413|-  NZ_ABEL01000026.1_13 # 12079 # 13413 # -1 # ID=23_13;partial=00;start_type=ATG;rbs_m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.6   0.0       2.1   7.9e+02      26      48 ..      79     101 ..      72     112 .. 0.62
+   2 !   30.7   0.1   8.6e-11   3.2e-08     335     435 ..     247     345 ..     206     357 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -3.6 bits;  conditional E-value: 2.1
+                         95696at2  26 tlvlahnktlaaqlyselkeffp 48 
+                                       l+l++ + la q+++  +e+  
+  NZ_ABEL01000026.1:12079-13413|-  79 ILILTPTRELAMQVADHARELAK 101
+                                      35666666666666666665544 PP
+
+  == domain 2  score: 30.7 bits;  conditional E-value: 8.6e-11
+                         95696at2 335 eikrvlvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaild 412
+                                      + +r +v +  +    +l+e l+ agi+  yl  ++  ++r e i+ l  g+ +vlv  ++   G+d+P+vs v  +d
+  NZ_ABEL01000026.1:12079-13413|- 247 DATRSIVFVRKRERVHELAETLRLAGINNCYLEGEMAQIKRNEGIKRLTDGRVNVLVATDVAARGIDIPDVSHVINFD 324
+                                      5678889888899999**********************************************************9999 PP
+
+                         95696at2 413 adkeGflrsersliqtiGraarn 435
+                                        + G    +r  i   Gra r+
+  NZ_ABEL01000026.1:12079-13413|- 325 MPRSGDTYLHR--IGRTGRAGRK 345
+                                      88777433332..5555555554 PP
+
+>> NZ_ABEL01000001.1:630261-631622|+  NZ_ABEL01000001.1_610 # 630261 # 631622 # 1 # ID=48_610;partial=00;start_type=ATG;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0      0.17        64      23      46 ..      73      98 ..      43     110 .. 0.66
+   2 !   26.9   0.0   1.1e-09   4.2e-07     335     408 ..     244     317 ..     215     338 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -0.0 bits;  conditional E-value: 0.17
+                           95696at2 23 qrp..tlvlahnktlaaqlyselkef 46
+                                       +rp  +l+l++ + laaq+ ++++++
+  NZ_ABEL01000001.1:630261-631622|+ 73 RRPvrALILTPTRELAAQIGENVRDY 98
+                                       4443379***********99999876 PP
+
+  == domain 2  score: 26.9 bits;  conditional E-value: 1.1e-09
+                           95696at2 335 eikrvlvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslv 408
+                                        + ++vlv t tk+ a++l+e l++ gi+   +h +     r++ + d++ g + vlv  ++   Gld+ e+  v
+  NZ_ABEL01000001.1:630261-631622|+ 244 NWQQVLVFTRTKHGANHLAEQLNKDGIRSAAIHGNKSQGARTRALADFKSGDIRVLVATDIAARGLDIEELPHV 317
+                                        4689****************************************************************998655 PP
+
+>> NZ_ABEL01000012.1:37722-39920|+  NZ_ABEL01000012.1_31 # 37722 # 39920 # 1 # ID=37_31;partial=00;start_type=ATG;rbs_mo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.6   0.0    0.0001     0.037       3      48 ..     222     270 ..     220     280 .. 0.85
+   2 !   15.7   0.0   2.9e-06    0.0011     379     441 ..     525     596 ..     508     602 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 10.6 bits;  conditional E-value: 0.0001
+                         95696at2   3 llGvtGsGktftvanviekv...qrptlvlahnktlaaqlyselkeffp 48 
+                                      l GvtGsGkt    +v+e+v    + +lv+ ++  l+ q ++ ++e f 
+  NZ_ABEL01000012.1:37722-39920|+ 222 LAGVTGSGKTEVYLSVLENVlaqGKQALVMVPEIGLTPQTIARFRERFN 270
+                                      89********9999998876443799*******************9884 PP
+
+  == domain 2  score: 15.7 bits;  conditional E-value: 2.9e-06
+                         95696at2 379 irdlrlgefdvlvGinllreGldlPevslvaildadkeGf...lrsers....liqtiGraar..nvgkvil 441
+                                      + ++  g   +l+G ++l  G  +P+v+lva+ld d   f   +rs +      +q+ Gra r  ++g+v+l
+  NZ_ABEL01000012.1:37722-39920|+ 525 LAEVHRGGARILIGTQMLAKGHHFPDVTLVALLDVDGALFsadFRSAERfaqlYTQVSGRAGRagKQGEVVL 596
+                                      5677888999**************************987744446654411214677888877223566655 PP
+
+>> NZ_ABEL01000013.1:18699-20870|-  NZ_ABEL01000013.1_21 # 18699 # 20870 # -1 # ID=36_21;partial=00;start_type=ATG;rbs_m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.6   0.0    0.0017      0.61     339     410 ..     229     303 ..     202     319 .. 0.80
+   2 !   18.7   0.1   3.6e-07   0.00013     346     439 ..     398     485 ..     393     513 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 6.6 bits;  conditional E-value: 0.0017
+                         95696at2 339 vlv..ttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGi.nllreGldlPevslvai 410
+                                      vlv  t l+++  +++ + +++  ++++ l     + e+++i+ +   g++d+l+G  +ll+  + l +++l+ +
+  NZ_ABEL01000013.1:18699-20870|- 229 VLVptTLLAQQHYDNFRDRFANWPVRIEMLSRFRSAKEQTQILAEAAEGKIDILIGThKLLQSDVKLRDLGLLIV 303
+                                      34432557888899999*************999999********************8358888888888888755 PP
+
+  == domain 2  score: 18.7 bits;  conditional E-value: 3.6e-07
+                         95696at2 346 krmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaildadkeGflrser 423
+                                      ++ ae l+e + ea i +   h ++   e  ++++d+ + +f+vlv   ++  G+d+P    + i  ad+ G+     
+  NZ_ABEL01000013.1:18699-20870|- 398 QKAAERLAELVPEARIAI--GHGQMRERELERVMNDFHHQRFNVLVCTTIIETGIDIPTANTIIIERADHFGLA---- 469
+                                      578899999988876665..5888888888899*************************************9975.... PP
+
+                         95696at2 424 sliqtiGraarnvgkv 439
+                                       l q  Gr+ r   ++
+  NZ_ABEL01000013.1:18699-20870|- 470 QLHQLRGRVGRSHHQA 485
+                                      4667777777765554 PP
+
+>> NZ_ABEL01000022.1:18085-19350|-  NZ_ABEL01000022.1_16 # 18085 # 19350 # -1 # ID=27_16;partial=00;start_type=ATG;rbs_m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.1   0.0      0.74   2.7e+02      21      42 ..      81     103 ..      54     109 .. 0.76
+   2 !   25.7   0.0   2.8e-09     1e-06     337     410 ..     257     330 ..     239     353 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -2.1 bits;  conditional E-value: 0.74
+                         95696at2  21 kvqrp.tlvlahnktlaaqlyse 42 
+                                      kv++p +l++a+ + la q+ ++
+  NZ_ABEL01000022.1:18085-19350|-  81 KVNQPrALIMAPTRELAVQIHAD 103
+                                      45555479999999999998765 PP
+
+  == domain 2  score: 25.7 bits;  conditional E-value: 2.8e-09
+                         95696at2 337 krvlvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvai 410
+                                      +r ++ + tk+ +ed+  +l+  g +v  l  d+   +r++i+ ++  g  d+lv  ++   Gl +P v+ v  
+  NZ_ABEL01000022.1:18085-19350|- 257 DRAIIFANTKHRCEDIWGHLAADGHRVGLLTGDVAQKKRLRILDEFTRGDLDILVATDVAARGLHIPAVTHVFN 330
+                                      68999999*************************************************************98865 PP
+
+>> NZ_ABEL01000006.1:166154-168043|-  NZ_ABEL01000006.1_158 # 166154 # 168043 # -1 # ID=43_158;partial=00;start_type=ATG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.7   0.0     0.013       4.6       5      48 ..      50      99 ..      46     113 .. 0.73
+   2 !   21.2   0.6   6.2e-08   2.3e-05     339     444 ..     248     350 ..     241     371 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 3.7 bits;  conditional E-value: 0.013
+                           95696at2  5 GvtGsGktftva.....nviekvqrp.tlvlahnktlaaqlyselkeffp 48
+                                         tGsGkt + +     n+  +++ p  lvla+ + la q+++ + +f  
+  NZ_ABEL01000006.1:166154-168043|- 50 AQTGSGKTAAFSlpllnNLDPELKAPqILVLAPTRELAVQVAEAMTDFSK 99
+                                       469****99876322214445667773579*************9999865 PP
+
+  == domain 2  score: 21.2 bits;  conditional E-value: 6.2e-08
+                           95696at2 339 vlvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaildad 414
+                                         ++ + tk+ + +++e l+++g +   l  d++   r + ++ l+ g+ d+l+  ++   Gld+  +slv   d  
+  NZ_ABEL01000006.1:166154-168043|- 248 AIIFVRTKNATLEVAEALERSGYNSAALNGDMNQALREQTLERLKDGRLDILIATDVAARGLDVERISLVVNYDIP 323
+                                        6778889***************************************************************998865 PP
+
+                           95696at2 415 keGflrsersliqtiGraar..nvgkvilyad 444
+                                         +     ++s +  iGr+ r   +g+++l+ +
+  NZ_ABEL01000006.1:166154-168043|- 324 MD-----SESYVHRIGRTGRagRAGRALLFVE 350
+                                        43.....4555566666554223688888765 PP
+
+>> NZ_ABEL01000003.1:333281-335362|+  NZ_ABEL01000003.1_294 # 333281 # 335362 # 1 # ID=46_294;partial=00;start_type=ATG;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.4   0.0    0.0077       2.8       3      50 ..     294     344 ..     292     350 .. 0.75
+   2 !   18.3   0.0   4.8e-07   0.00018     360     443 ..     517     599 ..     498     618 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 4.4 bits;  conditional E-value: 0.0077
+                           95696at2   3 llGvtGsGktftvanvi.e..kvqrptlvlahnktlaaqlyselkeffpen 50 
+                                        ++G  GsGkt   a    +  +  + + ++a+   la q +++++++f   
+  NZ_ABEL01000003.1:333281-335362|+ 294 VQGDVGSGKTLVAALAAlRaiAHGKQVALMAPTELLAEQHANNFRNWFEPL 344
+                                        67899*****98764321211346778889****************99765 PP
+
+  == domain 2  score: 18.3 bits;  conditional E-value: 4.8e-07
+                           95696at2 360 gikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaildadkeGflrsersliqtiGraarn 435
+                                        ++++  +h  ++  e+  +++ +++ge ++lv   ++  G+d+P+ sl+ i + ++ G+  + + l   +Gr a  
+  NZ_ABEL01000003.1:333281-335362|+ 517 ELNIGLVHGRMKPAEKQAVMQAFKQGELHLLVATTVIEVGVDVPNASLMIIENPERLGLA-QLHQLRGRVGRGAVA 591
+                                        4566789********************************************999999965.556789999999999 PP
+
+                           95696at2 436 vgkvilya 443
+                                        +  v+ly 
+  NZ_ABEL01000003.1:333281-335362|+ 592 SHCVLLYK 599
+                                        99999995 PP
+
+>> NZ_ABEL01000004.1:230214-231974|+  NZ_ABEL01000004.1_210 # 230214 # 231974 # 1 # ID=45_210;partial=00;start_type=ATG;
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.7   0.0   0.00079      0.29       6      40 ..      32      66 ..      27      73 .. 0.88
+   2 !   14.4   0.0   7.5e-06    0.0028     328     412 ..     244     326 ..     234     344 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.00079
+                           95696at2  6 vtGsGktftvanviekvqrptlvlahnktlaaqly 40
+                                        tG+Gk+  +a++ +  +  +lvlah k l+aq  
+  NZ_ABEL01000004.1:230214-231974|+ 32 PTGAGKSLVIAELARVARGRVLVLAHVKELVAQNH 66
+                                       59***********9999999************976 PP
+
+  == domain 2  score: 14.4 bits;  conditional E-value: 7.5e-06
+                           95696at2 328 qvddlleeikrvlvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlP 403
+                                        q+ ++ +  k v++ + t   a ++   l   +  +  +  d    er  +i ++++ +f  lv +++l  G+d P
+  NZ_ABEL01000004.1:230214-231974|+ 244 QIVEFAQTRKGVMIFAATVEHAKEIVGLLPADD--AALITGDTPGPERDALIDNFKAQRFRYLVNVSVLTTGFDAP 317
+                                        555555556666677777777777777666665..356778888899***************************** PP
+
+                           95696at2 404 evslvaild 412
+                                         v l+ail 
+  NZ_ABEL01000004.1:230214-231974|+ 318 HVDLIAILR 326
+                                        *******96 PP
+
+>> NZ_ABEL01000002.1:335266-336639|-  NZ_ABEL01000002.1_321 # 335266 # 336639 # -1 # ID=47_321;partial=00;start_type=GTG
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.4   0.0     0.002      0.74       6      49 ..      48     100 ..      44     105 .. 0.70
+   2 !   10.2   0.0   0.00013     0.049     340     409 ..     245     314 ..     231     344 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 6.4 bits;  conditional E-value: 0.002
+                           95696at2   6 vtGsGktftvan.v.....iekvqrptlvlahnktlaaqlyselke...ffpe 49 
+                                         tGsGkt +    +     ++  q  +lvl++ + la q+++el++   f+p+
+  NZ_ABEL01000002.1:335266-336639|-  48 RTGSGKTAAFGLgLlhridVTLFQTQALVLCPTRELADQVAGELRRlarFLPN 100
+                                        69999998765322111124456899*****************9962225666 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.00013
+                           95696at2 340 lvttltkrmaedlteylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslva 409
+                                        +v   tk+ ++ + + l+ +g  +  lh d++  +r + +  + +g+  +lv  ++   Gld+  + lv 
+  NZ_ABEL01000002.1:335266-336639|- 245 VVFCNTKKDCQAVCDALNAVGQSALALHGDLEQRDRDQTLVRFANGSARILVATDVAARGLDIKSLELVV 314
+                                        677889**********************************************************999996 PP
+
+>> NZ_ABEL01000013.1:20809-22146|-  NZ_ABEL01000013.1_22 # 20809 # 22146 # -1 # ID=36_22;partial=00;start_type=ATG;rbs_m
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    4.3   0.0    0.0085       3.2       6      50 ..      22      66 ..      17      93 .. 0.77
+   2 !    9.1   0.0   0.00029      0.11     121     171 ..     143     199 ..     134     288 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 4.3 bits;  conditional E-value: 0.0085
+                         95696at2  6 vtGsGktftvanviekvqrptlvlahnktlaaqlyselkeffpen 50
+                                      tG+  +  va++ e+   p++++a++   a +l +e+++f  + 
+  NZ_ABEL01000013.1:20809-22146|- 22 LTGAACATLVAEIAERHAGPVVLIAPDMQNALRLHDEIRQFTDQM 66
+                                     699999999*******************************97653 PP
+
+  == domain 2  score: 9.1 bits;  conditional E-value: 0.00029
+                         95696at2 121 rklvelqyernd..fkrgtfrvrgdvveifpaa....lrvelfgdeiekidpltgiy 171
+                                      ++l ++ y++ d  +++g++  rg  +++fp+     +r+++f+dei+++    +  
+  NZ_ABEL01000013.1:20809-22146|- 143 AQLDSAGYRHVDqvMEHGEYATRGALLDLFPMGseqpYRLDFFDDEIDSLRLFDADT 199
+                                      55666666665533789*************97433338**********998766555 PP
+
+>> NZ_ABEL01000016.1:19584-21431|+  NZ_ABEL01000016.1_22 # 19584 # 21431 # 1 # ID=33_22;partial=00;start_type=ATG;rbs_mo
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.5   0.0   0.00011     0.041     297     442 ..     183     345 ..     161     367 .. 0.73
+
+  Alignments for each domain:
+  == domain 1  score: 10.5 bits;  conditional E-value: 0.00011
+                         95696at2 297 vvyvsatPgeyeveqvirPtGlldPeiev....rpqv...........ddlleeikrv.....lvttltkrmaedlte 354
+                                       + ++at  +   + +ir  Gl dP i++    rp++           d+l++ ++       ++   ++   ed + 
+  NZ_ABEL01000016.1:19584-21431|+ 183 FMALTATADDTTRQDIIRLLGLNDPLIQIssfdRPNIrymlmekfkplDQLMRYVQEQrgksgIIYCNSRAKVEDTAA 260
+                                      5667777777777888888888888887755555555111111111113344333321122225666677889***** PP
+
+                         95696at2 355 ylkeagikvrylhsdidtlerveiirdlrlgefdvlvGinllreGldlPevslvaildadkeGflrsersliqtiGra 432
+                                       l+++gi +   h+ ++   rv++ ++++ +  +++v    +  G++ P+v +v  +d       r+ +s  q  Gra
+  NZ_ABEL01000016.1:19584-21431|+ 261 RLQSRGISAAAYHAGLENAIRVDVQEKFQRDDLQIVVATVAFGMGINKPNVRFVVHFDIP-----RNIESYYQETGRA 333
+                                      ******************************************************999965.....7889999999999 PP
+
+                         95696at2 433 arnv..gkvily 442
+                                       r+   ++++l+
+  NZ_ABEL01000016.1:19584-21431|+ 334 GRDGlpAEAMLF 345
+                                      997422455555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (490 nodes)
+Target sequences:                       4434  (1387808 residues searched)
+Passed MSV filter:                       141  (0.0317997); expected 88.7 (0.02)
+Passed bias filter:                      114  (0.0257104); expected 88.7 (0.02)
+Passed Vit filter:                        24  (0.00541272); expected 4.4 (0.001)
+Passed Fwd filter:                        12  (0.00270636); expected 0.0 (1e-05)
+Initial search space (Z):               4434  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 13773.78
+//
+[ok]

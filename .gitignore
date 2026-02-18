@@ -8,3 +8,19 @@ genomes_raw/
 # macOS system files
 .DS_Store
 
+# Ignore raw genome data
+genomes_raw/
+assemblies/
+
+# Ignore Conda envs and caches
+*.conda
+*.env/
+__pycache__/
+*.pyc
+
+# Track only scripts and BUSCO results
+!run_busco.sh
+!parse_busco_summaries.sh
+!download_genomes.sh
+!busco_results/
+
