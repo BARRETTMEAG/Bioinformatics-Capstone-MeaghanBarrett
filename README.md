@@ -74,16 +74,16 @@ The Purpose of the Project:
 | **assemblies/**                  | Downloaded Genome Assemblies         |
 | **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
-| **busco_results/**     | BUSCO outputs.                                 |
+| **busco_results/**     | BUSCO Outputs                                 |
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genomes_raw/**        | Original Raw Genome Files                     
-| **scripts/**        | Bash scripts for analysis.                        
-| **scripts/download_genomes.sh**        | Downloads genomes from NCBI    
-| **scripts/run_busco.sh**        | File to automate workflow             
-| **scripts/parse_busco_summaries.sh**        | File to parse together workflow     
-| **scripts/generate_assembly_stats.sh**        | File to automate statistics for workflow   
-| **.gitattributes**        | Ignores files and folders for git            
-| **.gitignore**        | Ignores files and folders for git                
+| **scripts/**        | Bash Scripts for Analysis.                        
+| **scripts/download_genomes.sh**        | Downloads Genomes from NCBI    
+| **scripts/run_busco.sh**        | File to Automate Workflow             
+| **scripts/parse_busco_summaries.sh**        | File to Parse Together Workflow     
+| **scripts/generate_assembly_stats.sh**        | File to Automate Statistics for Workflow   
+| **.gitattributes**        | Ignores Files and Folders for Git            
+| **.gitignore**        | Ignores Files and Folders for Git                
 | **README.md**        |                                                   |          
 | **other logs / downloads**        |                                      |          
 
