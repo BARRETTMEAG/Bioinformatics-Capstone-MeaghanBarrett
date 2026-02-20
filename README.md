@@ -26,7 +26,7 @@ The purpose of the project:
 | **BUSCO v6**     | Evaluates genome completeness based on conserved single-copy genes (C/S/D/F/M/n).                   |
 | **Bash scripts** | Automates downloading genomes, running BUSCO, parsing results, and calculating assembly statistics. |
 | **Conda**        | Computer program that is needed to be able to run the program.
-        |
+        
 
 # Key Parameters & Choices
 - BUSCO dataset: bacteria_odb10
@@ -71,17 +71,23 @@ Bioinformatics-Capstone-MeaghanBarrett/
 ├─ assemblies/                      # Downloaded genome assemblies
 
 ├─ assembly_evaluation/             # Final statistics & analysis outputs
+
 │   └─ assembly_stats.tsv
 
 ├─ busco_results/                   # BUSCO outputs
+
 │   └─ BUSCO_summary.tsv
 
 ├─ genomes_raw/                     # Original raw genome files
 
 ├─ scripts/                         # Bash scripts for analysis
+
 │   ├─ download_genomes.sh
+
 │   ├─ run_busco.sh
+
 │   ├─ parse_busco_summaries.sh
+
 │   └─ generate_assembly_stats.sh
 
 ├─ .gitignore
