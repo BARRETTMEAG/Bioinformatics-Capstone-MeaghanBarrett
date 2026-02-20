@@ -63,38 +63,25 @@ The purpose of the project:
     - The outputs are saved as assembly_evaluation/assembly_stats.tsv
  
   # Files Names & Repository Structure
-Bioinformatics-Capstone-MeaghanBarrett/
-│
 
-├─ accession_files/                 # Lists of genome accession numbers
-
-├─ assemblies/                      # Downloaded genome assemblies
-
-├─ assembly_evaluation/             # Final statistics & analysis outputs
-
-│   └─ assembly_stats.tsv
-
-├─ busco_results/                   # BUSCO outputs
-
-│   └─ BUSCO_summary.tsv
-
-├─ genomes_raw/                     # Original raw genome files
-
-├─ scripts/                         # Bash scripts for analysis
-
-│   ├─ download_genomes.sh
-
-│   ├─ run_busco.sh
-
-│   ├─ parse_busco_summaries.sh
-
-│   └─ generate_assembly_stats.sh
-
-├─ .gitignore
-
-├─ README.md                  
-
-└─ other logs / downloads
+| Bioinformatics-Capstone-MeaghanBarrett/             |                                                                                          |
+| ---------------- | --------------------------------------------------------------------------------------------------- |
+| **accession_files/**             | Lists of Genome Accession Numbers    |
+| **assemblies/**                  | Downloaded Genome Assemblies         |
+| **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |
+          
+| **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
+| **busco_results/**     | BUSCO outputs.                 |
+| **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report |
+| **genomes_raw/**        | Original Raw Genome Files│
+| **scripts/**        | Bash scripts for analysis.│
+| **scripts/download_genomes.sh**        | Downloads genomes from NCBI│
+| **scripts/run_busco.sh**        | File to automate workflow  │
+| **scripts/parse_busco_summaries.sh**        | File to parse together workflow |
+| **scripts/generate_assembly_stats.sh**        | File to automate statistics for workflow│
+| **.gitignore**        | Ignores files and folders for git│
+| **README.md**        |  |          
+| **other logs / downloads**        |  |          
 
 
 # 3 C's of Genome Assembly
