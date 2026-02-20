@@ -6,7 +6,7 @@ This project evaluateds the bacterial genome assemblies of Salmonella Serovars t
 
 # Purpose
 
-The purpose of the project:
+The Purpose of the Project:
 
 - Assess the assemblies of available bacterial genomes.
 - Evaluate the "3 C's" of genome assembly:
