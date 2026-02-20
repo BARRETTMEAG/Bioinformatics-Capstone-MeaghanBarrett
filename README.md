@@ -28,7 +28,8 @@ The Purpose of the Project:
 | **download_genomes.sh**        | Automates downloading of genomes from NCBI RefSeq.                                                               |
 | **run_busco.sh**               | Runs BUSCO for each genome assembly.                                                                      |
 | **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV.                                             |
-| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. |
+| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. 
+                            |
 
 | **Conda**        | Computer program that is needed to be able to run the program. |
         
@@ -46,26 +47,26 @@ The Purpose of the Project:
 
 # Reproducing Results
   1. Clone the repository:
-    - git clone < repository name >
-    - Change directory to where the repository is located or move where desired.
+        - git clone < repository name >
+        - Change directory to where the repository is located or move where desired.
       
   2. Ensure dependies are installed:
-    - Install miniconda and conda (either https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html or curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
-    - conda activate busco_env (this activates the busco environment)
+        - Install miniconda and conda (either https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html or curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
+        - conda activate busco_env (this activates the busco environment)
 
   3. Download genome assemblies, if they are not already in the repository:
-    - ./scripts/download_genomes.sh
+        - ./scripts/download_genomes.sh
 
   4. Run BUSCO on all genomes:
-    - ./scripts/run_busco.sh
+        - ./scripts/run_busco.sh
 
   5. Parse BUSCO outputs: 
-    - ./scripts/parse_busco_summaries.sh
-    - The outputs are saved as busco_results/BUSCO_summary.tsv
+        - ./scripts/parse_busco_summaries.sh
+        - The outputs are saved as busco_results/BUSCO_summary.tsv
 
   6. Calculating the assemb statistics (N50 and combine with BUSCO metrics:
-    - ./scripts/generate_assembly_stats.sh
-    - The outputs are saved as assembly_evaluation/assembly_stats.tsv
+        - ./scripts/generate_assembly_stats.sh
+        - The outputs are saved as assembly_evaluation/assembly_stats.tsv
  
 # Files Names & Repository Structure
 
@@ -84,9 +85,10 @@ The Purpose of the Project:
 | **scripts/run_busco.sh**        | File to automate workflow  │
 | **scripts/parse_busco_summaries.sh**        | File to parse together workflow |
 | **scripts/generate_assembly_stats.sh**        | File to automate statistics for workflow│
+| **.gitattributes**        | Ignores files and folders for git│
 | **.gitignore**        | Ignores files and folders for git│
-| **README.md**        |  |          
-| **other logs / downloads**        |  |          
+| **README.md**        |      |          
+| **other logs / downloads**        |     |          
 
 
 # 3 C's of Genome Assembly
