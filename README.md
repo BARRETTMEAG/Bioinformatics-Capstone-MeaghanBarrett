@@ -21,10 +21,14 @@ The purpose of the project:
 - The unzipped assemblies are located in the assemblies folder
 
 # Tools Used
-| Tool             | Purpose                                                                                             |
-| ---------------- | --------------------------------------------------------------------------------------------------- |
-| **BUSCO v6**     | Evaluates genome completeness based on conserved single-copy genes (C/S/D/F/M/n).                   |
-| **Bash scripts** | Automates downloading genomes, running BUSCO, parsing results, and calculating assembly statistics. |
+| Tool / Script                  | Purpose                                                                                                   |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| **BUSCO v6**                   | Evaluate completeness of genomes based on conserved single-copy genes.                                    |
+| **download_genomes.sh**        | Automates downloading of genomes from NCBI.                                                               |
+| **run_busco.sh**               | Runs BUSCO for each genome assembly.                                                                      |
+| **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV.                                             |
+| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. |
+
 | **Conda**        | Computer program that is needed to be able to run the program.
         
 
