@@ -12,6 +12,12 @@ genomes_raw/
 genomes_raw/
 assemblies/
 
+# Ignore all BUSCO raw outputs
+busco_results/*
+
+# But keep the summary file
+!busco_results/BUSCO_summary.tsv
+
 # Ignore Conda envs and caches
 *.conda
 *.env/
