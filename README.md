@@ -2,7 +2,7 @@
 
 # Project Overview
 
-This project evaluateds the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
+This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
 
 # Purpose
 
