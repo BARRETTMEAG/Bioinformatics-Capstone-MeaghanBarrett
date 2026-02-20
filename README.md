@@ -25,7 +25,7 @@ The purpose of the project:
 | Tool / Script                  | Purpose                                                                                                   |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | **BUSCO v6**                   | Evaluate completeness of genomes based on conserved single-copy genes.                                    |
-| **download_genomes.sh**        | Automates downloading of genomes from NCBI.                                                               |
+| **download_genomes.sh**        | Automates downloading of genomes from NCBI RefSeq.                                                               |
 | **run_busco.sh**               | Runs BUSCO for each genome assembly.                                                                      |
 | **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV.                                             |
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. |
@@ -50,7 +50,7 @@ The purpose of the project:
     - Change directory to where the repository is located or move where desired.
       
   2. Ensure dependies are installed:
-    - Install miniconda and conda
+    - Install miniconda and conda (either https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html or curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
     - conda activate busco_env (this activates the busco environment)
 
   3. Download genome assemblies, if they are not already in the repository:
