@@ -72,8 +72,7 @@ The Purpose of the Project:
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | **accession_files/**             | Lists of Genome Accession Numbers    |
 | **assemblies/**                  | Downloaded Genome Assemblies         |
-| **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |
-          
+| **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
 | **busco_results/**     | BUSCO outputs.                 |
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report |
