@@ -62,38 +62,23 @@ The purpose of the project:
     -./scripts/generate_assembly_stats.sh
     - The outputs are saved as assembly_evaluation/assembly_stats.tsv
  
-  # Files Names & Reposity Structure
-  Bioinformatics-Capstone-MeaghanBarrett/
+  # Files Names & Repository Structure
+Bioinformatics-Capstone-MeaghanBarrett/
 │
-
-├─ accession_files/           # Lists of genome accession numbers
-
-├─ assemblies/                # Downloaded genome assemblies
-
-├─ assembly_evaluation/       # Final statistics & analysis outputs
-
+├─ accession_files/                 # Lists of genome accession numbers
+├─ assemblies/                      # Downloaded genome assemblies
+├─ assembly_evaluation/             # Final statistics & analysis outputs
 │   └─ assembly_stats.tsv
-
-├─ busco_results/             # BUSCO outputs
-
+├─ busco_results/                   # BUSCO outputs
 │   └─ BUSCO_summary.tsv
-
-├─ genomes_raw/               # Original raw genome files
-
-├─ scripts/                   # Bash scripts for analysis
-
+├─ genomes_raw/                     # Original raw genome files
+├─ scripts/                         # Bash scripts for analysis
 │   ├─ download_genomes.sh
-
 │   ├─ run_busco.sh
-
 │   ├─ parse_busco_summaries.sh
-
 │   └─ generate_assembly_stats.sh
-
 ├─ .gitignore
-
 ├─ README.md                  
-
 └─ other logs / downloads
 
 
