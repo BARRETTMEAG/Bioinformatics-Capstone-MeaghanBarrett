@@ -28,9 +28,7 @@ The Purpose of the Project:
 | **download_genomes.sh**        | Automates downloading of genomes from NCBI RefSeq.                                                               |
 | **run_busco.sh**               | Runs BUSCO for each genome assembly.                                                                      |
 | **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV.                                             |
-| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. 
-                            |
-
+| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. |
 | **Conda**        | Computer program that is needed to be able to run the program. |
         
 
