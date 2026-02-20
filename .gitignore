@@ -1,40 +1,51 @@
-# Conda installer
+# -------------------------------
+# Conda installer and environments
+# -------------------------------
 Miniconda3-*.sh
-
-# Downloaded genome data
-assemblies/
-genomes_raw/
-
-# macOS system files
-.DS_Store
-
-# Ignore raw genome data
-genomes_raw/
-assemblies/
-
-# Ignore all BUSCO raw outputs
-busco_results/*
-
-# But keep the summary file
-!busco_results/BUSCO_summary.tsv
-
-# Ignore Conda envs and caches
 *.conda
 *.env/
-__pycache__/
-*.pyc
 
-# Track only scripts and BUSCO results
-!run_busco.sh
-!parse_busco_summaries.sh
-!download_genomes.sh
-!busco_results/
+# -------------------------------
+# Downloaded genome data (raw assemblies)
+# -------------------------------
+assemblies/
+genomes_raw/
 
-# Ignore junk folders
+# -------------------------------
+# macOS system files
+# -------------------------------
+.DS_Store
+
+# -------------------------------
+# BUSCO results
+# Ignore all BUSCO outputs except the summary files
+# -------------------------------
+busco_results/*
+!busco_results/BUSCO_summary.tsv
+!busco_results/**/*.txt
+!busco_results/**/*.json
+
+# -------------------------------
+# Scripts
+# Only track your scripts
+# -------------------------------
+!scripts/run_busco.sh
+!scripts/parse_busco_summaries.sh
+!scripts/download_genomes.sh
+!scripts/generate_assembly_stats.sh
+
+# -------------------------------
+# Assembly evaluation outputs
+# -------------------------------
+!assembly_evaluation/assembly_stats.tsv
+
+# -------------------------------
+# Ignore junk folders and logs
+# -------------------------------
 busco_downloads/
 some_folder/
 test_run/
 *.log
-assemblies/
-genomes_raw/
+__pycache__/
+*.pyc
 
