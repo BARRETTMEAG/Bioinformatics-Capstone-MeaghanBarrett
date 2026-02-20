@@ -1,6 +1,7 @@
 ## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation 
 
 # Project Overview
+
 This project evaluateds the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
 
 # Purpose
@@ -9,7 +10,7 @@ The purpose of the project:
 
 - Assess the assemblies of available bacterial genomes.
 - Evaluate the "3 C's" of genome assembly:
-  - 1. Contiguity: how continuous the sequences are (N50, number of contigs).
+    1. Contiguity: how continuous the sequences are (N50, number of contigs).
     2. Completeness: presence of expected core genes using BUSCO.
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
 - Provide scripts that are repoducible and outputs are standardized for future analyses. 
@@ -29,7 +30,7 @@ The purpose of the project:
 | **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV.                                             |
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. |
 
-| **Conda**        | Computer program that is needed to be able to run the program.
+| **Conda**        | Computer program that is needed to be able to run the program. |
         
 
 # Key Parameters & Choices
@@ -44,7 +45,7 @@ The purpose of the project:
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
 
 # Reproducing Results
-- 1. Clone the repository:
+  1. Clone the repository:
     - git clone < repository name >
     - Change directory to where the repository is located or move where desired.
       
@@ -63,10 +64,10 @@ The purpose of the project:
     - The outputs are saved as busco_results/BUSCO_summary.tsv
 
   6. Calculating the assemb statistics (N50 and combine with BUSCO metrics:
-    -./scripts/generate_assembly_stats.sh
+    - ./scripts/generate_assembly_stats.sh
     - The outputs are saved as assembly_evaluation/assembly_stats.tsv
  
-  # Files Names & Repository Structure
+# Files Names & Repository Structure
 
 | Bioinformatics-Capstone-MeaghanBarrett/             |                                                                                          |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
