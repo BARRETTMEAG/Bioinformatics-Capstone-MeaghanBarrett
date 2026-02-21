@@ -1,4 +1,4 @@
-# BUSCO Results Overview:
+# BUSCO Results Overview: <br>
 
 Contains BUSCO output folder for each genome. Folder includes:
   - short_summary*.txt: Sumary of metric completeness. 
