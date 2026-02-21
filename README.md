@@ -1,8 +1,11 @@
 ## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation 
 
+
 # Project Overview
 
 This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
+
+
 
 # Purpose
 
@@ -13,13 +16,17 @@ The Purpose of the Project:
     1. Contiguity: how continuous the sequences are (N50, number of contigs).
     2. Completeness: presence of expected core genes using BUSCO.
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
-- Provide scripts that are repoducible and outputs are standardized for future analyses. <br>
+- Provide scripts that are repoducible and outputs are standardized for future analyses. 
+
+
 
 # Source Data
 - The script: scripts/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
 - download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
 - The raw genomes are stored in the geomes_raw folder.
-- The unzipped assemblies are located in the assemblies folder <br>
+- The unzipped assemblies are located in the assemblies folder 
+
+
 
 # Tools Used
 | Tool / Script                  | Purpose                                                                                                   |
@@ -32,6 +39,7 @@ The Purpose of the Project:
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
         
 
+
 # Key Parameters & Choices
 - BUSCO dataset: bacteria_odb10
 - BUSCO mode: genome
@@ -42,6 +50,8 @@ The Purpose of the Project:
   - run_busco.sh: runs BUSCO on each genome.
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
+
+
 
 # Reproducing Results
   1. Clone the repository:
@@ -65,6 +75,9 @@ The Purpose of the Project:
   6. Calculating the assemb statistics (N50 and combine with BUSCO metrics:
         - ./scripts/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
+
+
+
  
 # Files Names & Repository Structure
 
@@ -87,6 +100,8 @@ The Purpose of the Project:
 | **.gitignore**        | Ignores Files and Folders for Git                
 | **README.md**        |                                                   |          
 | **other logs / downloads**        |                                      |          
+
+
 
 
 # 3 C's of Genome Assembly
