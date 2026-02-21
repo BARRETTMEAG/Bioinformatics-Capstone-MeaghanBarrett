@@ -84,7 +84,7 @@ The Purpose of the Project:
  
 # Files Names & Repository Structure <br>
 
-| Bioinformatics-Capstone-MeaghanBarrett/ |                               |
+| File Names (Parent & Child files)  |                   Purpose            |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | **accession_files/**             | Lists of Genome Accession Numbers    |
 | **assemblies/**                  | Downloaded Genome Assemblies         |
