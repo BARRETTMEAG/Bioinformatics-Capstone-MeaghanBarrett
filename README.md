@@ -1,11 +1,13 @@
 ## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation 
 
+<br>
 
 # Project Overview
 
 This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
 
-
+<br>
+<br>
 
 # Purpose
 
@@ -18,7 +20,8 @@ The Purpose of the Project:
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
 - Provide scripts that are repoducible and outputs are standardized for future analyses. 
 
-
+<br>
+<br>
 
 # Source Data
 - The script: scripts/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
@@ -26,7 +29,8 @@ The Purpose of the Project:
 - The raw genomes are stored in the geomes_raw folder.
 - The unzipped assemblies are located in the assemblies folder 
 
-
+<br>
+<br>
 
 # Tools Used
 | Tool / Script                  | Purpose                                                                                                   |
@@ -38,7 +42,8 @@ The Purpose of the Project:
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
         
-
+<br>
+<br>
 
 # Key Parameters & Choices
 - BUSCO dataset: bacteria_odb10
@@ -51,7 +56,8 @@ The Purpose of the Project:
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
 
-
+<br>
+<br>
 
 # Reproducing Results
   1. Clone the repository:
@@ -76,8 +82,8 @@ The Purpose of the Project:
         - ./scripts/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
 
-
-
+<br>
+<br>
  
 # Files Names & Repository Structure
 
@@ -88,7 +94,7 @@ The Purpose of the Project:
 | **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
 | **busco_results/**     | BUSCO Outputs                                 |
-| **busco_results/GFC_000_____**     | 13 Folders For Each Genome BUSCO Completeness (json & txt)  |      
+| **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (json & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
@@ -101,8 +107,8 @@ The Purpose of the Project:
 | **README.md**        |                                                   |          
 | **other logs / downloads**        |                                      |          
 
-
-
+<br>
+<br>
 
 # 3 C's of Genome Assembly
 | Metric           | Source                                        |
