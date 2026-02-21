@@ -95,8 +95,8 @@ The Purpose of the Project:
 | **scripts/generate_assembly_stats.sh**        | File to Automate Statistics for Workflow   
 | **.gitattributes**        | Ignores Files and Folders for Git            
 | **.gitignore**        | Ignores Files and Folders for Git                
-| **README.md**        |                                                   |          
-| **other logs / downloads**        |                                      |          
+| **README.md**        |   ^_^ It's Me!                                                |          
+        
 
 <br>
 <br>
