@@ -75,6 +75,7 @@ The Purpose of the Project:
 | **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
 | **busco_results/**     | BUSCO Outputs                                 |
+| **busco_results/GFC_000_____**     | 13 Folders For Each Genome BUSCO Completeness (json & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
