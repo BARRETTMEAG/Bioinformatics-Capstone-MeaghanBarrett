@@ -13,13 +13,13 @@ The Purpose of the Project:
     1. Contiguity: how continuous the sequences are (N50, number of contigs).
     2. Completeness: presence of expected core genes using BUSCO.
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
-- Provide scripts that are repoducible and outputs are standardized for future analyses. 
+- Provide scripts that are repoducible and outputs are standardized for future analyses. <br>
 
 # Source Data
 - The script: scripts/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
 - download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
 - The raw genomes are stored in the geomes_raw folder.
-- The unzipped assemblies are located in the assemblies folder
+- The unzipped assemblies are located in the assemblies folder <br>
 
 # Tools Used
 | Tool / Script                  | Purpose                                                                                                   |
