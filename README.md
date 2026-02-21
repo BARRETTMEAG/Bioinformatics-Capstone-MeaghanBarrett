@@ -1,5 +1,4 @@
-## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation 
-<br>
+## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation <br>
 
 # Project Overview <br>
 This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
@@ -30,7 +29,7 @@ The Purpose of the Project:
 
 <br>
 
-# Tools Used
+# Tools Used <br>
 | Tool / Script                  | Purpose                                                                                                   |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
 | **BUSCO v6**                   | Evaluate completeness of genomes based on conserved single-copy genes. Reason it was used instead of QUAST or Prokka is that it is a little easier for user coding needs.                                 |
@@ -85,7 +84,7 @@ The Purpose of the Project:
  
 # Files Names & Repository Structure <br>
 
-| Bioinformatics-Capstone-MeaghanBarrett/             |                                                                                          |
+| **Bioinformatics-Capstone-MeaghanBarrett/**                                |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | **accession_files/**             | Lists of Genome Accession Numbers    |
 | **assemblies/**                  | Downloaded Genome Assemblies         |
