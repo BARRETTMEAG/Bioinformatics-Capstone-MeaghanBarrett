@@ -3,7 +3,6 @@
 # Project Overview <br>
 This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
 
-
 <br>
 
 # Purpose<br>
@@ -17,7 +16,6 @@ The Purpose of the Project:
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
 - Provide scripts that are repoducible and outputs are standardized for future analyses. 
 
-
 <br>
 
 # Source Data <br>
@@ -25,7 +23,6 @@ The Purpose of the Project:
 - download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
 - The raw genomes are stored in the geomes_raw folder.
 - The unzipped assemblies are located in the assemblies folder 
-
 
 <br>
 
@@ -39,7 +36,6 @@ The Purpose of the Project:
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
         
-
 <br>
 
 # Key Parameters & Choices <br>
@@ -52,7 +48,6 @@ The Purpose of the Project:
   - run_busco.sh: runs BUSCO on each genome.
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
-
 
 <br>
 
@@ -78,7 +73,6 @@ The Purpose of the Project:
   6. Calculating the assemb statistics (N50 and combine with BUSCO metrics:
         - ./scripts/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
-
 
 <br>
  
