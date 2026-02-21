@@ -1,15 +1,13 @@
 ## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation 
-
 <br>
 
-# Project Overview
-
+# Project Overview <br>
 This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
 
-<br>
+
 <br>
 
-# Purpose
+# Purpose<br>
 
 The Purpose of the Project:
 
@@ -20,16 +18,16 @@ The Purpose of the Project:
     3. Correctness: accuracy of the sequence order/orientation (inferred from BUSCO duplication/fragmentation).
 - Provide scripts that are repoducible and outputs are standardized for future analyses. 
 
-<br>
+
 <br>
 
-# Source Data
+# Source Data <br>
 - The script: scripts/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
 - download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
 - The raw genomes are stored in the geomes_raw folder.
 - The unzipped assemblies are located in the assemblies folder 
 
-<br>
+
 <br>
 
 # Tools Used
@@ -42,10 +40,10 @@ The Purpose of the Project:
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
         
-<br>
+
 <br>
 
-# Key Parameters & Choices
+# Key Parameters & Choices <br>
 - BUSCO dataset: bacteria_odb10
 - BUSCO mode: genome
 - CPU used: 4 (This is adjustable in scripts)
@@ -56,10 +54,10 @@ The Purpose of the Project:
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
 
-<br>
+
 <br>
 
-# Reproducing Results
+# Reproducing Results <br>
   1. Clone the repository:
         - git clone < repository name >
         - Change directory to where the repository is located or move where desired.
@@ -82,10 +80,10 @@ The Purpose of the Project:
         - ./scripts/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
 
-<br>
+
 <br>
  
-# Files Names & Repository Structure
+# Files Names & Repository Structure <br>
 
 | Bioinformatics-Capstone-MeaghanBarrett/             |                                                                                          |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
