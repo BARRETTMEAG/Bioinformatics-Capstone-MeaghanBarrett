@@ -35,6 +35,7 @@ The Purpose of the Project:
 | **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV. This bash script parse together the statistics                                           |
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
+| **bakta**                    | Computer program for annotating genomes. |
         
 <br>
 
@@ -48,6 +49,7 @@ The Purpose of the Project:
   - run_busco.sh: runs BUSCO on each genome.
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
+- bakta: used to annotate the genomes.  
 
 <br>
 
