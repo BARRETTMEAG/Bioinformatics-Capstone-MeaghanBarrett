@@ -49,7 +49,7 @@ The Purpose of the Project:
   - run_busco.sh: runs BUSCO on each genome.
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
-- bakta: used to annotate the genomes.  
+- prokka: used to annotate the genomes.  
 
 <br>
 
@@ -72,10 +72,16 @@ The Purpose of the Project:
         - ./scripts/parse_busco_summaries.sh
         - The outputs are saved as busco_results/BUSCO_summary.tsv
 
-  6. Calculating the assemb statistics (N50 and combine with BUSCO metrics:
+  6. Calculating the assembly statistics (N50 and combine with BUSCO metrics:
         - ./scripts/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
-
+          
+  7. Download and prepare prokka:
+        - Went to <https://github.com/tseemann/prokka> to download prokka through homebrew.
+        - Was having troubles getting prokka to work, had to download Index of /asn1-converters/by_program/table2asn <(https://ftp.ncbi.nlm.nih.gov/asn1-converters/by_program/table2asn/)>
+          
+  8. 
+ 
 <br>
  
 # Files Names & Repository Structure <br>
