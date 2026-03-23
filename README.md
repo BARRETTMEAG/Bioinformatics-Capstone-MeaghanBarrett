@@ -79,11 +79,11 @@ The Purpose of the Project:
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
           
   7. Download and prepare bakta:
-        - Went to <[https://github.com/oschwengers/bakta]> to download bakta through conda.
+        - Went to <https://github.com/oschwengers/bakta> to download bakta through conda.
         - Run the correct sequences and get the outputs.
           
   8. Download and prepare panaroo:
-        - Went to <[https://gthlab.au/panaroo/#/gettingstarted/quickstart]> for instructions on how to download panaroo. There are dependents that are needed. 
+        - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed. 
      
   10. 
  
