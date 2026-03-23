@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT= <the location of your project>
+PROJECT= <the location of your project, insert here>
 
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
