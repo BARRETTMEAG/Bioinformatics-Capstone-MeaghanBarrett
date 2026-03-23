@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT="/Users/meaghanbarrett/Desktop/Classes/UVU/BIO4600/Bioinformatics-Capstone-MeaghanBarrett"
+PROJECT= <Location of your project insert here>
 ANNOTATION_DIR="$PROJECT/genomes_annotated"
 OUTPUT="$ANNOTATION_DIR/genome_summary.tsv"
 
