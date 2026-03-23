@@ -1,7 +1,7 @@
 ## Spring 2026 Bioinformatics Capstone Project: Bacterial Genome Assembly Evaluation <br>
 
 # Project Overview <br>
-This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. 
+This project evaluates the bacterial genome assemblies of Salmonella Serovars to determine their quality using standard assembly meterics and BUSCO completeness scores (%). The main goal is to identify high quality assemblies and generate a dataset for comparative genomics. Also, annotate the genes with Bakta and use Panaroo for pangenome investigation.
 
 <br>
 
@@ -36,6 +36,7 @@ The Purpose of the Project:
 | **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
 | **bakta**                    | Computer program for annotating genomes. |
+| **panaroo**    | Computer program for pangenome investigation. |
         
 <br>
 
@@ -49,7 +50,8 @@ The Purpose of the Project:
   - run_busco.sh: runs BUSCO on each genome.
   - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
   - generate_assembly_stats.sh: computes the assembly statistics includes N50.
-- bakta: used to annotate the genomes.  
+- bakta: used to annotate the genomes.
+- panaroo: used for pangenome investigation.
 
 <br>
 
@@ -77,10 +79,13 @@ The Purpose of the Project:
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
           
   7. Download and prepare bakta:
-        - Went to <[https://github.com/oschwengers/bakta]> to download prokka through homebrew.
-        - 
+        - Went to <[https://github.com/oschwengers/bakta]> to download bakta through conda.
+        - Run the correct sequences and get the outputs.
           
-  8. 
+  8. Download and prepare panaroo:
+        - Went to <[https://gthlab.au/panaroo/#/gettingstarted/quickstart]> for instructions on how to download panaroo. There are dependents that are needed. 
+     
+  10. 
  
 <br>
  
@@ -95,6 +100,7 @@ The Purpose of the Project:
 | **busco_results/**     | BUSCO Outputs                                 |
 | **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (json & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
+| **genome-assembly** | This is an evalutation |
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/download_genomes.sh**        | Downloads Genomes from NCBI    
