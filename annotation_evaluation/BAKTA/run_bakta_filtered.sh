@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT="/Users/meaghanbarrett/Desktop/Classes/UVU/BIO4600/Bioinformatics-Capstone-MeaghanBarrett"
+PROJECT= <the location of your project>
 
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
