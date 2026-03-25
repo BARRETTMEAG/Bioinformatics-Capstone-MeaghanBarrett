@@ -101,6 +101,7 @@ The Purpose of the Project:
 | **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (json & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genome-assembly** | This is an Reflective Evalutation |
+| **genome_annotated**| Bakta filtered files|
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/download_genomes.sh**        | Downloads Genomes from NCBI    
