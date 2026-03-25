@@ -1,0 +1,9 @@
+#This annotated all the .gff3 files in my genimes_annotated files
+panaroo -i $(find genomes_annotated -name "*.gff3") \
+        -o results_core/ \
+        --clean-mode strict \
+        --remove-invalid-genes \
+        -a core \
+        --aligner mafft \
+        -t 8
+
