@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT= <Location of your project insert here>
+PROJECT=/path/to/project ./summarize_bakta.sh
 ANNOTATION_DIR="$PROJECT/genomes_annotated"
 OUTPUT="$ANNOTATION_DIR/genome_summary.tsv"
 
@@ -26,4 +26,8 @@ do
 
 done
 
+<<<<<<< HEAD
 echo "Summary file created at: $OUTPUT"
+=======
+echo "Summary file created at: $OUTPUT"
+>>>>>>> bf2c79a (Add local untracked files before rebase)

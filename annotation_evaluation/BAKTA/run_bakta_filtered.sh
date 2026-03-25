@@ -1,6 +1,10 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 PROJECT= <the location of your project, insert here>
+=======
+PROJECT="/Users/meaghanbarrett/Desktop/Classes/UVU/BIO4600/Bioinformatics-Capstone-MeaghanBarrett"
+>>>>>>> bf2c79a (Add local untracked files before rebase)
 
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
@@ -42,4 +46,8 @@ do
         echo "Genome file for $accession not found"
     fi
 
+<<<<<<< HEAD
 done < "$APPROVED"
+=======
+done < "$APPROVED"
+>>>>>>> bf2c79a (Add local untracked files before rebase)
