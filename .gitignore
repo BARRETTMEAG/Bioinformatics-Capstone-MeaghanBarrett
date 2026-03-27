@@ -5,6 +5,17 @@ Miniconda3-*.sh
 *.conda
 *.env/
 
+# Ignore local environments
+bakta-env/
+busco_results_1/
+db-light/
+
+# Ignore swap files
+*.swp
+
+# Ignore personal docs
+*.docx
+
 # =========================
 # Raw genome and assembly data
 # =========================
@@ -32,6 +43,11 @@ busco_results/*
 !scripts/download_genomes.sh
 !scripts/generate_assembly_stats.sh
 
+# Track these folders
+!genomes_annotated/
+!qc_results/
+!results_core/
+
 # =========================
 # Junk folders & logs
 # =========================
@@ -41,4 +57,6 @@ test_run/
 *.log
 __pycache__/
 *.pyc
+
+
 
