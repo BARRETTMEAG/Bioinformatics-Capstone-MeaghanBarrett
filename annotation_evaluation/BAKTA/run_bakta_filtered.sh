@@ -1,11 +1,6 @@
 #!/bin/bash
 
-<<<<<<< HEAD
-PROJECT= <the location of your project, insert here>
-=======
-PROJECT="/Users/meaghanbarrett/Desktop/Classes/UVU/BIO4600/Bioinformatics-Capstone-MeaghanBarrett"
->>>>>>> bf2c79a (Add local untracked files before rebase)
-
+PROJECT=/path/to/project ./run_bakta_filtered.sh
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
 OUTPUT_DIR="$PROJECT/genomes_annotated"
