@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROJECT=/path/to/project ./summarize_bakta.sh
+PROJECT=${PROJECT:-/path/to/project}
 ANNOTATION_DIR="$PROJECT/genomes_annotated"
 OUTPUT="$ANNOTATION_DIR/genome_summary.tsv"
 

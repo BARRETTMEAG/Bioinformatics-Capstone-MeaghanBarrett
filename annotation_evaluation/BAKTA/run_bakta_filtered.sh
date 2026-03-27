@@ -1,12 +1,15 @@
 #!/bin/bash
 
-PROJECT=/path/to/project ./run_bakta_filtered.sh
+PROJECT=${PROJECT:-/path/to/project}
+
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
 OUTPUT_DIR="$PROJECT/genomes_annotated"
 APPROVED="$PROJECT/scripts/approved_genomes.txt"
 
 THREADS=6
+
+"$PROJECT/annotation_evaluation/BAKTA/run_bakta_filtered.sh"
 
 # Create main annotation directory if it doesn't exist
 mkdir -p "$OUTPUT_DIR"
