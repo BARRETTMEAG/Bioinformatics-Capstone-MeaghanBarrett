@@ -19,8 +19,8 @@ The Purpose of the Project:
 <br>
 
 # Source Data <br>
-- The script: scripts/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
-- download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
+- The script: scripts/BUSCO/download_genomes.sh was used to download genome sequences from NCBI RefSeq using a curated list of accession numbers (cleaned_accession.txt).
+- BUSCO/download_genomes.sh had to be modified with the assistance of Chatgpt to be able to work on a mac computer.
 - The raw genomes are stored in the geomes_raw folder.
 - The unzipped assemblies are located in the assemblies folder 
 
@@ -46,11 +46,15 @@ The Purpose of the Project:
 - CPU used: 4 (This is adjustable in scripts)
 - Assembly meterics: total length, number of contigs, scaffold N50
 - Scrips are reproducible:
-  - download_genomes.sh: download genomes from NCBI
-  - run_busco.sh: runs BUSCO on each genome.
-  - parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
-  - generate_assembly_stats.sh: computes the assembly statistics includes N50.
-- bakta: used to annotate the genomes.
+    -BUSCO: 
+      - BUSCO/download_genomes.sh: download genomes from NCBI
+      - BUSCO/run_busco.sh: runs BUSCO on each genome.
+      - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
+      - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
+    - BAKTA: used to annotate the genomes.
+        - BAKTA/approved_genomes.text: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
+        - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
+        - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one tsv file.     
 - panaroo: used for pangenome investigation.
 
 <br>
@@ -65,22 +69,22 @@ The Purpose of the Project:
         - conda activate busco_env (this activates the busco environment)
 
   3. Download genome assemblies, if they are not already in the repository:
-        - ./scripts/download_genomes.sh
+        - ./scripts/BUSCO/download_genomes.sh
 
   4. Run BUSCO on all genomes:
-        - ./scripts/run_busco.sh
+        - ./scripts/BUSCO/run_busco.sh
 
   5. Parse BUSCO outputs: 
-        - ./scripts/parse_busco_summaries.sh
+        - ./scripts/BUSCO/parse_busco_summaries.sh
         - The outputs are saved as busco_results/BUSCO_summary.tsv
 
   6. Calculating the assembly statistics (N50 and combine with BUSCO metrics:
-        - ./scripts/generate_assembly_stats.sh
+        - ./scripts/BUSCO/generate_assembly_stats.sh
         - The outputs are saved as assembly_evaluation/assembly_stats.tsv
           
   7. Download and prepare bakta:
         - Went to <https://github.com/oschwengers/bakta> to download bakta through conda.
-        - Run the correct sequences and get the outputs.
+        - Run the correct sequences (approved_genomes.txt) and get the outputs (indicated in run_bakta_filtered.sh: files for each individual genome and summarize_bakta.sh: summarizes all genomes into one tsv file).
           
   8. Download and prepare panaroo:
         - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed. 
@@ -95,6 +99,9 @@ The Purpose of the Project:
 | ---------------- | --------------------------------------------------------------------------------------------------- |
 | **accession_files/**             | Lists of Genome Accession Numbers    |
 | **assemblies/**                  | Downloaded Genome Assemblies         |
+| **assemblies/ncbi_dataset_data**  | NCBI Dataset after running download_genomes.sh  |
+| **assemblies/genomes.zip**        | Zip file of the genomes                                |
+| **assemblies/md5sum.txt**         | This txt file                                     | 
 | **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
 | **busco_results/**     | BUSCO Outputs                                 |
@@ -104,10 +111,13 @@ The Purpose of the Project:
 | **genome_annotated**| Bakta filtered files|
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
-| **scripts/download_genomes.sh**        | Downloads Genomes from NCBI    
-| **scripts/run_busco.sh**        | File to Automate Workflow             
-| **scripts/parse_busco_summaries.sh**        | File to Parse Together Workflow     
-| **scripts/generate_assembly_stats.sh**        | File to Automate Statistics for Workflow   
+| **scripts/BUSCO/download_genomes.sh**        | Downloads Genomes from NCBI    
+| **scripts/BUSCO/run_busco.sh**        | File to Automate Workflow             
+| **scripts/BUSCO/parse_busco_summaries.sh**        | File to Parse Together Workflow     
+| **scripts/BUSCO/generate_assembly_stats.sh**        | File to Automate Statistics for Workflow 
+| **scripts/BAKTA/approved_genomes.txt** | A txt file containing the genomes that were filtered out due to BUSCO completeness scores |        
+| **scripts/BAKTA/run_bakta_filtered.sh** | Takes the filtered genomes and creates individual genome files.
+| **scritps/BAKTA/summarize_bakta.sh** | Used to summarize the genomes into one tsv file
 | **.gitattributes**        | Ignores Files and Folders for Git            
 | **.gitignore**        | Ignores Files and Folders for Git                
 | **README.md**        |   ^_^ It's Me!                                                |          
