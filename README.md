@@ -79,12 +79,12 @@ The Purpose of the Project:
                 - Accessory genes (variable presence) 
 
 <br>
- - Scrips are reproducible:
+- Scrips are reproducible:
     - BUSCO: 
-      - BUSCO/download_genomes.sh: download genomes from NCBI
-      - BUSCO/run_busco.sh: runs BUSCO on each genome.
-      - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
-      - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
+          - BUSCO/download_genomes.sh: download genomes from NCBI
+          - BUSCO/run_busco.sh: runs BUSCO on each genome.
+          - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
+          - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
    
     - BAKTA: used to annotate the genomes.
         - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
