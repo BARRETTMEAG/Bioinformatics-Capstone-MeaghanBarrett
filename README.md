@@ -44,7 +44,7 @@ The Purpose of the Project:
 <br>
 
 # Key Parameters & Choices <br>
-   - BUSCO:
+   - BUSCO: Use to measure completeness.
         - BUSCO dataset: bacteria_odb10
         - BUSCO mode: genome
         - CPU used: 4 (This is adjustable in scripts)
