@@ -35,16 +35,21 @@ busco_results/*
 # Keep only the summary TSV
 !busco_results/BUSCO_summary.tsv
 
+# ==========================
+# BAKTA output
+# ==========================
+!bakta_genomes_annotated/genome_summary.tsv
+
 # =========================
 # Scripts to track
 # =========================
-!scripts/run_busco.sh
-!scripts/parse_busco_summaries.sh
-!scripts/download_genomes.sh
-!scripts/generate_assembly_stats.sh
+!scripts/BUSCO/run_busco.sh
+!scripts/BUSCO/parse_busco_summaries.sh
+!scripts/BUSCO/download_genomes.sh
+!scripts/BUSCO/generate_assembly_stats.sh
 
 # Track these folders
-!genomes_annotated/
+!bakta_genomes_annotated/
 !qc_results/
 !results_core/
 
