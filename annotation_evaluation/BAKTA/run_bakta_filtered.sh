@@ -4,8 +4,8 @@ PROJECT=${PROJECT:-/path/to/project}
 
 DB="$PROJECT/db-light"
 GENOME_DIR="$PROJECT/genomes_raw"
-OUTPUT_DIR="$PROJECT/genomes_annotated"
-APPROVED="$PROJECT/scripts/approved_genomes.txt"
+OUTPUT_DIR="$PROJECT/bakta_genomes_annotated"
+APPROVED="$PROJECT/scripts/BAKTA/approved_genomes.txt"
 
 THREADS=6
 

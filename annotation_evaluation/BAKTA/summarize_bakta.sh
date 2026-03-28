@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PROJECT=${PROJECT:-/path/to/project}
-ANNOTATION_DIR="$PROJECT/genomes_annotated"
+ANNOTATION_DIR="$PROJECT/bakta_genomes_annotated"
 OUTPUT="$ANNOTATION_DIR/genome_summary.tsv"
 
 echo -e "Genome\tLength\tGC\tCodingDensity\tCDS\tHypotheticals\tPercentHypothetical\ttRNA\trRNA\tCRISPR" > "$OUTPUT"
