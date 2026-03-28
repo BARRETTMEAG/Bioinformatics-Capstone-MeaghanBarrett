@@ -44,37 +44,37 @@ The Purpose of the Project:
 <br>
 
 # Key Parameters & Choices <br>
-   BUSCO
+   - BUSCO
     - BUSCO dataset: bacteria_odb10
     - BUSCO mode: genome
     - CPU used: 4 (This is adjustable in scripts)
     - Assembly meterics: total length, number of contigs, scaffold N50
 
-   BAKTA dataset:
+   - BAKTA dataset:
     - BAKTA mode:
     - CPU used:
     - Assembly meterics:   
 
-   PANAROO: Used for pangenome investigation.
+   - PANAROO: Used for pangenome investigation.
     - PANAROO dataset:
     - PANAROO mode:
     - CPU used:
     - Assembly metrics
 
 
- Scrips are reproducible:
-    BUSCO: 
+ - Scrips are reproducible:
+    - BUSCO: 
       - BUSCO/download_genomes.sh: download genomes from NCBI
       - BUSCO/run_busco.sh: runs BUSCO on each genome.
       - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
       - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
    
-    BAKTA: used to annotate the genomes.
+    - BAKTA: used to annotate the genomes.
         - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
         - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
         - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
    
-    PANAROO: Bash script used after downloading panaroo.
+    - PANAROO: Bash script used after downloading panaroo.
 <br>
 
 # Reproducing Results <br>
@@ -129,7 +129,7 @@ The Purpose of the Project:
 | **genome-assembly** | This is an Reflective Evalutation |
 | **bakta_genome_annotated**| Bakta filtered files|
 | **genome_annotation** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
-| **genome_annotation/GCF_*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
+| **genome_annotation/GCF_000_____*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
 | **genome_annotation/genome_summary.tsv** | Summarizes the nine BAKTA individual genome annotations into one TSV file | 
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
