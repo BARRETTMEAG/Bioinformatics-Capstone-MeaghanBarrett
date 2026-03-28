@@ -1,6 +1,6 @@
 BUSCO Overview:
 
-This folder contains files for downloading all the way to getting statistics for completeness.
+This folder contains files for downloading genomes all the way to getting statistics for BUSCO completeness.
 
 1st - Use the download_genomes.sh script to be able to get the complete genomes (assemblies).
 
