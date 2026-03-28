@@ -102,7 +102,7 @@ The Purpose of the Project:
           
   7. Download and prepare bakta:
         - Went to <https://github.com/oschwengers/bakta> to download bakta through conda.
-        - Run the correct sequences (approved_genomes.txt) and get the outputs (indicated in run_bakta_filtered.sh: files for each individual genome and summarize_bakta.sh: summarizes all genomes into one tsv file).
+        - Run the correct sequences (BAKTA/approved_genomes.txt) and get the outputs (indicated in BAKTA/run_bakta_filtered.sh: files for each individual genome and BAKTA/summarize_bakta.sh: summarizes all genomes into one tsv file).
           
   8. Download and prepare panaroo:
         - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed.
@@ -124,10 +124,13 @@ The Purpose of the Project:
 | **assembly_evaluation/**         | Final Statistics & Analysis Outputs  |          
 | **assembly_evaluation/assembly_stats.tsv**        | Statistical Report  |
 | **busco_results/**     | BUSCO Outputs                                 |
-| **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (json & txt)  |      
+| **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (JSON & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genome-assembly** | This is an Reflective Evalutation |
 | **bakta_genome_annotated**| Bakta filtered files|
+| **genome_annotation** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
+| **genome_annotation/GCF_*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
+| **genome_annotation/genome_summary.tsv** | Summarizes the nine BAKTA individual genome annotations into one TSV file | 
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/BUSCO/download_genomes.sh**        | Downloads Genomes from NCBI    
