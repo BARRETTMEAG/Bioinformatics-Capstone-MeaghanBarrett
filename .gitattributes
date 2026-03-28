@@ -3,4 +3,4 @@ genomes_raw/* filter=lfs diff=lfs merge=lfs -text
 results_core/gene_data.csv filter=lfs diff=lfs merge=lfs -text
 refseq.genomes.k21s1000.msh filter=lfs diff=lfs merge=lfs -text
 results/* filter=lfs diff=lfs merge=lfs -text
-genomes_annotated/* filter=lfs diff=lfs merge=lfs -text
+bakta_genomes_annotated/* filter=lfs diff=lfs merge=lfs -text
