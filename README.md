@@ -70,7 +70,7 @@ The Purpose of the Project:
       - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
    
     BAKTA: used to annotate the genomes.
-        - BAKTA/approved_genomes.text: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
+        - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
         - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
         - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
    
@@ -127,7 +127,7 @@ The Purpose of the Project:
 | **busco_results/GFC_000_____**     | 13 Folders For Each Individual Genome BUSCO Completeness (json & txt)  |      
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genome-assembly** | This is an Reflective Evalutation |
-| **genome_annotated**| Bakta filtered files|
+| **bakta_genome_annotated**| Bakta filtered files|
 | **genomes_raw/**        | Original Raw Genome Files                     
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/BUSCO/download_genomes.sh**        | Downloads Genomes from NCBI    
