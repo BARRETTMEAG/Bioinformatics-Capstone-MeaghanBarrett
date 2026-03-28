@@ -29,34 +29,52 @@ The Purpose of the Project:
 # Tools Used <br>
 | Tool / Script                  | Purpose                                                                                                   |
 | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **BUSCO v6**                   | Evaluate completeness of genomes based on conserved single-copy genes. Reason it was used instead of QUAST or Prokka is that it is a little easier for user coding needs.                                 |
-| **download_genomes.sh**        | Automates downloading of genomes from NCBI RefSeq. Professor Brooks was so kind to provide this bash script.                          |
-| **run_busco.sh**               | Runs BUSCO for each genome assembly. This bash gathered the needed information.                                                                     |
-| **parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV. This bash script parse together the statistics                                           |
-| **generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
+| **BUSCO v6**                   | Evaluate completeness of genomes based on conserved single-copy genes. BUSCO was used instead of QUAST or Prokka, due to it meeting user coding needs.                                 |
+| **BUSCO/download_genomes.sh**        | Automates downloading of genomes from NCBI RefSeq. Professor Brooks was so kind to provide this bash script.                          |
+| **BUSCO/run_busco.sh**               | Runs BUSCO for each genome assembly. This bash gathered the needed information.                                                                    |
+| **BUSCO/parse_busco_summaries.sh**   | Extracts BUSCO metrics (C, S, D, F, M, n) into a summary TSV. This bash script parse together the statistics                                           |
+| **BUSCO/generate_assembly_stats.sh** | Computes assembly statistics, including contiguity metrics like N50, total length, and number of contigs. This bash scripted assembled important information|
 | **MiniConda & Conda**        | Computer programs needed to be able to run the program. |
 | **bakta**                    | Computer program for annotating genomes. |
+| **BAKTA/run_bakta_filtered.sh** | Runs approved genomes to give BAKTA results (genomes_annotated). |
+| **BAKTA/summarize_bakta.sh** | Summaries the genomes into one TSV file. |
 | **panaroo**    | Computer program for pangenome investigation. |
+| **PANAROO/bash** | This bash script is used to select gff3 files and write output files. |
         
 <br>
 
 # Key Parameters & Choices <br>
-- BUSCO dataset: bacteria_odb10
-- BUSCO mode: genome
-- CPU used: 4 (This is adjustable in scripts)
-- Assembly meterics: total length, number of contigs, scaffold N50
-- Scrips are reproducible:
-    -BUSCO: 
+   BUSCO
+    - BUSCO dataset: bacteria_odb10
+    - BUSCO mode: genome
+    - CPU used: 4 (This is adjustable in scripts)
+    - Assembly meterics: total length, number of contigs, scaffold N50
+
+   BAKTA dataset:
+    - BAKTA mode:
+    - CPU used:
+    - Assembly meterics:   
+
+   PANAROO: Used for pangenome investigation.
+    - PANAROO dataset:
+    - PANAROO mode:
+    - CPU used:
+    - Assembly metrics
+
+
+ Scrips are reproducible:
+    BUSCO: 
       - BUSCO/download_genomes.sh: download genomes from NCBI
       - BUSCO/run_busco.sh: runs BUSCO on each genome.
       - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
       - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
-    - BAKTA: used to annotate the genomes.
+   
+    BAKTA: used to annotate the genomes.
         - BAKTA/approved_genomes.text: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
         - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
-        - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one tsv file.     
-- panaroo: used for pangenome investigation.
-
+        - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
+   
+    PANAROO: Bash script used after downloading panaroo.
 <br>
 
 # Reproducing Results <br>
@@ -87,7 +105,8 @@ The Purpose of the Project:
         - Run the correct sequences (approved_genomes.txt) and get the outputs (indicated in run_bakta_filtered.sh: files for each individual genome and summarize_bakta.sh: summarizes all genomes into one tsv file).
           
   8. Download and prepare panaroo:
-        - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed. 
+        - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed.
+        - Use PANAROO/bash script to get outputs from gff3 files. 
      
   10. 
  
