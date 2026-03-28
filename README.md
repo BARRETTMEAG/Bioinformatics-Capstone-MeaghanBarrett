@@ -81,15 +81,15 @@ The Purpose of the Project:
 <br>
 
 # Scripts are reproducible: 
-BUSCO: Used to measure completeness.
-    - BUSCO/download_genomes.sh: download genomes from NCBI 
-    - BUSCO/run_busco.sh: runs BUSCO on each genome. 
+- BUSCO: Used to measure completeness.
+    - BUSCO/download_genomes.sh: download genomes from NCBI
+    - BUSCO/run_busco.sh: runs BUSCO on each genome.
     - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
-    - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
-BAKTA: Used to annotate the genomes. 
+    - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50. <br>
+- BAKTA: Used to annotate the genomes. 
     - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
     - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
-    - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
+    - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file. <br>
 PANAROO: Bash script used after downloading panaroo.
 <br>
 
