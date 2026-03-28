@@ -83,20 +83,16 @@ Scripts are reproducible:
 <br>
 <br>
 BUSCO: Used to measure completeness.
-<br>
-<br>
-- BUSCO/download_genomes.sh: download genomes from NCBI <br>
-- BUSCO/run_busco.sh: runs BUSCO on each genome. <br>
-- BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness. <br>
-- BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
+    - BUSCO/download_genomes.sh: download genomes from NCBI 
+    - BUSCO/run_busco.sh: runs BUSCO on each genome. 
+    - BUSCO/parse_busco_summaries.sh: extracts BUSCO metrics for completeness.
+    - BUSCO/generate_assembly_stats.sh: computes the assembly statistics includes N50.
 <br>
 <br>
 BAKTA: Used to annotate the genomes. 
-<br>
-<br>
-- BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score. <br>
-- BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.<br>
-- BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
+    - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
+    - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
+    - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
 <br>
 <br>  
 PANAROO: Bash script used after downloading panaroo.
@@ -157,6 +153,8 @@ PANAROO: Bash script used after downloading panaroo.
 | **genome_annotation/GCF_000_____*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
 | **genome_annotation/genome_summary.tsv** | Summarizes the nine BAKTA individual genome annotations into one TSV file | 
 | **genomes_raw/**        | Original Raw Genome Files                     
+| **qc_results** | Panaroo files|
+| **results_core** | Panaroo files |
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/BUSCO/download_genomes.sh**        | Downloads Genomes from NCBI    
 | **scripts/BUSCO/run_busco.sh**        | File to Automate Workflow             
