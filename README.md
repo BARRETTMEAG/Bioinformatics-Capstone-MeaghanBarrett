@@ -124,7 +124,7 @@ The Purpose of the Project:
         - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed.
         - Use PANAROO/bash script to get outputs from gff3 files. 
      
-  10. 
+  9. 
  
 <br>
  
@@ -144,7 +144,7 @@ The Purpose of the Project:
 | **busco_results/BUSCO_summary.tsv** | BUSCO completeness Report         |
 | **genome-assembly** | This is an Reflective Evalutation |
 | **bakta_genome_annotated**| Bakta filtered files|
-| **genome_annotation** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
+| **genome_annotation** | Summarized version of bakta_genome_annotated (Annotations files for each individual genome (TSV, .png, and summary.txt))| 
 | **genome_annotation/GCF_000_____*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
 | **genome_annotation/genome_summary.tsv** | Summarizes the nine BAKTA individual genome annotations into one TSV file | 
 | **genomes_raw/**        | Original Raw Genome Files                     
