@@ -98,8 +98,9 @@ The Purpose of the Project:
         - git clone < repository name >
         - Change directory to where the repository is located or move where desired.
       
-  2. Ensure dependies are installed:
+  2. Install software & ensure dependies are installed:
         - Install miniconda and conda (either https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html or curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
+        - conda install bioconda::busco or visit <[https://busco.ezlab.org/](https://busco.ezlab.org/busco_userguide.html)> for other package needs.
         - conda activate busco_env (this activates the busco environment)
 
   3. Download genome assemblies, if they are not already in the repository:
