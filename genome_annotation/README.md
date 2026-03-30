@@ -1,5 +1,9 @@
 # **Genome Annotation Overview** 
 <br>
+This folder contains the nine BAKTA annotation for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv and bakta_genomes_annotated. 
+
+
+<br>
 
 **Project Purpose:** 
 <br>
@@ -35,27 +39,50 @@ Prior to annotation, genomes were filtered based on the BUSCO completeness score
 
 **Key Parameters and Choices**
 - Bakta v6
-- database path (db-light)
-- --force
-- CPU: --thread 6
-- --complete
+- Database bakta_db (db-light)
+- Mode: standard
+- Threads: 4-6
+- Flags:
+  - --complete
+  - --force
+- Outputs per genome:
+  - .tsv,
+  - .gff3,
+  - .gbff,
+  - .faa,
+  - ffn,
+  - .png,
+  - .txt 
+<br>
+
+Bakta was chosen over Prokka due to issues when attempting to download the Prokka database. 
+<br>
 **How to Reproduce:**
 1. Clone the repository.
-2. Place genome FASTA files in a folder.
-3. Run Bakta with the same parameters.
-4. export PROJECT=/path/to/project
-   
-#Run annotation
-bash scripts/run_bakta_filtered.sh
+2. export PROJECT=/path/to/project
 
-#Generate summary
-bash scripts/generate_summary.sh
+#Step 1: Run BUSCO filtering
+bash scripts/BUSCO/run_busco.sh
 
-6. Copy outputs to genome_annotation/ as shown in the commands we wrote.
+#Step 2: Run genome annotation
+bash scripts/BAKTA/run_bakta_filtered.sh
+
+#Step 3: Generate summary file
+bash scripts/BAKTA/summarize_bakta.sh
+
+3. Copy outputs to genome_annotation/ as shown in the commands we wrote.
+
 File Naming Conventions and Structure:
+
 Explain that for each genome:
 annotations.tsv → human-readable TSV of gene features
-genome_plot.png→
-visual representation of the genome
+genome_plot.png→ visual representation of the genome
 summary.txt→ text summary of annotation statistics
-This folder contains the nine BAKTA annotation for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv. 
+
+File naming conventions and structure
+genomes_raw/<accession>_genomic.fna
+bakta_genomes_annotated/<accession>/
+genome_annotation/
+    annotations.tsv
+    genome_summary.tsv
+    genome_figure.png
