@@ -13,7 +13,7 @@ This folder contains the nine BAKTA annotation for each individual genome, each 
 # **Data Source:** 
 <br>
 - The NCBI RefSeq genome references are found in the /genomes_raw folder. <br>
-Prior to annotation, genomes were filtered based on the BUSCO completeness scores being above 90% (See BAKTA/approved_genomes.txt). 
+- Prior to annotation, genomes were filtered based on the BUSCO completeness scores being above 90% (See BAKTA/approved_genomes.txt). 
 <br>
 
 # **The Genomes Used:**
@@ -67,21 +67,21 @@ When attempting to run Prokka there were a lot of struggles when downloading and
    
 2. export PROJECT=/path/to/project (pick where you want this located)
 
-  #Step 1: Run BUSCO filtering
-  bash scripts/BUSCO/run_busco.sh
+  - #Step 1: Run BUSCO filtering
+    bash scripts/BUSCO/run_busco.sh
   
-  #Step 2: Create a Bakta environment
-  conda create -n bakta-env -c bioconda -c conda-forge bakta
-  conda activate bakta-env
+  - #Step 2: Create a Bakta environment
+    conda create -n bakta-env -c bioconda -c conda-forge bakta
+    conda activate bakta-env
   
-  #Step 3: Download bakta library light
-  bakta_db download --output /path/to/db-light --type light
+  - #Step 3: Download bakta library light
+    bakta_db download --output /path/to/db-light --type light
   
-  #Step 4: Run genome annotation
-  bash scripts/BAKTA/run_bakta_filtered.sh
+  - #Step 4: Run genome annotation
+    bash scripts/BAKTA/run_bakta_filtered.sh
 
-  #Step 5: Generate summary file
-  bash scripts/BAKTA/summarize_bakta.sh
+  - #Step 5: Generate summary file
+    bash scripts/BAKTA/summarize_bakta.sh
 
 3. Copy outputs to genome_annotation/ as shown in the commands written.
 
