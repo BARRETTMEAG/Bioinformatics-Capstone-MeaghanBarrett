@@ -1,6 +1,6 @@
 # **Genome Annotation Overview** 
 <br>
-This folder contains the nine BAKTA annotation for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv and bakta_genomes_annotated. 
+This folder contains the nine BAKTA annotation for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv (summarizes all the genomes) and bakta_genomes_annotated (this is a full annotation of the bakta files). 
 
 <br>
 
