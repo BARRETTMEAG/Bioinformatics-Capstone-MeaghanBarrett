@@ -89,11 +89,11 @@ When attempting to run Prokka there were a lot of struggles when downloading and
     bash scripts/BAKTA/summarize_bakta.sh
 
 8. Copy outputs to genome_annotation/ as shown in the commands written. <br>
-       mkdir genome_annotation
-       # For GCF_000170215.1 (example)
-        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.tsv genome_annotation/GCF_000170215.1_annotations.tsv
-        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.png genome_annotation/GCF_000170215.1_genome_plot.png
-        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.txt genome_annotation/GCF_000170215.1_summary.txt
+       mkdir genome_annotation <br>
+       # For GCF_000170215.1 (example) <br>
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.tsv genome_annotation/GCF_000170215.1_annotations.tsv <br>
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.png genome_annotation/GCF_000170215.1_genome_plot.png <br>
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.txt genome_annotation/GCF_000170215.1_summary.txt <br>
 
     <br>
 
