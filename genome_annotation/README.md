@@ -7,44 +7,49 @@ This folder contains the nine BAKTA annotation for each individual genome, each 
 # **Project Purpose:** 
 <br>
 
-- The goal for this section of the project is to use Bakta to annotate the bacterical genomes (/genomes_raw) using a standardized pipeline, generate outputs needed for analysis genome reports, creating visualizatiom and analysis, and demonstrating reproductible workflows. 
+The goal for this section of the project is to use Bakta to annotate the bacterical genomes (/genomes_raw) using a standardized pipeline, generate outputs needed for analysis genome reports, creating visualizatiom and analysis, and demonstrating reproductible workflows. 
 <br>
 
 # **Data Source:** 
 <br>
-- The NCBI RefSeq genome references are found in the /genomes_raw folder. <br>
-- Prior to annotation, genomes were filtered based on the BUSCO completeness scores being above 90% (See BAKTA/approved_genomes.txt). 
+The NCBI RefSeq genome references are found in the /genomes_raw folder. <br> 
+<br>
+Prior to annotation, genomes were filtered based on the BUSCO completeness scores being above 90% (See BAKTA/approved_genomes.txt). 
 <br>
 
 # **The Genomes Used:**
 <br>
-- GCF_000007545.1 <br>
-- GCF_000020745.1 <br>
-- GCF_000020885.1 <br>
-- GCF_000020925.1 <br>
-- GCF_000022165.1 <br>
-- GCF_000170215.1 <br>
-- GCF_000171415.1 <br>
-- GCF_000171515.1 <br>
-- GCF_000171535.2 <br>
+GCF_000007545.1 <br>
+GCF_000020745.1 <br>
+GCF_000020885.1 <br>
+GCF_000020925.1 <br>
+GCF_000022165.1 <br>
+GCF_000170215.1 <br>
+GCF_000171415.1 <br>
+GCF_000171515.1 <br>
+GCF_000171535.2 <br>
 
 <br>
 
 # **Sequence Generation**
 <br>
-- The genomes were downloaded in a FASTA (.fna) format from NCBI RefSeq. <br>
-- The complete genome sequences were ran through BUSCO and then filtered according to having a completeness score above 90%. <br>
-- These .fna files were ran through the bash script run_bakta_filtered.sh according to the selected genomes (approved_genomes.txt) and then summarized into one summary.txt for all the genomes (summarized_bakta.sh). <br>
+The genomes were downloaded in a FASTA (.fna) format from NCBI RefSeq. <br>
+<br>
+The complete genome sequences were ran through BUSCO and then filtered according to having a completeness score above 90%. <br>
+<br>
+These .fna files were ran through the bash script run_bakta_filtered.sh according to the selected genomes (approved_genomes.txt) and then summarized into one summary.txt for all the genomes (summarized_bakta.sh). <br>
 
 <br>
 
 # **Tools Used** <br>
-- Conda: Computer program, environment, dependencies needed to run Bakta. 
-- Bakta: Automated Genome Annotation Tool.
-  - Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs).
-  - bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>)
-  - Chosen for standdardization of annotations, integrates database, and clear outputs.
-  - Visualization tools: Plotting genome plots (.png and .svg files).
+Conda: Computer program, environment, dependencies needed to run Bakta. <br>
+<br>
+Bakta: Automated Genome Annotation Tool. <br>
+<br>
+Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs). <br>
+  bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>) <br>
+  Chosen for standdardization of annotations, integrates database, and clear outputs. <br>
+  Visualization tools: Plotting genome plots (.png and .svg files). <br>
 
 <br>
 
