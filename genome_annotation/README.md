@@ -67,20 +67,20 @@ When attempting to run Prokka there were a lot of struggles when downloading and
    
 2. export PROJECT=/path/to/project (pick where you want this located)
 
-  - #Step 1: Run BUSCO filtering
+  - #Step 1: Run BUSCO filtering <br>
     bash scripts/BUSCO/run_busco.sh
   
-  - #Step 2: Create a Bakta environment
-    conda create -n bakta-env -c bioconda -c conda-forge bakta
+  - #Step 2: Create a Bakta environment <br>
+    conda create -n bakta-env -c bioconda -c conda-forge bakta <br>
     conda activate bakta-env
   
-  - #Step 3: Download bakta library light
+  - #Step 3: Download bakta library light <br>
     bakta_db download --output /path/to/db-light --type light
   
-  - #Step 4: Run genome annotation
+  - #Step 4: Run genome annotation <br>
     bash scripts/BAKTA/run_bakta_filtered.sh
 
-  - #Step 5: Generate summary file
+  - #Step 5: Generate summary file <br>
     bash scripts/BAKTA/summarize_bakta.sh
 
 3. Copy outputs to genome_annotation/ as shown in the commands written.
@@ -88,16 +88,16 @@ When attempting to run Prokka there were a lot of struggles when downloading and
 <br>
 
 # **File Naming Conventions & Structure**
-genome_annotation/ # Summarized version of /bakta_genomes_annotated
-├── GCF_000007545.1/
-│   ├── annotations.tsv     # human-readable annotation table
-│   ├── summary.txt         # genome metrics (length, GC%, CDS, tRNA, rRNA, CRISPRs)
-│   └── genome_plot.png     # circular genome plot
-├── GCF_000020745.1/
-│   └── ...
-├── genome_summary.tsv       # combined summary of all genomes
-├── annotations.tsv          # combined annotations from all genomes
-└── README.md
+genome_annotation/ # Summarized version of /bakta_genomes_annotated <br>
+├── GCF_000007545.1/ <br>
+│   ├── annotations.tsv     # human-readable annotation table <br>
+│   ├── summary.txt         # genome metrics (length, GC%, CDS, tRNA, rRNA, CRISPRs) <br>
+│   └── genome_plot.png     # circular genome plot <br>
+├── GCF_000020745.1/ <br>
+│   └── ... <br>
+├── genome_summary.tsv       # combined summary of all genomes <br>
+├── annotations.tsv          # combined annotations from all genomes <br>
+└── README.md <br>
 
 <br>
 
