@@ -72,25 +72,30 @@ When attempting to run Prokka there were a lot of struggles when downloading and
    
 2. export PROJECT=/path/to/project (pick where you want this located)
 
-  - #Step 1: Run BUSCO filtering <br>
+3. Run BUSCO filtering <br>
     bash scripts/BUSCO/run_busco.sh
   
-  - #Step 2: Create a Bakta environment <br>
+4. Create a Bakta environment <br>
     conda create -n bakta-env -c bioconda -c conda-forge bakta <br>
     conda activate bakta-env
   
-  - #Step 3: Download bakta library light <br>
+5. Download bakta library light <br>
     bakta_db download --output /path/to/db-light --type light
   
-  - #Step 4: Run genome annotation <br>
+6. Run genome annotation <br>
     bash scripts/BAKTA/run_bakta_filtered.sh
 
-  - #Step 5: Generate summary file <br>
+7. Generate summary file <br>
     bash scripts/BAKTA/summarize_bakta.sh
 
-3. Copy outputs to genome_annotation/ as shown in the commands written.
+8. Copy outputs to genome_annotation/ as shown in the commands written. <br>
+       mkdir genome_annotation
+       # For GCF_000170215.1 (example)
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.tsv genome_annotation/GCF_000170215.1_annotations.tsv
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.png genome_annotation/GCF_000170215.1_genome_plot.png
+        cp bakta_genomes_annotated/GCF_000170215.1/GCF_000170215.1.txt genome_annotation/GCF_000170215.1_summary.txt
 
-<br>
+    <br>
 
 # **File Naming Conventions & Structure**
 genome_annotation/ # Summarized version of /bakta_genomes_annotated <br>
