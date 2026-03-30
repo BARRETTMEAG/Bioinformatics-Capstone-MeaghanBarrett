@@ -18,31 +18,36 @@ Prior to annotation, genomes were filtered based on the BUSCO completeness score
 
 # **The Genomes Used:**
 <br>
-- GCF_000007545.1
-- GCF_000020745.1
-- GCF_000020885.1
-- GCF_000020925.1
-- GCF_000022165.1
-- GCF_000170215.1
-- GCF_000171415.1
-- GCF_000171515.1
-- GCF_000171535.2
-
-# **Sequence Generation**
-- The genomes were downloaded in a FASTA (.fna) format from NCBI RefSeq.
-- The complete genome sequences were ran through BUSCO and then filtered according to having a completeness score above 90%.
-- These .fna files were ran through the bash script run_bakta_filtered.sh according to the selected genomes (approved_genomes.txt) and then summarized into one summary.txt for all the genomes (summarized_bakta.sh).
+- GCF_000007545.1 <br>
+- GCF_000020745.1 <br>
+- GCF_000020885.1 <br>
+- GCF_000020925.1 <br>
+- GCF_000022165.1 <br>
+- GCF_000170215.1 <br>
+- GCF_000171415.1 <br>
+- GCF_000171515.1 <br>
+- GCF_000171535.2 <br>
 
 <br>
 
-# **Tools Used**
+# **Sequence Generation**
+<br>
+- The genomes were downloaded in a FASTA (.fna) format from NCBI RefSeq. <br>
+- The complete genome sequences were ran through BUSCO and then filtered according to having a completeness score above 90%. <br>
+- These .fna files were ran through the bash script run_bakta_filtered.sh according to the selected genomes (approved_genomes.txt) and then summarized into one summary.txt for all the genomes (summarized_bakta.sh). <br>
+
+<br>
+
+# **Tools Used** <br>
 - Conda: Computer program, environment, dependencies needed to run Bakta. 
 - Bakta: Automated Genome Annotation Tool.
   - Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs).
   - bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>)
   - Chosen for standdardization of annotations, integrates database, and clear outputs.
   - Visualization tools: Plotting genome plots (.png and .svg files).
-    
+
+<br>
+
 # **Why These Tools?**
 When attempting to run Prokka there were a lot of struggles when downloading and using the database. Bakta was a lot easier to use and the light database turned out to be less trouble to download than the full. As for conda, I had downloaded it for using BUSCO, so it just made sense to keep using it.
 
@@ -62,21 +67,21 @@ When attempting to run Prokka there were a lot of struggles when downloading and
    
 2. export PROJECT=/path/to/project (pick where you want this located)
 
-#Step 1: Run BUSCO filtering
-bash scripts/BUSCO/run_busco.sh
+  #Step 1: Run BUSCO filtering
+  bash scripts/BUSCO/run_busco.sh
+  
+  #Step 2: Create a Bakta environment
+  conda create -n bakta-env -c bioconda -c conda-forge bakta
+  conda activate bakta-env
+  
+  #Step 3: Download bakta library light
+  bakta_db download --output /path/to/db-light --type light
+  
+  #Step 4: Run genome annotation
+  bash scripts/BAKTA/run_bakta_filtered.sh
 
-#Step 2: Create a Bakta environment
-conda create -n bakta-env -c bioconda -c conda-forge bakta
-conda activate bakta-env
-
-#Step 3: Download bakta library light
-bakta_db download --output /path/to/db-light --type light
-
-#Step 4: Run genome annotation
-bash scripts/BAKTA/run_bakta_filtered.sh
-
-#Step 5: Generate summary file
-bash scripts/BAKTA/summarize_bakta.sh
+  #Step 5: Generate summary file
+  bash scripts/BAKTA/summarize_bakta.sh
 
 3. Copy outputs to genome_annotation/ as shown in the commands written.
 
