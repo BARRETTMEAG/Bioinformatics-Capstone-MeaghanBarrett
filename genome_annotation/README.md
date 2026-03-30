@@ -46,10 +46,10 @@ Conda: Computer program, environment, dependencies needed to run Bakta. <br>
 <br>
 Bakta: Automated Genome Annotation Tool. <br>
 <br>
-Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs). <br>
-  bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>) <br>
-  Chosen for standdardization of annotations, integrates database, and clear outputs. <br>
-  Visualization tools: Plotting genome plots (.png and .svg files). <br>
+    Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs). <br>
+    bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>) <br>
+    Chosen for standdardization of annotations, integrates database, and clear outputs. <br>
+    Visualization tools: Plotting genome plots (.png and .svg files). <br>
 
 <br>
 
