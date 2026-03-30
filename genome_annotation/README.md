@@ -1,14 +1,14 @@
 # **Genome Annotation Overview** 
 <br>
 This folder contains the nine BAKTA annotation for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv and bakta_genomes_annotated. 
-
-
 <br>
 
 **Project Purpose:** 
 <br>
+
 - The goal for this section of the project is to use Bakta to annotate the bacterical genomes (/genomes_raw) using a standardized pipeline, generate outputs needed for analysis genome reports, creating visualizatiom and analysis, and demonstrating reproductible workflows. 
 <br>
+
 **Data Source:** 
 <br>
 - The NCBI RefSeq genome references are found in the /genomes_raw folder. <br>
@@ -57,6 +57,7 @@ Prior to annotation, genomes were filtered based on the BUSCO completeness score
 
 Bakta was chosen over Prokka due to issues when attempting to download the Prokka database. 
 <br>
+
 **How to Reproduce:**
 1. Clone the repository.
 2. export PROJECT=/path/to/project
