@@ -111,10 +111,11 @@ genome_annotation/ # Summarized version of /bakta_genomes_annotated <br>
 
 <br>
 
-Explaination for each genome (/genome_annotation/GFC_000*): <br>
-    annotations.tsv → human-readable TSV of gene features <br>
-    genome_plot.png→ visual representation of the genome <br>
-    summary.txt→ text summary of annotation statistics <br>
+Explaination for each genome (/genome_annotation/GFC_000*): 
+<br>
+        annotations.tsv → human-readable TSV of gene features <br>
+        genome_plot.png→ visual representation of the genome <br>
+        summary.txt→ text summary of annotation statistics <br>
 <br>
 
 
