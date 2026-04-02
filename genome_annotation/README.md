@@ -1,6 +1,6 @@
 # **Genome Annotation Overview** 
 <br>
-This folder contains the nine BAKTA annotation folder for each individual genome, each file has an their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv (summarizes all the genomes) and bakta_genomes_annotated (this is a full annotation of the bakta files). 
+This folder contains nine BAKTA annotations for each individual genome. Each file has their own TSV annotations file, .png that shows the sturcture of the genome, and a txt file that summarizes the genomes. For a full overview look at genome_summary.tsv (summarizes all the genomes) and bakta_genomes_annotated (this is a full annotation of the bakta files). 
 
 <br>
 
@@ -48,7 +48,7 @@ Bakta: Automated Genome Annotation Tool. <br>
 <br>
     Uses NCBI RefSeq genomes to compare chosen genomes with a db-light database,  --complete flag, and  --threads 6 (this can change according to needs). <br>
     bakta_database (light database downloaded <bakta_db download --output <output-path> --type [light|full]>) <br>
-    Chosen for standdardization of annotations, integrates database, and clear outputs. <br>
+    Chosen for standardization of annotations, integrates database, and clear outputs. <br>
     Visualization tools: Plotting genome plots (.png and .svg files). <br>
 
 <br>
