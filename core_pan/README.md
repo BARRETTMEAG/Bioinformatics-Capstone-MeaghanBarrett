@@ -1,15 +1,15 @@
 # Core Pan: Pan-Genome Analysis Overview
-## The Purpose
+## Project Purpose
 
-The purpose of this project is to analyze the pan-genome of a set of bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
+The goal of this section of the project is to analyze the pan-genome of the bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
 
 ## Data Source
 
-The genomic data used in this project were obtained from NCBI RefSeq. The dataset consists of multiple bacterial genomes in FASTA format.
+The NCBI RefSeq genome references are found in the /genomes_raw folder. The dataset consists of multiple bacterial genomes in FASTA format. Prior to annotation, genomes were filtered based on the BUSCO completeness scores being above 90% (See BAKTA/approved_genomes.txt).
 
 ## Genome Selection
 
-Only curated genomes were included in the analysis. These genomes are listed in scripts/BAKTA/approved_genomes.txt: <br>
+Only curated genomes were included in the analysis. Genomes listed in scripts/BAKTA/approved_genomes.txt: <br>
 
 GCF_000007545.1 <br>
 GCF_000020745.1 <br>
