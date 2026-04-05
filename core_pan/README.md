@@ -1,5 +1,5 @@
-# Core Pan: Pan-Genome Analysis Overview
-## Project Purpose
+# Core Pan Overview
+## Project Purpose: Pan-Genome Analysis
 
 The goal of this section of the project is to analyze the pan-genome of the bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
 
