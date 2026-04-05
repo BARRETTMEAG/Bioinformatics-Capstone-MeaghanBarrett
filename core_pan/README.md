@@ -1,7 +1,7 @@
 # Core Pan Overview
 ## Project Purpose: Pan-Genome Analysis
 
-The goal of this section of the project is to analyze the pan-genome of the bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
+The goal of this section of the project is to analyze the pan-genome of the bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships of the different bacterial strains.
 
 ## Data Source
 
@@ -48,10 +48,10 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
 ### Parameter explanations:
 
 --clean-mode strict – conservative mode to remove potential contamination. <br>
---remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths). <br>
--a core – generates core gene alignment. <br>
---aligner mafft – uses MAFFT for multiple sequence alignment. <br>
--t 8 – uses 8 CPU threads for parallel processing. <br>
+--remove-invalid-genes – Ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths). <br>
+-a core – Generates core gene alignment. <br>
+--aligner mafft – Uses MAFFT for multiple sequence alignment. <br>
+-t 8 – Uses 8 CPU threads for parallel processing. <br>
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
@@ -62,23 +62,25 @@ Key output files from this workflow were copied into the repository’s core_pan
 - MAFFT performed multiple sequence alignments followed by filtering.
 - BUSCO assessed genome completeness using (bacteria_odb10).
 - Reproducing Results
+- Mode:--clean-mode strict,  --remove-invalid-genes, --a core
+- CPU: 8
 
 ## Clone the repository:
 
-1. cd < repository name> and then git clone < repository name >
+1. cd < repository name> to where you want and then git clone < repository name >
 2. Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
 3. Annotate genomes with Bakta and check completeness with BUSCO.
-4. Run Panaroo on annotated genomes using the command above.
-5. All key results are stored in the core_pan/ folder.
+4. Run Panaroo on annotated genomes using the command above into results_core.
+5. Move all the key results are stored in the core_pan/ folder.
 
 ## File Naming Conventions and Structure
 core_pan/ – pan-genome analysis results: <br>
-    - gene_presence_absence.csv – gene ubiquity across genomes. <br>
-    - gene_presence_absence.Rtab – tabular format for R visualization. <br>
-    - summary_statistics.txt – Panaroo summary of core and accessory genes. <br>
-    - core_gene_alignment_filtered.aln – alignment of filtered core genes. <br>
-    - tree.nwk – phylogenetic tree in Newick format. <br>
-    - final_graph.gml – network visualization of gene co-occurrence.
+    - gene_presence_absence.csv – Gene ubiquity across genomes. <br>
+    - gene_presence_absence.Rtab –  R visualization. <br>
+    - summary_statistics.txt – Summary of Panaroo core and accessory genes. <br>
+    - core_gene_alignment_filtered.aln – Filtered core genes alignment. <br>
+    - tree.nwk – Newick phylogenetic tree. <br>
+    - final_graph.gml – Visualization of gene network co-occurrence.
 
 
 
