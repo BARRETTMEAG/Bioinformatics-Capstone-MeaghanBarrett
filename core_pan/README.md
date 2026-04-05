@@ -1,49 +1,86 @@
-# Bioinformatics Capstone Project – Pan-Genome Analysis
-## Project Overview
+# Core Pan: Pan-Genome Analysis Overview
 
-The purpose of this project is to analyze the pan-genome of a set of bacterial genomes to identify core and accessory genes, assess genome completeness, and understand evolutionary relationships.
+Bioinformatics Capstone Project – Pan-Genome Analysis
+Project Overview
+
+The purpose of this project is to analyze the pan-genome of a set of bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
 
 Data Source
 
-The genomic data used in this project were obtained from [insert data source, e.g., NCBI RefSeq or a local sequencing project]. The dataset consists of multiple bacterial genomes in FASTA format.
+The genomic data used in this project were obtained from NCBI RefSeq. The dataset consists of multiple bacterial genomes in FASTA format.
 
+Genome Selection
+
+Only curated genomes were included in the analysis. These genomes are listed in scripts/BAKTA/approved_genomes.txt:
+
+GCF_000007545.1
+GCF_000020745.1
+GCF_000020885.1
+GCF_000020925.1
+GCF_000022165.1
+GCF_000170215.1
+GCF_000171415.1
+GCF_000171515.1
+GCF_000171535.2
 Sequence Generation
 
-Genomic sequences were annotated and processed to extract coding sequences (CDS) in both DNA and protein formats. Genome completeness was evaluated, sequences were aligned, filtered, and then used for pan-genome analysis.
+Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_annotated/ folder. Genome completeness was assessed with BUSCO using the lineage dataset [insert lineage, e.g., bacteria_odb10]. Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
 
 Tools Used
-Panaroo – for core and pan-genome determination and gene presence/absence analysis; chosen for robust handling of gene clustering and annotation errors.
-Bakta – for genome annotation and alignment of gene sequences to standard references.
-BUSCO – to assess genome completeness using conserved single-copy orthologs.
-CD-HIT – for clustering protein sequences to reduce redundancy.
-MAFFT – for multiple sequence alignment of core genes.
-IQ-TREE / FastTree – for phylogenetic tree construction.
-Cytoscape – for visualizing gene co-occurrence networks.
+Bakta – genome annotation and standardization of gene sequences.
+BUSCO – genome completeness assessment using conserved single-copy orthologs.
+Panaroo – core and pan-genome determination and gene presence/absence analysis.
+CD-HIT – protein clustering to reduce redundancy (90% identity threshold).
+MAFFT – multiple sequence alignment of core genes.
+IQ-TREE / FastTree – phylogenetic tree construction.
+Cytoscape – visualization of gene co-occurrence networks.
+Panaroo Workflow
+
+Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
+
+panaroo -i $(find genomes_annotated -name "*.gff3") \
+        -o results_core/ \
+        --clean-mode strict \
+        --remove-invalid-genes \
+        -a core \
+        --aligner mafft \
+        -t 8
+
+Parameter explanations:
+
+--clean-mode strict – conservative mode to remove potential contamination.
+--remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths).
+-a core – generates core gene alignment.
+--aligner mafft – uses MAFFT for multiple sequence alignment.
+-t 8 – uses 8 CPU threads for parallel processing.
+
+Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
+
 Key Parameters and Choices
-Panaroo: default settings with filtering of low-quality genes.
-CD-HIT: 90% sequence identity threshold for protein clustering.
-MAFFT: automatic mode for alignment, followed by filtering to remove poorly aligned regions.
-BUSCO: used [insert lineage dataset, e.g., bacteria_odb10] for completeness assessment.
-Gene presence/absence thresholds defined to classify genes as “core” (present in ≥ 99% of genomes) or “accessory.”
+Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
+Panaroo default settings with filtering of low-quality genes were used.
+CD-HIT clustered protein sequences at 90% identity.
+MAFFT performed multiple sequence alignments followed by filtering.
+BUSCO assessed genome completeness using [insert lineage, e.g., bacteria_odb10].
 Reproducing Results
 
-Clone this repository:
+Clone the repository:
 
 git clone https://github.com/BARRETTMEAG/Bioinformatics-Capstone-MeaghanBarrett.git
 cd Bioinformatics-Capstone-MeaghanBarrett
-Ensure all dependencies are installed (Panaroo, Bakta, BUSCO, MAFFT, CD-HIT, IQ-TREE, Cytoscape).
-Run genome annotation and completeness checks with Bakta and BUSCO.
-Run Panaroo using the annotated genome files.
-Results are stored in the core_pan folder.
-File Naming Conventions and Structure
-core_pan/ – contains pan-genome analysis results:
-gene_presence_absence.csv – breakdown of gene ubiquity across genomes.
-gene_presence_absence.Rtab – tabular format used for R visualization.
-summary_statistics.txt – Panaroo summary of core and accessory genes.
-core_gene_alignment_filtered.aln – alignment of filtered core genes.
-tree.nwk – phylogenetic tree in Newick format.
-final_graph.gml – network visualization of gene co-occurrence.
+Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
+Annotate genomes with Bakta and check completeness with BUSCO.
+Run Panaroo on annotated genomes using the command above.
+All key results are stored in the core_pan/ folder.
 
+## File Naming Conventions and Structure
+core_pan/ – pan-genome analysis results:
+    gene_presence_absence.csv – gene ubiquity across genomes.
+    gene_presence_absence.Rtab – tabular format for R visualization.
+    summary_statistics.txt – Panaroo summary of core and accessory genes.
+    core_gene_alignment_filtered.aln – alignment of filtered core genes.
+    tree.nwk – phylogenetic tree in Newick format.
+    final_graph.gml – network visualization of gene co-occurrence.
 
 
 
