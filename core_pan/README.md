@@ -9,31 +9,32 @@ The genomic data used in this project were obtained from NCBI RefSeq. The datase
 
 ## Genome Selection
 
-Only curated genomes were included in the analysis. These genomes are listed in scripts/BAKTA/approved_genomes.txt:
+Only curated genomes were included in the analysis. These genomes are listed in scripts/BAKTA/approved_genomes.txt: <br>
 
-GCF_000007545.1
-GCF_000020745.1
-GCF_000020885.1
-GCF_000020925.1
-GCF_000022165.1
-GCF_000170215.1
-GCF_000171415.1
-GCF_000171515.1
-GCF_000171535.2
+GCF_000007545.1 <br>
+GCF_000020745.1 <br>
+GCF_000020885.1 <br>
+GCF_000020925.1 <br>
+GCF_000022165.1 <br>
+GCF_000170215.1 <br>
+GCF_000171415.1 <br>
+GCF_000171515.1 <br>
+GCF_000171535.2 <br>
+<br>
 
 ## Sequence Generation
 
-Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_annotated/ folder. Genome completeness was assessed with BUSCO using the lineage dataset [insert lineage, e.g., bacteria_odb10]. Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
+Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_annotated/ folder. Genome completeness was assessed with BUSCO using the lineage dataset (bacteria_odb10). Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
 
 ## Tools Used
-Bakta – genome annotation and standardization of gene sequences.
-BUSCO – genome completeness assessment using conserved single-copy orthologs.
-Panaroo – core and pan-genome determination and gene presence/absence analysis.
-CD-HIT – protein clustering to reduce redundancy (90% identity threshold).
-MAFFT – multiple sequence alignment of core genes.
-IQ-TREE / FastTree – phylogenetic tree construction.
-Cytoscape – visualization of gene co-occurrence networks.
-Panaroo Workflow
+- Bakta – genome annotation and standardization of gene sequences.
+- BUSCO – genome completeness assessment using conserved single-copy orthologs.
+- Panaroo – core and pan-genome determination and gene presence/absence analysis.
+- CD-HIT – protein clustering to reduce redundancy (90% identity threshold).
+- MAFFT – multiple sequence alignment of core genes.
+- IQ-TREE / FastTree – phylogenetic tree construction.
+- Cytoscape – visualization of gene co-occurrence networks.
+- Panaroo Workflow
 
 Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
 
@@ -56,21 +57,21 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
 ## Key Parameters and Choices
-Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
-Panaroo default settings with filtering of low-quality genes were used.
-CD-HIT clustered protein sequences at 90% identity.
-MAFFT performed multiple sequence alignments followed by filtering.
-BUSCO assessed genome completeness using [insert lineage, e.g., bacteria_odb10].
-Reproducing Results
+- Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
+- Panaroo default settings with filtering of low-quality genes were used.
+- CD-HIT clustered protein sequences at 90% identity.
+- MAFFT performed multiple sequence alignments followed by filtering.
+- BUSCO assessed genome completeness using (bacteria_odb10).
+- Reproducing Results
 
 ## Clone the repository:
 
-git clone < repository name >
+1. git clone < repository name >
 cd <to the directory you want>
-Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
-Annotate genomes with Bakta and check completeness with BUSCO.
-Run Panaroo on annotated genomes using the command above.
-All key results are stored in the core_pan/ folder.
+2. Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
+3. Annotate genomes with Bakta and check completeness with BUSCO.
+4. Run Panaroo on annotated genomes using the command above.
+5. All key results are stored in the core_pan/ folder.
 
 ## File Naming Conventions and Structure
 core_pan/ – pan-genome analysis results:
