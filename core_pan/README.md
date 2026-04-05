@@ -10,7 +10,6 @@ The NCBI RefSeq genome references are found in the /genomes_raw folder. The data
 ## Genome Selection
 
 Only curated genomes were included in the analysis. Genomes listed in scripts/BAKTA/approved_genomes.txt: <br>
-
 GCF_000007545.1 <br>
 GCF_000020745.1 <br>
 GCF_000020885.1 <br>
@@ -36,7 +35,7 @@ Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_
 - Cytoscape – visualization of gene co-occurrence networks.
 - Panaroo Workflow
 
-Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
+### Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
 
 panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
         -o results_core/ \ <br>
@@ -46,7 +45,7 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
         --aligner mafft \ <br>
         -t 8 <br>
 
-## Parameter explanations:
+### Parameter explanations:
 
 --clean-mode strict – conservative mode to remove potential contamination. <br>
 --remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths). <br>
