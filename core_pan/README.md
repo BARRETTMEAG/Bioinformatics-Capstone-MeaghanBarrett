@@ -1,15 +1,13 @@
 # Core Pan: Pan-Genome Analysis Overview
-
-Bioinformatics Capstone Project – Pan-Genome Analysis
-Project Overview
+## The Purpose
 
 The purpose of this project is to analyze the pan-genome of a set of bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships.
 
-Data Source
+## Data Source
 
 The genomic data used in this project were obtained from NCBI RefSeq. The dataset consists of multiple bacterial genomes in FASTA format.
 
-Genome Selection
+## Genome Selection
 
 Only curated genomes were included in the analysis. These genomes are listed in scripts/BAKTA/approved_genomes.txt:
 
@@ -22,11 +20,12 @@ GCF_000170215.1
 GCF_000171415.1
 GCF_000171515.1
 GCF_000171535.2
-Sequence Generation
+
+## Sequence Generation
 
 Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_annotated/ folder. Genome completeness was assessed with BUSCO using the lineage dataset [insert lineage, e.g., bacteria_odb10]. Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
 
-Tools Used
+## Tools Used
 Bakta – genome annotation and standardization of gene sequences.
 BUSCO – genome completeness assessment using conserved single-copy orthologs.
 Panaroo – core and pan-genome determination and gene presence/absence analysis.
@@ -46,7 +45,7 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \
         --aligner mafft \
         -t 8
 
-Parameter explanations:
+## Parameter explanations:
 
 --clean-mode strict – conservative mode to remove potential contamination.
 --remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths).
@@ -56,7 +55,7 @@ Parameter explanations:
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
-Key Parameters and Choices
+## Key Parameters and Choices
 Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
 Panaroo default settings with filtering of low-quality genes were used.
 CD-HIT clustered protein sequences at 90% identity.
@@ -64,10 +63,10 @@ MAFFT performed multiple sequence alignments followed by filtering.
 BUSCO assessed genome completeness using [insert lineage, e.g., bacteria_odb10].
 Reproducing Results
 
-Clone the repository:
+## Clone the repository:
 
-git clone https://github.com/BARRETTMEAG/Bioinformatics-Capstone-MeaghanBarrett.git
-cd Bioinformatics-Capstone-MeaghanBarrett
+git clone < repository name >
+cd <to the directory you want>
 Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
 Annotate genomes with Bakta and check completeness with BUSCO.
 Run Panaroo on annotated genomes using the command above.
@@ -75,12 +74,12 @@ All key results are stored in the core_pan/ folder.
 
 ## File Naming Conventions and Structure
 core_pan/ – pan-genome analysis results:
-    gene_presence_absence.csv – gene ubiquity across genomes.
-    gene_presence_absence.Rtab – tabular format for R visualization.
-    summary_statistics.txt – Panaroo summary of core and accessory genes.
-    core_gene_alignment_filtered.aln – alignment of filtered core genes.
-    tree.nwk – phylogenetic tree in Newick format.
-    final_graph.gml – network visualization of gene co-occurrence.
+    - gene_presence_absence.csv – gene ubiquity across genomes.
+    - gene_presence_absence.Rtab – tabular format for R visualization.
+    - summary_statistics.txt – Panaroo summary of core and accessory genes.
+    - core_gene_alignment_filtered.aln – alignment of filtered core genes.
+    - tree.nwk – phylogenetic tree in Newick format.
+    - final_graph.gml – network visualization of gene co-occurrence.
 
 
 
