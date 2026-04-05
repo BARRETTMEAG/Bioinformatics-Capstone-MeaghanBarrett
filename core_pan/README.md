@@ -66,8 +66,7 @@ Key output files from this workflow were copied into the repository’s core_pan
 
 ## Clone the repository:
 
-1. git clone < repository name >
-cd <to the directory you want>
+1. cd <to the directory you want> and then git clone < repository name >
 2. Install dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
 3. Annotate genomes with Bakta and check completeness with BUSCO.
 4. Run Panaroo on annotated genomes using the command above.
