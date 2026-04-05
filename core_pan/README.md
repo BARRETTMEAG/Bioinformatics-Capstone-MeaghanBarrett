@@ -1,13 +1,21 @@
-# Pangenome Analysis of Salmonella Serovars Using Panaroo
+# Salmonella Genome Annotation and Pangenome Analysis
 
-## Project Overview
-This project performs a pangenome analysis on a set of Salmonella serovar genome assemblies to identify core and accessory genes, also investigates diversity across genomic strains. The analysis focuses on the patterns of gene presence/absence and core genome phylogeny.
+This repository contains a reproducible pipeline for bacterial genome annotation using BAKTA and pangenome analysis using Panaroo. The workflow includes downloading genomes, filtering for completeness, annotation, and pangenome construction, with outputs for visualization and downstream analysis.
 
-## Data Source
-Genome assemblies were obtained from NCBI using a curated list of accession numbers in `approved_genomes.txt`.  
+---
 
-## Sequence Generation
-1. Genome assemblies were downloaded using the `download_genomes.sh` script:
+## Section 1: Genome Annotation Overview (BAKTA)
 
-```bash
-bash download_genomes.sh
+### Purpose
+The goal of this section is to:
+
+- Annotate bacterial genomes in `/genomes_raw` using a standardized BAKTA pipeline  
+- Generate outputs for genome reports, visualization, and analysis  
+- Demonstrate reproducible workflows
+
+### Data Source
+- NCBI RefSeq genome references are stored in `/genomes_raw`  
+- Genomes were filtered for **BUSCO completeness ≥ 90%** (`BAKTA/approved_genomes.txt`)  
+
+#### Genomes Used
+
