@@ -38,21 +38,21 @@ Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_
 
 Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
 
-panaroo -i $(find genomes_annotated -name "*.gff3") \
-        -o results_core/ \
-        --clean-mode strict \
-        --remove-invalid-genes \
-        -a core \
-        --aligner mafft \
-        -t 8
+panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
+        -o results_core/ \ <br>
+        --clean-mode strict \ <br>
+        --remove-invalid-genes \ <br>
+        -a core \ <br>
+        --aligner mafft \ <br>
+        -t 8 <br>
 
 ## Parameter explanations:
 
---clean-mode strict – conservative mode to remove potential contamination.
---remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths).
--a core – generates core gene alignment.
---aligner mafft – uses MAFFT for multiple sequence alignment.
--t 8 – uses 8 CPU threads for parallel processing.
+--clean-mode strict – conservative mode to remove potential contamination. <br>
+--remove-invalid-genes – ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths). <br>
+-a core – generates core gene alignment. <br>
+--aligner mafft – uses MAFFT for multiple sequence alignment. <br>
+-t 8 – uses 8 CPU threads for parallel processing. <br>
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
@@ -74,12 +74,12 @@ cd <to the directory you want>
 5. All key results are stored in the core_pan/ folder.
 
 ## File Naming Conventions and Structure
-core_pan/ – pan-genome analysis results:
-    - gene_presence_absence.csv – gene ubiquity across genomes.
-    - gene_presence_absence.Rtab – tabular format for R visualization.
-    - summary_statistics.txt – Panaroo summary of core and accessory genes.
-    - core_gene_alignment_filtered.aln – alignment of filtered core genes.
-    - tree.nwk – phylogenetic tree in Newick format.
+core_pan/ – pan-genome analysis results: <br>
+    - gene_presence_absence.csv – gene ubiquity across genomes. <br>
+    - gene_presence_absence.Rtab – tabular format for R visualization. <br>
+    - summary_statistics.txt – Panaroo summary of core and accessory genes. <br>
+    - core_gene_alignment_filtered.aln – alignment of filtered core genes. <br>
+    - tree.nwk – phylogenetic tree in Newick format. <br>
     - final_graph.gml – network visualization of gene co-occurrence.
 
 
