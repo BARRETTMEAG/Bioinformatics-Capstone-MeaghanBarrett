@@ -75,7 +75,7 @@ Panaroo was one of the recommended pangenome tools when searching online. CD-HIT
 
 1. cd < repository name> to where you want and then git clone < repository name >
 2. Run the assemblies, check BUSCO completeness with BUSCO, and Annotate genomes with Bakta.
-3. Visit <https://gthlab.au/panaroo/#/gettingstarted/installation> for instructions and installing of Panaroo & dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
+3. Visit <https://gthlab.au/panaroo/#/gettingstarted/installation> for instructions and installing of Panaroo & dependencies: MAFFT, CD-HIT, IQ-TREE, and Cytoscape.
 4. Run annotated genomes in Panaroo using the command above into results_core.
 5. Move all key results into the core_pan/ folder.
 
