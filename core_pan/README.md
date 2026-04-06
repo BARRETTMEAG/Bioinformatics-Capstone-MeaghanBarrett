@@ -57,7 +57,7 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
 ## Why?
-Panaroo was one of the recommended pangenome tools when searching online. CD-HIT & MAFFT are dependents needed. BAKTA and BUSCO were needed to complete Panaroo.    
+Panaroo was one of the recommended pangenome tools when searching online. CD-HIT & MAFFT are dependents needed. BAKTA and BUSCO were needed to complete Panaroo. IQTREE is needed to be able to see the NWK pylogenic tree. Cytoscape is good for seeing the gene shapes.      
 
 ## Key Parameters and Choices
 - Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
