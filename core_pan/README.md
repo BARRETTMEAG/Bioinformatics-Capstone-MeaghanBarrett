@@ -1,7 +1,7 @@
 # Core Pan Overview
 ## Project Purpose: Pan-Genome Analysis
 
-The goal of this section of the project is to analyze the pan-genome of the bacterial genomes to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships of the different bacterial strains.
+The goal of this project section is to analyze the pan-genome of the bacterial genomes, to identify core and accessory genes, assess genome completeness, and explore evolutionary relationships of the different bacterial strains.
 
 ## Data Source
 
@@ -24,13 +24,13 @@ GCF_000171535.2 <br>
 
 ## Sequence Generation
 
-Bakta annotated genomes, producing GFF3 files located in genomes_annotated folder. Genome completeness was assessed with BUSCO using the lineage dataset (bacteria_odb10). Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
+Bakta annotated genomes, producing GFF3 files located in genomes_annotated folder. Genome completeness was assessed with BUSCO, using the lineage dataset (bacteria_odb10). Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
 
 ## Tools Used
    - Bakta – Gene sequencing for genome annotation and standardization.
    - BUSCO – Assessment for genome completeness assessment using orthologs.
-   - Panaroo – Determins Core and pan-genome and gene presence/absence analysis.
-   - CD-HIT – Clustering protein to reduce redundancy (90% identity threshold).
+   - Panaroo – Determines Core and pan-genome and gene presence/absence analysis.
+   - CD-HIT – Clustering proteins to reduce redundancy (90% identity threshold).
    - MAFFT – Multiple core genes sequence alignment.
    - IQ-TREE – Constructs phylogenetic tree.
    - Cytoscape – Visualize gene co-occurrence networks.
@@ -48,16 +48,16 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
 
 ### Parameter explanations:
 
-- --clean-mode strict – Mode that removes potential contamination. <br>
+- --clean-mode strict – Mode removes potential contamination. <br>
 - --remove-invalid-genes – Ignores invalid gene annotations. <br>
 - -a core – Generates core gene alignment. <br>
-- --aligner mafft – MAFFT used for multiple sequence alignment. <br>
+- --aligner mafft – MAFFT used for aligning multiple sequences. <br>
 - -t 8 – Uses 8 CPU threads for parallel processing. <br>
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
 ## Why?
-Panaroo was one of the recommended pangenome tools when searching online. CD-HIT & MAFFT are dependents needed. BAKTA and BUSCO were needed to complete Panaroo. IQ-TREE is needed to be able to see the NWK pylogenic tree. Cytoscape is good for seeing the gene shapes.      
+Panaroo was one of the recommended pangenome tools when searching online. CD-HIT & MAFFT are the dependents needed. BAKTA and BUSCO were needed to complete assembly and annotation before using Panaroo. IQ-TREE is needed to see the NWK pylogenic tree. Cytoscape is good for seeing the gene shapes.      
 
 ## Key Parameters and Choices
  - Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
@@ -75,9 +75,9 @@ Panaroo was one of the recommended pangenome tools when searching online. CD-HIT
 
 1. cd < repository name> to where you want and then git clone < repository name >
 2. Run the assemblies, check BUSCO completeness with BUSCO, and Annotate genomes with Bakta.
-3. Visit <https://gthlab.au/panaroo/#/gettingstarted/installation> for instructions for installing Panaroo & dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
+3. Visit <https://gthlab.au/panaroo/#/gettingstarted/installation> for instructions and installing of Panaroo & dependencies: Bakta, BUSCO, Panaroo, MAFFT, CD-HIT, IQ-TREE, Cytoscape.
 4. Run annotated genomes in Panaroo using the command above into results_core.
-5. Move all the key results are stored in the core_pan/ folder.
+5. Move all key results into the core_pan/ folder.
 
 ## File Naming Conventions and Structure
 core_pan/ – pan-genome analysis results: <br>
