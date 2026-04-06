@@ -48,11 +48,11 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
 
 ### Parameter explanations:
 
---clean-mode strict – Mode that removes potential contamination. <br>
---remove-invalid-genes – Ignores invalid gene annotations. <br>
--a core – Generates core gene alignment. <br>
---aligner mafft – MAFFT used for multiple sequence alignment. <br>
--t 8 – Uses 8 CPU threads for parallel processing. <br>
+- --clean-mode strict – Mode that removes potential contamination. <br>
+- --remove-invalid-genes – Ignores invalid gene annotations. <br>
+- -a core – Generates core gene alignment. <br>
+- --aligner mafft – MAFFT used for multiple sequence alignment. <br>
+- -t 8 – Uses 8 CPU threads for parallel processing. <br>
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
 
