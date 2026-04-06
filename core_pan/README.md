@@ -81,12 +81,12 @@ Panaroo was one of the recommended pangenome tools when searching online. CD-HIT
 
 ## File Naming Conventions and Structure
 core_pan/ – pan-genome analysis results: <br>
-    - gene_presence_absence.csv – Gene ubiquity across genomes. <br>
-    - gene_presence_absence.Rtab –  R visualization. <br>
-    - summary_statistics.txt – Summary of Panaroo core and accessory genes. <br>
-    - core_gene_alignment_filtered.aln – Filtered core genes alignment. <br>
-    - tree.nwk – Newick phylogenetic tree. <br>
-    - final_graph.gml – Visualization of gene network co-occurrence.
+   - gene_presence_absence.csv – Gene ubiquity across genomes. <br>
+   - gene_presence_absence.Rtab –  R visualization. <br>
+   - summary_statistics.txt – Summary of Panaroo core and accessory genes. <br>
+   - core_gene_alignment_filtered.aln – Filtered core genes alignment. <br>
+   - tree.nwk – Newick phylogenetic tree. <br>
+   - final_graph.gml – Visualization of gene network co-occurrence.
 
 
 
