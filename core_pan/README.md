@@ -10,6 +10,7 @@ The NCBI RefSeq genome references are found in the /genomes_raw folder. The data
 ## Genome Selection
 
 Only curated genomes were included in the analysis. Genomes listed in scripts/BAKTA/approved_genomes.txt: <br>
+
 GCF_000007545.1 <br>
 GCF_000020745.1 <br>
 GCF_000020885.1 <br>
@@ -23,16 +24,16 @@ GCF_000171535.2 <br>
 
 ## Sequence Generation
 
-Genomes were annotated using Bakta, producing .gff3 files stored in the genomes_annotated/ folder. Genome completeness was assessed with BUSCO using the lineage dataset (bacteria_odb10). Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
+Bakta annotated genomes, producing GFF3 files located in genomes_annotated folder. Genome completeness was assessed with BUSCO using the lineage dataset (bacteria_odb10). Core genes were aligned, filtered, and used for pan-genome analysis with Panaroo.
 
 ## Tools Used
-- Bakta – genome annotation and standardization of gene sequences.
-- BUSCO – genome completeness assessment using conserved single-copy orthologs.
-- Panaroo – core and pan-genome determination and gene presence/absence analysis.
-- CD-HIT – protein clustering to reduce redundancy (90% identity threshold).
-- MAFFT – multiple sequence alignment of core genes.
-- IQ-TREE / FastTree – phylogenetic tree construction.
-- Cytoscape – visualization of gene co-occurrence networks.
+- Bakta – Genome annotation and standardization of gene sequences.
+- BUSCO – Genome completeness assessment using conserved single-copy orthologs.
+- Panaroo – Core and pan-genome determination and gene presence/absence analysis.
+- CD-HIT – Protein clustering to reduce redundancy (90% identity threshold).
+- MAFFT – Multiple sequence alignment of core genes.
+- IQ-TREE / FastTree – Phylogenetic tree construction.
+- Cytoscape – Visualization of gene co-occurrence networks.
 - Panaroo Workflow
 
 ### Annotated GFF3 files from genomes_annotated/ were used as input for Panaroo:
@@ -47,13 +48,16 @@ panaroo -i $(find genomes_annotated -name "*.gff3") \ <br>
 
 ### Parameter explanations:
 
---clean-mode strict – conservative mode to remove potential contamination. <br>
+--clean-mode strict – Conservative mode to remove potential contamination. <br>
 --remove-invalid-genes – Ignores genes with invalid annotations (e.g., pseudogenes or unusual lengths). <br>
 -a core – Generates core gene alignment. <br>
 --aligner mafft – Uses MAFFT for multiple sequence alignment. <br>
 -t 8 – Uses 8 CPU threads for parallel processing. <br>
 
 Key output files from this workflow were copied into the repository’s core_pan/ folder for downstream analysis.
+
+## Why?
+Panaroo was one of the recommended pangenome tools when searching online. CD-HIT & MAFFT are dependents needed. BAKTA and BUSCO were needed to complete Panaroo.    
 
 ## Key Parameters and Choices
 - Core genes were defined as present in ≥ 99% of genomes; remaining genes classified as accessory.
