@@ -157,7 +157,6 @@ The Purpose of the Project:
 | **genome_annotation/GCF_000_____*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
 | **genome_annotation/genome_summary.tsv** | Summarizes the nine BAKTA individual genome annotations into one TSV file | 
 | **genomes_raw/**        | Original Raw Genome Files                     
-| **qc_results** | Panaroo files|
 | **results_core** | Panaroo files |
 | **scripts/**        | Bash Scripts for Analysis.                        
 | **scripts/BUSCO/download_genomes.sh**        | Downloads Genomes from NCBI    
