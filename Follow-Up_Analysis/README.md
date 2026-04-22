@@ -1,15 +1,14 @@
 Follow-Up Analysis: Core Membrane Genes and Accessory Gene Functions
-1. **Analysis Description and Rationale**
+1. **Analysis Description and Rationale** <br>
 
-This follow-up analysis examines the core/pangenome results for both conserved and variable genetic components. Firstly, by analyzing the core genes to identify genes associated with different membrane functions, like those that may act as potential host-cell receptors and are important for bacterial interaction with the environment or host. Secondly, predict the different functional characteristics of accessory genes (shell and cloud genes) between serovars, since these genes may contribute to strain-specific traits such as virulence, adaptation, and horizontal gene transfer.
+This follow-up analysis examines the core/pangenome results for both conserved and variable genetic components. Firstly, by analyzing the core genes to identify genes associated with different membrane functions, like those that may act as potential host-cell receptors and are important for bacterial interaction with the environment or host. Secondly, predict the different functional characteristics of accessory genes (shell and cloud genes) between serovars, since these genes may contribute to strain-specific traits such as virulence, adaptation, and horizontal gene transfer. <br>
 
 <br>
 
-2. **Pipeline (GitHub-ready script)**
+2. **Pipeline (GitHub-ready script)** <br>
 
-    Save as:
-
-      scripts/PANAROO/followup_analysis.sh
+Save as: <br>
+    scripts/PANAROO/followup_analysis.sh
 
 <br>
 
@@ -98,31 +97,31 @@ echo "Analysis complete."
 
 3. **Key Results Summary**
 **Core Genome**
-Core genes: 3686
-Membrane-associated core genes identified:
-Inner membrane proteins
-Outer membrane proteins
-Lipoproteins
+Core genes: 3686 <br>
+Membrane-associated core genes identified: <br>
+Inner membrane proteins <br>
+Outer membrane proteins <br>
+Lipoproteins <br>
 
 Represents conserved surface-exposed proteins
 
 
-**Accessory Genome**
-Shell genes: 1360
-Cloud genes: 1552
-Accessory genome ≈ 44% of total genes
+**Accessory Genome** <br>
+Shell genes: 1360 <br>
+Cloud genes: 1552 <br>
+Accessory genome ≈ 44% of total genes <br>
 **Top functional categories**
-Hypothetical proteins (678)
-Phage proteins (multiple categories)
-Inner membrane proteins
-Lipoproteins
-Fimbrial proteins
+Hypothetical proteins (678) <br>
+Phage proteins (multiple categories) <br>
+Inner membrane proteins <br>
+Lipoproteins <br>
+Fimbrial proteins <br>
 Transposases
 
 <br> 
 
 4. **Biological Interpretation**
-**Core genes: Membrane-associated functions**
+**Core genes: Membrane-associated functions** <br>
 
 The conserved membrane-associated core genes are shown across all strains, this suggests the important role played in bacterial survival. These proteins are located on or near the cell surface and may function as host-cell receptors, transport proteins, or structural components. This conservation indicates a critical fundamental process for nutrient uptake and environmental sensing.
 
@@ -131,39 +130,39 @@ The conserved membrane-associated core genes are shown across all strains, this 
 **Host interaction and virulence**
 
 The presence of fimbrial, lipoprotein, and membrane-associated genes suggests different serovars may vary in ability to:
-
+<br>
 Adhere to host cells
-Colonize environments
-Interacts with host tissues
+Colonize environments <br>
+Interacts with host tissues <br>
 
 **Horizontal gene transfer and evolution**
 
 The indication of phage-related genes and transposases abundance:
 
-Active horizontal gene transfer
-Increased diverse genetics
+Active horizontal gene transfer <br>
+Increased diverse genetics <br>
 
 Some serovars evolve faster or even acquire new traits more readily.
 
 
 **Environmental adaptation**
 
-Variation in accessory gene content suggests:
+Variation in accessory gene content suggests: <br>
 
-Adaptation to different ecological niches
-Differences in stress response or metabolism
+Adaptation to different ecological niches <br>
+Differences in stress response or metabolism <br>
 
 
 **Unknown functional diversity**
 
-The high number of hypothetical proteins indicates:
+The high number of hypothetical proteins indicates: <br>
 
-Many unknown serovar-specific functions 
-Undiscovered potential biological mechanisms
+Many unknown serovar-specific functions <br>
+Undiscovered potential biological mechanisms <br>
 
 <br>
 
-5. **Final Report Paragraph (~1 paragraph)**
+5. **Final Report Paragraph (~1 paragraph)** <br>
 
 Analyzing the core and accessory genomes reveals distinct roles in bacterial function and diversity. Core genes including multiple conserved membrane-associated proteins found across all strains, plays an essential role in cellular processing, like transport and environmental sensing. These proteins also function as host-cell receptors due to surface localization. Whereas, the accessory genome shows functional variability, with high numbers of hypothetical proteins and genes associated with mobile genetic elements such as phages and transposases. The presence of fimbrial, lipoprotein, and membrane-associated genes suggests different variation among serovars may have in their ability to adhere to host cells and adapt to environmental conditions. Overall, the results indicate that while the core genome maintains essential functions, the accessory genome drives strain-specific differences, including potential variation in virulence, adaptability, and evolutionary flexibility.
 
