@@ -5,9 +5,9 @@ This follow-up analysis examines the core/pangenome results for both conserved a
 
 2. **Pipeline (GitHub-ready script)**
 
-Save as:
+    Save as:
 
-scripts/PANAROO/followup_analysis.sh
+      scripts/PANAROO/followup_analysis.sh
 
 Full reproducible script
 #!/bin/bash
