@@ -98,8 +98,8 @@ Full reproducible script
 
 <br>
 
-3. **Key Results Summary**
-**Core Genome**
+3. **Key Results Summary** <br>
+**Core Genome** <br>
 Core genes: 3686 <br>
 Membrane-associated core genes identified: <br>
 Inner membrane proteins <br>
@@ -123,14 +123,14 @@ Transposases
 
 <br> 
 
-4. **Biological Interpretation**
+4. **Biological Interpretation** <br>
 **Core genes: Membrane-associated functions** <br>
 
 The conserved membrane-associated core genes are shown across all strains, this suggests the important role played in bacterial survival. These proteins are located on or near the cell surface and may function as host-cell receptors, transport proteins, or structural components. This conservation indicates a critical fundamental process for nutrient uptake and environmental sensing.
 
 
-**Accessory genes: Serovar differences**
-**Host interaction and virulence**
+**Accessory genes: Serovar differences** <br>
+**Host interaction and virulence** <br>
 
 The presence of fimbrial, lipoprotein, and membrane-associated genes suggests different serovars may vary in ability to:
 <br>
@@ -138,9 +138,9 @@ Adhere to host cells
 Colonize environments <br>
 Interacts with host tissues <br>
 
-**Horizontal gene transfer and evolution**
+**Horizontal gene transfer and evolution** <br>
 
-The indication of phage-related genes and transposases abundance:
+The indication of phage-related genes and transposases abundance: <br>
 
 Active horizontal gene transfer <br>
 Increased diverse genetics <br>
@@ -148,7 +148,7 @@ Increased diverse genetics <br>
 Some serovars evolve faster or even acquire new traits more readily.
 
 
-**Environmental adaptation**
+**Environmental adaptation** <br>
 
 Variation in accessory gene content suggests: <br>
 
@@ -156,7 +156,7 @@ Adaptation to different ecological niches <br>
 Differences in stress response or metabolism <br>
 
 
-**Unknown functional diversity**
+**Unknown functional diversity** <br>
 
 The high number of hypothetical proteins indicates: <br>
 
