@@ -91,7 +91,9 @@ The Purpose of the Project:
     - BAKTA/approved_genomes.txt: Contains the genomes that were filtered down from 13 to 9 due to their BUSCO Completeness score.
     - BAKTA/run_bakta_filtered.sh: Took the listed genomes and ran it through bakta.
     - BAKTA/summarize_bakta.sh: Summarized the information about the genomes into one TSV file.
-- PANAROO: Bash script used after downloading panaroo.
+- PANAROO: Scripts used after downloading panaroo.
+    -  Bash script used for panaroo.
+    -  followup_analysis.sh used for separating the core and assembly genes.
 <br>
 
 # Reproducing Results <br>
@@ -126,7 +128,7 @@ The Purpose of the Project:
         - Went to <https://gthlab.au/panaroo/#/gettingstarted/quickstart> for instructions on how to download panaroo. There are dependents that are needed.
         - Use PANAROO/bash script to get outputs from gff3 files. 
      
-  9. 
+  9. Write a report
  
 <br>
  
@@ -134,6 +136,9 @@ The Purpose of the Project:
 
 | File Names (Parent & Child files)  |                   Purpose            |
 | ---------------- | --------------------------------------------------------------------------------------------------- |
+| **Follow-Up_Anaalysis/**             | Lists both the accessory and core genes    |
+| **accessory_genes/**             | Lists the role and function of accessory genes    |
+| **core_genes/**             | Lists the role and function of core genes   |
 | **accession_files/**             | Lists of Genome Accession Numbers    |
 | **assemblies/**                  | Downloaded Genome Assemblies         |
 | **assemblies/ncbi_dataset_data**  | NCBI Dataset after running download_genomes.sh  |
@@ -151,7 +156,7 @@ The Purpose of the Project:
 | **core_pan/gene_presence_absence.csv** | CSV file showing the presence and absence of genes |
 | **core_pan/summary_statistics.txt** | TXT file summarizing the genes |
 | **core_pan/tree.nwk** | NWK Tree file |
-| **genome-assembly** | This is an Reflective Evalutation |
+| **genome-assembly** | This has Reflective Evalutations |
 | **bakta_genome_annotated**| Bakta filtered files|
 | **genome_annotation** | Summarized version of bakta_genome_annotated (Annotations files for each individual genome (TSV, .png, and summary.txt))| 
 | **genome_annotation/GCF_000_____*** | Nine BAKTA annotations files for each individual genome (TSV, .png, and summary.txt)| 
@@ -166,6 +171,8 @@ The Purpose of the Project:
 | **scripts/BAKTA/approved_genomes.txt** | A txt file containing the genomes that were filtered out due to BUSCO completeness scores |        
 | **scripts/BAKTA/run_bakta_filtered.sh** | Takes the filtered genomes and creates individual genome files.
 | **scritps/BAKTA/summarize_bakta.sh** | Used to summarize the genomes into one tsv file
+| **scritps/PANAROO/bash** | Used to run all the .GFF3 files and create outputs 
+| **scritps/PANAROO/followup_analysis.sh** | Used to separate the genes into core and accessory.
 | **.gitattributes**        | Ignores Files and Folders for Git            
 | **.gitignore**        | Ignores Files and Folders for Git                
 | **README.md**        |   ^_^ It's Me!                                                |          
