@@ -1,0 +1,184 @@
+ratA~~~ratB,;ratA;ratB,Outer membrane protein;hypothetical protein;Outer membrane protein RatA;Inverse autotransporter beta-barrel domain-containing protein;putative outer membrane protein,ONMMKP_04317,IKCLMC_01290,PKJKAM_02769,ODDLKH_03016,LNHIMF_02645;LNHIMF_02644,AJBGEP_02685;AJBGEP_02684,HFCAGB_02787,GEGEGB_00375;GEGEGB_00374;GEGEGB_00373;GEGEGB_00376,
+group_4611,,Inner membrane protein,ONMMKP_01302,IKCLMC_01426,PKJKAM_01103,ODDLKH_01300,,AJBGEP_00836,HFCAGB_00888,GEGEGB_02187,BEJGEH_00809
+group_4432,,Fimbrial protein,ONMMKP_01993,IKCLMC_03044,PKJKAM_00757,ODDLKH_00658,LNHIMF_00182,AJBGEP_00186,HFCAGB_00185,,BEJGEH_00195
+stiA,stiA;,Sti fimbria major subunit StiA;Fimbrial subunit,ONMMKP_01991,IKCLMC_03042,PKJKAM_00755,ODDLKH_00660,LNHIMF_00184,AJBGEP_00188,HFCAGB_00187,,BEJGEH_00197
+ydiM,ydiM,Inner membrane transport protein YdiM,ONMMKP_00690,IKCLMC_04835,PKJKAM_00874,ODDLKH_01837,LNHIMF_01408,AJBGEP_01440,HFCAGB_01921,,BEJGEH_01726
+group_4259,,Inner membrane protein;Lipoprotein,ONMMKP_03311,IKCLMC_02882,PKJKAM_03853,ODDLKH_03967,LNHIMF_03565,AJBGEP_03705,HFCAGB_03760,,BEJGEH_03556
+group_4210,,Inner membrane protein,ONMMKP_02628,IKCLMC_00274,PKJKAM_00232,ODDLKH_00014,LNHIMF_04193,AJBGEP_04355,HFCAGB_04404,GEGEGB_03652,
+group_4021,,Membrane protein;Inner membrane protein;hypothetical protein,ONMMKP_01301,IKCLMC_01427,PKJKAM_01102,ODDLKH_01301,LNHIMF_00938,AJBGEP_00837,HFCAGB_00890;HFCAGB_00889,,BEJGEH_00810
+group_3976,,Membrane protein,,IKCLMC_03841,PKJKAM_02349,ODDLKH_03461,LNHIMF_03073,AJBGEP_03199,HFCAGB_03255,GEGEGB_03097,BEJGEH_03043
+nanC,nanC,N-acetylneuraminic acid outer membrane channel protein NanC,ONMMKP_01005,IKCLMC_00654,PKJKAM_00630,ODDLKH_01534,LNHIMF_01163,AJBGEP_01130,HFCAGB_01179,GEGEGB_01886,
+group_3491,,Inner membrane protein,ONMMKP_00173,IKCLMC_04314,PKJKAM_04318,ODDLKH_02350,LNHIMF_01931,AJBGEP_01956,HFCAGB_01411,GEGEGB_01076,
+ybaN,ybaN,Inner membrane protein YbaN,ONMMKP_01672,IKCLMC_02266,PKJKAM_03274,ODDLKH_00968,LNHIMF_00507,AJBGEP_00502,HFCAGB_00507,GEGEGB_02501,
+group_1996,,Inner membrane protein,ONMMKP_04599,IKCLMC_01787,PKJKAM_03051,ODDLKH_02723,,AJBGEP_02389,HFCAGB_02491,GEGEGB_00672,BEJGEH_02260
+stiB,stiB,fimbrial biogenesis chaperone StiB,ONMMKP_01992,IKCLMC_03043,PKJKAM_00756,ODDLKH_00659,LNHIMF_00183,AJBGEP_00187,HFCAGB_00186,,BEJGEH_00196
+group_1657,,Outer membrane/exported protein,,IKCLMC_03193,PKJKAM_02087,ODDLKH_00511,LNHIMF_00036,AJBGEP_00036,HFCAGB_00037,GEGEGB_00039,BEJGEH_00037
+ydiN,ydiN,Inner membrane transport protein YdiN,ONMMKP_00691,IKCLMC_04836,PKJKAM_00875,ODDLKH_01836,LNHIMF_01407,AJBGEP_01439,HFCAGB_01922,,BEJGEH_01727
+group_4715,,Minor fimbrial subunit,ONMMKP_01961,IKCLMC_03018,PKJKAM_00724,ODDLKH_00684,,AJBGEP_00212,HFCAGB_00211,,BEJGEH_00221
+group_4666,,Fimbrial-type adhesion domain-containing protein,ONMMKP_01962,IKCLMC_03019,PKJKAM_00725,ODDLKH_00683,,AJBGEP_00211,HFCAGB_00210,,BEJGEH_00220
+group_4652,,Outer membrane protein,ONMMKP_01822,IKCLMC_02117,PKJKAM_03422,,,AJBGEP_00355,HFCAGB_00355,GEGEGB_02658,BEJGEH_00344
+group_4610,,hypothetical protein;Putative membrane protein,ONMMKP_03817,IKCLMC_03846,2_refound_31_pseudo,,LNHIMF_03070,5_refound_63_pseudo,HFCAGB_03250,GEGEGB_03092,
+lpfD,lpfD;,Long polar fimbrial protein LpfD;Putative minor fimbrial subunit;hypothetical protein;long polar fimbrial protein LpfD,ONMMKP_03198,IKCLMC_02768,PKJKAM_03740,ODDLKH_04080,,AJBGEP_03819;AJBGEP_03820,HFCAGB_03875,,BEJGEH_03671
+group_4408,,Fimbrial-type adhesion domain-containing protein,ONMMKP_01963,IKCLMC_03020,PKJKAM_00726,ODDLKH_00682,,AJBGEP_00210,HFCAGB_00209,,BEJGEH_00219
+group_4228,,Inner membrane protein,ONMMKP_04090,IKCLMC_04111,PKJKAM_02624,ODDLKH_03191,LNHIMF_02805,AJBGEP_02928,,,BEJGEH_02760
+rzoQ,rzoQ;,Putative lipoprotein RzoQ;Protein gp55,ONMMKP_00163,IKCLMC_04307,PKJKAM_04309,ODDLKH_02357,LNHIMF_01940,AJBGEP_01963,HFCAGB_01404,,
+lpfC,lpfC;,Outer membrane usher protein LpfC;Outer membrane fimbrial usher protein;long polar fimbrial usher protein LpfC,ONMMKP_03197,IKCLMC_02767,PKJKAM_03739,ODDLKH_04081,,AJBGEP_03821,HFCAGB_03877;HFCAGB_03876,,BEJGEH_03672
+tssM~~~icmF,;tssM;icmF,IcmF-related protein;Type VI secretion system membrane subunit TssM;type VI secretion protein IcmF,,IKCLMC_02059,PKJKAM_03484,ODDLKH_00772,LNHIMF_00300,AJBGEP_00300,HFCAGB_00298,GEGEGB_02709;GEGEGB_02708,
+envF,envF,putative envelope lipoprotein EnvF,ONMMKP_00892,IKCLMC_00985,PKJKAM_00521,ODDLKH_01713,,AJBGEP_01316,HFCAGB_02053,,BEJGEH_01850
+group_3997,,hypothetical protein;Fimbrial outer membrane usher protein,ONMMKP_04678,IKCLMC_01863,PKJKAM_03993,ODDLKH_02647,,AJBGEP_02313,,GEGEGB_00751;GEGEGB_00752,BEJGEH_02183
+tssJ,tssJ,type VI secretion system-associated lipoprotein,,IKCLMC_02054,PKJKAM_03489,ODDLKH_00767,LNHIMF_00294,AJBGEP_00295,HFCAGB_00293,GEGEGB_02714,
+lpfE,lpfE,long polar fimbrial protein LpfE,ONMMKP_03199,IKCLMC_02769,PKJKAM_03741,ODDLKH_04079,,AJBGEP_03818,HFCAGB_03874,,BEJGEH_03670
+yehC,yehC,putative fimbrial chaperone YehC,ONMMKP_04677,IKCLMC_01862,PKJKAM_03992,ODDLKH_02648,,AJBGEP_02314,,GEGEGB_00750,BEJGEH_02184
+lpfB,lpfB,long polar fimbrial chaperone LpfB,ONMMKP_03196,IKCLMC_02766,PKJKAM_03738,ODDLKH_04082,,AJBGEP_03822,HFCAGB_03878,,BEJGEH_03673
+group_1728,,Lipoprotein,ONMMKP_03760,IKCLMC_03788,PKJKAM_00314,ODDLKH_03514,,AJBGEP_03252,HFCAGB_03309,,BEJGEH_03096
+group_1679,yfcS,Fimbrial chaperone yfcS,ONMMKP_01964,IKCLMC_03021,PKJKAM_00727,ODDLKH_00681,,AJBGEP_00209,HFCAGB_00208,,BEJGEH_00218
+yfcU,yfcU,Putative outer membrane usher protein YfcU,ONMMKP_01965,IKCLMC_03022,PKJKAM_00728,ODDLKH_00680,,AJBGEP_00208,HFCAGB_00207,,BEJGEH_00217
+group_4706,,hypothetical protein;Fimbrial protein,ONMMKP_03823,IKCLMC_03852,PKJKAM_02357,ODDLKH_03452,LNHIMF_03064,,,,BEJGEH_03032
+group_2922,,Inner membrane protein,ONMMKP_02569,IKCLMC_01048,PKJKAM_01321,ODDLKH_00075,,AJBGEP_04414,,,BEJGEH_04269
+group_2103,,Outer membrane protein,ONMMKP_02207,IKCLMC_03258,PKJKAM_02153,ODDLKH_00446,,AJBGEP_04774,,,BEJGEH_04663
+stjC,stjC,fimbrial biogenesis chaperone StjC,ONMMKP_02205,IKCLMC_03256,PKJKAM_02151,ODDLKH_00448,,AJBGEP_04776,,,BEJGEH_04665
+stjB,stjB,StjB fimbria biogenesis outer membrane usher protein StjB,ONMMKP_02206,IKCLMC_03257,PKJKAM_02152,ODDLKH_00447,,AJBGEP_04775,,,BEJGEH_04664
+group_4629,,Fimbrial protein,ONMMKP_03901,,PKJKAM_02435,,,,HFCAGB_03165,GEGEGB_02999,BEJGEH_02952
+group_4595,,Inner membrane protein,ONMMKP_00133,,PKJKAM_04278,,LNHIMF_01968,,HFCAGB_01318,GEGEGB_01044,
+group_4395,;steA,hypothetical protein;Fimbrial protein SteA,ONMMKP_03906,,PKJKAM_02440,,,,HFCAGB_03160,GEGEGB_02993;GEGEGB_02994,BEJGEH_02947
+group_4219,,Inner membrane protein,ONMMKP_02010,IKCLMC_03061,PKJKAM_00775,,,,HFCAGB_00168,,BEJGEH_00178
+group_4169,,Fimbrial subunit,ONMMKP_03902,,PKJKAM_02436,,,,HFCAGB_03164,GEGEGB_02998,BEJGEH_02951
+group_3970,,Fimbrial protein,ONMMKP_03903,,PKJKAM_02437,,,,HFCAGB_03163,GEGEGB_02997,BEJGEH_02950
+group_3882,,Inner membrane protein,,IKCLMC_02515,,ODDLKH_01164,,AJBGEP_00697,HFCAGB_00766,,BEJGEH_00683
+group_2497,,Lipoprotein,,,PKJKAM_00275,ODDLKH_01673,,AJBGEP_01021,HFCAGB_01367,GEGEGB_02004,
+yfcS,yfcS,Fimbrial chaperone yfcS,ONMMKP_03904,,PKJKAM_02438,,,,HFCAGB_03162,GEGEGB_02996,BEJGEH_02949
+steB,steB,fimbrial biogenesis outer membrane usher protein SteB,ONMMKP_03905,,PKJKAM_02439,,,,HFCAGB_03161,GEGEGB_02995,BEJGEH_02948
+group_4646,,Lipoprotein,ONMMKP_04698,IKCLMC_01884,,,,,,GEGEGB_00776,BEJGEH_02158
+group_4615,,Inner membrane protein,,,,ODDLKH_04384,,AJBGEP_04134,,GEGEGB_03532,BEJGEH_03986
+group_4222,,Inner membrane protein,,,,ODDLKH_04383,,AJBGEP_04133,,GEGEGB_03533,BEJGEH_03985
+yjeO,yjeO,Inner membrane protein YjeO,,IKCLMC_01179,,,,AJBGEP_04544,HFCAGB_04572,,BEJGEH_04413
+group_2986,,Inner membrane protein,ONMMKP_02828,IKCLMC_00512,PKJKAM_01548,,,,HFCAGB_04193,,
+yigF,yigF,inner membrane protein YigF,,,,ODDLKH_04397,,AJBGEP_04147,,GEGEGB_03520,BEJGEH_03999
+yigG,yigG,Inner membrane protein YigG,,,,ODDLKH_04398,,AJBGEP_04148,,GEGEGB_03519,BEJGEH_04000
+group_2403,,Inner membrane protein,ONMMKP_02829,IKCLMC_00513,PKJKAM_01549,,,,HFCAGB_04192,,
+group_1412,,putative membrane transporter protein,ONMMKP_02764,IKCLMC_00688,PKJKAM_01484,,,,,,BEJGEH_04069
+group_4323,,Inner membrane protein,,IKCLMC_04403,,,,,HFCAGB_01491,,BEJGEH_01282
+group_4202,,Fimbrial protein,,,,ODDLKH_00186,LNHIMF_04404,,HFCAGB_04865,,
+group_4190,,hypothetical protein;fimbrial protein,,IKCLMC_04316,PKJKAM_04320,,LNHIMF_01928,,,,
+group_4109,,Inner membrane protein,,,,ODDLKH_00396,,AJBGEP_04724,,GEGEGB_04816,
+group_3767,,Fimbrial protein;hypothetical protein,ONMMKP_01858,,,,LNHIMF_00326,,,GEGEGB_02681,
+group_2476,,Inner membrane protein,,IKCLMC_04402,,,,,HFCAGB_01490,,BEJGEH_01281
+group_2465,,ABC transmembrane type-1 domain-containing protein,ONMMKP_04142,,,,,,HFCAGB_02959,,BEJGEH_02746
+tcfA,tcfA,fimbrial chaperone TcfA,ONMMKP_01859,,,,LNHIMF_00325,,,GEGEGB_02682,
+group_1879,,Inner membrane protein,,,PKJKAM_02487,,,,HFCAGB_03112,,BEJGEH_02897
+group_1061,,Lipoprotein,,,,,LNHIMF_03874,,,GEGEGB_03887,BEJGEH_03877
+group_1042,,Fimbrial protein,ONMMKP_03900,,PKJKAM_02434,,,,HFCAGB_03166,,
+group_49,,Fimbrial assembly protein,ONMMKP_01857,,,,LNHIMF_00327,,,GEGEGB_02680,
+group_4781,,Lipoprotein,,,,,,,HFCAGB_02951,GEGEGB_03590,
+group_4769,,DUF1493 domain-containing protein;Phage membrane protein,,,,,LNHIMF_01604,,,GEGEGB_01546,
+group_4767,,Lipoprotein,,,,,,,HFCAGB_02244,,BEJGEH_01983
+virB7,virB7;,Type IV secretion system putative lipoprotein virB7;lipoprotein,,,,,,,HFCAGB_02242,,BEJGEH_01981
+htrE~~~staC,htrE;staC,Outer membrane usher protein HtrE;Sta fimbria outer membrane usher protein StaC,,,,,LNHIMF_00194,,,GEGEGB_00199,
+group_4754,,Fimbrial protein,,,,,LNHIMF_00193,,,GEGEGB_00198,
+group_4753,,Transmembrane protein,,,,,,,HFCAGB_02241,,BEJGEH_01980
+staF,staF,Fimbrial protein StaF,,,,,LNHIMF_00191,,,GEGEGB_00196,
+group_4645,,Transmembrane protein,,,,,LNHIMF_03213,,,GEGEGB_03242,
+faeF,faeF,K88 minor fimbrial subunit FaeF,,,,ODDLKH_00183,LNHIMF_04401,,,,
+group_4576,,Outer membrane protein,ONMMKP_01866,,,,,,,,BEJGEH_00306
+group_4550,,Phytase-like domain-containing protein;Lipoprotein,,,,,,,HFCAGB_04712,GEGEGB_04783,
+group_4484,,Lipoprotein;hypothetical protein,,IKCLMC_02083,,,,,,GEGEGB_02691,
+group_4435,,Fimbrial-type adhesion domain-containing protein,,,,,LNHIMF_02295,,HFCAGB_02416,,
+sefC,sefC,Outer membrane usher protein SefC,,,,,,,HFCAGB_04704,GEGEGB_04775,
+group_4209,,Lipoprotein,,,,,,,,GEGEGB_00774,BEJGEH_02160
+group_3775,,Lipoprotein,ONMMKP_02998,,,,,,,,BEJGEH_03879
+group_3359,,Fimbrial protein,,IKCLMC_04326,PKJKAM_04329,,,,,,
+group_3052,,Membrane protein,,,,,LNHIMF_04286,,,GEGEGB_02002,
+yiaW,yiaW,Inner membrane protein YiaW,ONMMKP_03147,,,,,,,,BEJGEH_03721
+group_2325,,Spanin inner membrane subunit,,,,,,AJBGEP_01026,HFCAGB_01372,,
+yagU,yagU,Inner membrane protein yagU,,,,,LNHIMF_04475,,,,BEJGEH_04456
+yadL,yadL,Putative fimbrial-like protein YadL,ONMMKP_01986,,PKJKAM_00750,,,,,,
+group_2102,,Fimbrial protein,ONMMKP_01985,,PKJKAM_00749,,,,,,
+group_2039,,Fimbrial protein,ONMMKP_01987,,PKJKAM_00751,,,,,,
+group_1910,,Lipoprotein,,,,,,,,GEGEGB_04135,BEJGEH_03625
+group_1845,,Fimbrial assembly protein,,,,,LNHIMF_02294,,HFCAGB_02415,,
+yafT,yafT,Uncharacterized lipoprotein YafT,,,,,,,HFCAGB_01214,,BEJGEH_01066
+group_1174,,Inner membrane protein,ONMMKP_02242,,PKJKAM_02195,,,,,,
+group_1060,,Fimbrial-type adhesion domain-containing protein,,,,,LNHIMF_02292,,HFCAGB_02413,,
+yiaV,yiaV,Inner membrane protein YiaV,ONMMKP_03148,,,,,,,,BEJGEH_03720
+group_605,,Inner membrane protein,,,,ODDLKH_03173,,AJBGEP_02910,,,
+ydjE,ydjE,Inner membrane metabolite transport protein YdjE,,,PKJKAM_00943,,,,HFCAGB_01991,,
+group_238,,Inner membrane protein,,,,ODDLKH_03172,,AJBGEP_02909,,,
+faeD,faeD,F4 (K88) fimbrial usher FaeD,,,,ODDLKH_00181,LNHIMF_04399,,,,
+group_81,,Fimbrial outer membrane usher protein,,,,,LNHIMF_02293,,HFCAGB_02414,,
+group_64,htrE,Outer membrane usher protein HtrE,ONMMKP_01984,,PKJKAM_00748,,,,,,
+group_3318,,Outer membrane lipoprotein,,,,,,,,,BEJGEH_01205
+group_3316,,Prophage membrane protein,,,,,,,,GEGEGB_01462,
+yqhH,yqhH,Uncharacterized lipoprotein YqhH,,,,,,,,,BEJGEH_03179
+group_3133,,Lipoprotein,ONMMKP_01121,,,,,,,,
+group_3092,,Fimbrial protein,,,,,,,HFCAGB_04867,,
+group_3091,,Transmembrane protein,,,,,LNHIMF_02786,,,,
+group_3059,,Transmembrane protein,,IKCLMC_03351,,,,,,,
+group_2991,,Lipoprotein SmpA/OmlA domain-containing protein,,,,,LNHIMF_00630,,,,
+group_2916,,Lipoprotein,ONMMKP_00734,,,,,,,,
+group_2911,,TIGR03745 family integrating conjugative element membrane protein,ONMMKP_02282,,,,,,,,
+group_2788,,Lipoprotein,,,,,LNHIMF_00626,,,,
+group_2759,,TIGR03745 family integrating conjugative element membrane protein,,,,,,,,GEGEGB_04498,
+group_2686,,Lipoprotein,,,,,LNHIMF_02787,,,,
+group_2684,,Lipoprotein,,IKCLMC_03352,,,,,,,
+group_2577,,Transmembrane protein,,,,,LNHIMF_02789,,,,
+group_2555,,Transmembrane protein,,IKCLMC_03354,,,,,,,
+group_2483,,Lipoprotein YfjS/YafY domain-containing protein,ONMMKP_01878,,,,,,,,
+group_2454,,Phage membrane protein,ONMMKP_04324,,,,,,,,
+group_2436,,Spanin inner membrane subunit,,,,,LNHIMF_00598,,,,
+group_2426,,Spanin inner membrane subunit,,,,,,,HFCAGB_00619,,
+group_2378,,Spanin inner membrane subunit,,,,,,AJBGEP_02129,,,
+sfaS,sfaS,S-fimbrial adhesin protein SfaS,,,,,LNHIMF_01233,,,,
+group_2350,,Outer membrane protein,,,,,LNHIMF_00316,,,,
+group_2317,,Lipoprotein,,,PKJKAM_00269,,,,,,
+group_2255,,Fimbrial-type adhesion domain-containing protein,,,,,LNHIMF_01232,,,,
+group_2204,,Lipoprotein,,,,,LNHIMF_03568,,,,
+group_2202,,Fimbrial protein,,,,,LNHIMF_01237,,,,
+group_2169,,Lipoprotein,,,,,LNHIMF_04289,,,,
+group_2154,,Fimbrial protein,,,,,,AJBGEP_04822,,,
+group_2122,,Lipoprotein,ONMMKP_01877,,,,,,,,
+group_2115,,Fimbrial protein,,,,,,,HFCAGB_04868,,
+group_2082,,Fimbrial protein,,,,,,,,,BEJGEH_03795
+group_2079,,Fimbrial protein,,,,,,,,GEGEGB_00201,
+group_2058,,Fimbrial protein,,,,,,,,,BEJGEH_03793
+group_2055,,Fimbrial protein,,,,,LNHIMF_00196,,,,
+group_2026,,Fimbrial protein,,,,,,,,,BEJGEH_03794
+group_2023,,Fimbrial protein,,,,,,,,GEGEGB_00197,
+group_2020,,Fimbrial protein,,,,,LNHIMF_00192,,,,
+group_1917,,Lipoprotein,,,,,,,,GEGEGB_01448,
+group_1855,,Fimbrial chaparone,,,,,LNHIMF_01236,,,,
+group_1836,,Fimbrial chaperone protein,,,,,,,,GEGEGB_03857,
+pefD,pefD,fimbrial chaperone PefD,,,,,,AJBGEP_04823,,,
+group_1784,,Inner membrane protein,,,,,LNHIMF_03566,,,,
+faeJ,faeJ,K88 minor fimbrial subunit FaeJ,,,,,,,HFCAGB_04864,,
+group_1754,,Lipoprotein,,,,,LNHIMF_02145,,,,
+group_1753,,Inner membrane protein,,,,,LNHIMF_01758,,,,
+group_1671,,Integrating conjugative element membrane protein,,,,,,,,GEGEGB_04495,
+group_1649,,Outer membrane/exported protein,ONMMKP_02144,,,,,,,,
+group_1612,,Fimbrial protein,,,,,LNHIMF_04402,,,,
+vexB,vexB,Vi polysaccharide ABC transporter inner membrane protein VexB,,,,,,,,GEGEGB_04582,
+group_1593,,Fimbrial protein,,,,,,,HFCAGB_04869,,
+group_1553,,Fimbrial protein,,,,ODDLKH_00184,,,,,
+group_1462,,Lipoprotein,ONMMKP_02978,,,,,,,,
+group_1427,,Inner membrane protein,ONMMKP_02598,,,,,,,,
+group_1416,,Outer membrane protein,,,,,,AJBGEP_04821,,,
+group_1357,,Lipoprotein,,,,,,AJBGEP_04815,,,
+group_1195,,Inner membrane protein,,,,,,AJBGEP_04037,,,
+group_1112,,Fimbrial protein,,,,,LNHIMF_01234,,,,
+group_1062,,Outer membrane protein C2,,,,,,,,,BEJGEH_01503
+group_1008,tcfD,Fimbrial protein TcfD,,,,,LNHIMF_00328,,,,
+stgD,stgD,Fimbrial protein StgD,,,,,,,,GEGEGB_03860,
+group_962,tcfD,Fimbrial protein TcfD,,,,,,,,GEGEGB_02679,
+tcfD,tcfD,Fimbrial protein TcfD,ONMMKP_01856,,,,,,,,
+group_808,,Fimbrial protein,,,,,,,,GEGEGB_00195,
+group_730,,Fimbrial protein,,,,,,,,,BEJGEH_03792
+uidC,uidC,Membrane-associated protein UidC,,,,,LNHIMF_03176,,,,
+group_682,,Fimbrial protein,,,,,LNHIMF_00190,,,,
+group_655,,Arsenical pump membrane protein,,,,,LNHIMF_00700,,,,
+vexD,vexD,Vi polysaccharide ABC transporter inner membrane protein VexD,,,,,,,,GEGEGB_04580,
+group_448,,Inner membrane protein,ONMMKP_01596,,,,,,,,
+group_352,,Inner membrane protein,ONMMKP_01591,,,,,,,,
+group_223,,Inner membrane protein,,,,,,,,,BEJGEH_02753
+pefC,pefC,outer membrane usher protein PefC,,,,,,AJBGEP_04824,,,
+group_67,,Fimbrial biogenesis outer membrane usher protein,,,,,LNHIMF_01235,,,,
+htrE,htrE,Outer membrane usher protein HtrE,,,,,,,,,BEJGEH_03796
+group_0,,Autotransporter outer membrane beta-barrel domain-containing protein,,,,,,,,,BEJGEH_02339

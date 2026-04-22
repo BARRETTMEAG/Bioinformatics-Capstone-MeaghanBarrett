@@ -1,0 +1,10 @@
+ 588 hypothetical protein
+  55 Phage protein
+  36 Cytoplasmic protein
+  35 Phage tail protein
+  27 Inner membrane protein
+  27 Fimbrial protein
+  26 DNA-binding protein
+  26 Bacteriophage protein
+  25 IS200/IS605 family IS200F transposase
+  24 Transposase

@@ -1,0 +1,702 @@
+ratA~~~ratB,;ratA;ratB,Outer membrane protein;hypothetical protein;Outer membrane protein RatA;Inverse autotransporter beta-barrel domain-containing protein;putative outer membrane protein,ONMMKP_04317,IKCLMC_01290,PKJKAM_02769,ODDLKH_03016,LNHIMF_02645;LNHIMF_02644,AJBGEP_02685;AJBGEP_02684,HFCAGB_02787,GEGEGB_00375;GEGEGB_00374;GEGEGB_00373;GEGEGB_00376,
+group_4716,,hypothetical protein;Putative periplasmic protein,ONMMKP_01716,IKCLMC_02221,PKJKAM_03319,ODDLKH_00924,,AJBGEP_00458,HFCAGB_00462,GEGEGB_02549,BEJGEH_00446
+group_4655,,hypothetical protein;Alkyl hydroperoxide reductase subunit F,ONMMKP_00503,IKCLMC_04646,PKJKAM_04652,ODDLKH_02027,LNHIMF_01598,AJBGEP_01629,,GEGEGB_01542;GEGEGB_01543,BEJGEH_01538
+group_4651,,hypothetical protein;Sel1 repeat family protein;Putative periplasmic protein,ONMMKP_01717,IKCLMC_02220,PKJKAM_03320,ODDLKH_00923,,AJBGEP_00457,HFCAGB_00461,GEGEGB_02550;GEGEGB_02551;GEGEGB_02552,BEJGEH_00445
+group_4644,,hypothetical protein;putative HTH-type transcriptional regulator STM3175,ONMMKP_03654,IKCLMC_03698;IKCLMC_03699,PKJKAM_01913,ODDLKH_03603,,AJBGEP_03343,HFCAGB_03399,GEGEGB_03250,BEJGEH_03192
+group_4575,,hypothetical protein,ONMMKP_03955,,PKJKAM_02490,ODDLKH_03325,LNHIMF_02937,AJBGEP_03063,HFCAGB_03109,GEGEGB_02944,BEJGEH_02894
+group_4525,,hypothetical protein;Choline-sulfatase,ONMMKP_02093,IKCLMC_03142;IKCLMC_03143,PKJKAM_02037,ODDLKH_00562,LNHIMF_00087,AJBGEP_00089,,GEGEGB_00091;GEGEGB_00090;GEGEGB_00089,BEJGEH_00088
+group_4510,,Oxygen-insensitive NAD(P)H nitroreductase;hypothetical protein,ONMMKP_01577;ONMMKP_01576,IKCLMC_02418,PKJKAM_03123,ODDLKH_01065,,AJBGEP_00600,HFCAGB_00664,GEGEGB_02409,BEJGEH_00585
+group_4485,,hypothetical protein,ONMMKP_01867,IKCLMC_02081,PKJKAM_03461,ODDLKH_00786,LNHIMF_00315,AJBGEP_00317,HFCAGB_00317,GEGEGB_02693,
+group_4440,,hypothetical protein;Potassium channel domain-containing protein,ONMMKP_02413,IKCLMC_03458,PKJKAM_01166,ODDLKH_00243,,AJBGEP_04570,HFCAGB_04598,GEGEGB_04657,BEJGEH_04439
+group_4398,,hypothetical protein,ONMMKP_01173,IKCLMC_01559,PKJKAM_00977,ODDLKH_01426,LNHIMF_01058,AJBGEP_00963,HFCAGB_01015,GEGEGB_02068,
+gatZ,;gatZ,Putative tagatose 6-phosphate kinase;Tagatose-bisphosphate aldolase subunit GatZ;hypothetical protein,ONMMKP_03575,IKCLMC_03614,PKJKAM_01789,ODDLKH_03687,LNHIMF_03299,,HFCAGB_03478,GEGEGB_03339;GEGEGB_03340,BEJGEH_03274
+group_4389,,hypothetical protein,ONMMKP_04296,IKCLMC_01269,PKJKAM_02748,ODDLKH_03037,,AJBGEP_02706,HFCAGB_02810,GEGEGB_00350,BEJGEH_02562
+group_4367,,hypothetical protein;Cytoplasmic protein,ONMMKP_01492,IKCLMC_02502,PKJKAM_00376,ODDLKH_01151,,AJBGEP_00684,HFCAGB_00753,GEGEGB_02328,BEJGEH_00670
+group_4285,,hypothetical protein,ONMMKP_03698,IKCLMC_03742,PKJKAM_01956,ODDLKH_03560,LNHIMF_03172,AJBGEP_03300;AJBGEP_03299,HFCAGB_03355,,BEJGEH_03143
+group_4246,,OmpR/PhoB-type domain-containing protein;hypothetical protein,,IKCLMC_03196,PKJKAM_02090,ODDLKH_00508,LNHIMF_00033,AJBGEP_00033,HFCAGB_00034,GEGEGB_00036,BEJGEH_00034
+pagO,;pagO,hypothetical protein;PhoPQ-activated DMT family transporter PagO,ONMMKP_00174,IKCLMC_04315,PKJKAM_04319,ODDLKH_02349,LNHIMF_01930;LNHIMF_01929,AJBGEP_01955,HFCAGB_01412;HFCAGB_01413,GEGEGB_01077,
+group_4161,,hypothetical protein;DUF3053 domain-containing protein,ONMMKP_00948,IKCLMC_00857,PKJKAM_00572,ODDLKH_01591,LNHIMF_01220,AJBGEP_01187,HFCAGB_02110;HFCAGB_02109,,BEJGEH_01906
+group_4156,,hypothetical protein,ONMMKP_00411,IKCLMC_04562,PKJKAM_04565,ODDLKH_02114,LNHIMF_01687,AJBGEP_01716,HFCAGB_01653;HFCAGB_01652,,BEJGEH_01442
+nanX,;nanX,hypothetical protein;Sialic acid transporter NanX,ONMMKP_01004,IKCLMC_00655,PKJKAM_00629,ODDLKH_01535,LNHIMF_01164,AJBGEP_01131,HFCAGB_01180;HFCAGB_01181,GEGEGB_01885,
+group_4088,,hypothetical protein,ONMMKP_02096,IKCLMC_03146,PKJKAM_02039,ODDLKH_00559,LNHIMF_00084,AJBGEP_00086,,GEGEGB_00086,BEJGEH_00085
+group_4054,,hypothetical protein;Diaminopropionate ammonia-lyase,ONMMKP_01142,IKCLMC_01590,PKJKAM_00145,ODDLKH_01457,,AJBGEP_00995,HFCAGB_01046,GEGEGB_02035;GEGEGB_02034,BEJGEH_00959
+group_4043,,hypothetical protein;RpiB/LacA/LacB family sugar-phosphate isomerase,ONMMKP_00095,IKCLMC_04237,PKJKAM_04241,ODDLKH_02423,LNHIMF_02005,AJBGEP_02030,HFCAGB_01281,,BEJGEH_01133
+group_4021,,Membrane protein;Inner membrane protein;hypothetical protein,ONMMKP_01301,IKCLMC_01427,PKJKAM_01102,ODDLKH_01301,LNHIMF_00938,AJBGEP_00837,HFCAGB_00890;HFCAGB_00889,,BEJGEH_00810
+siaT,;siaT,hypothetical protein;Sodium/sialic acid symporter SiaT,ONMMKP_01008,IKCLMC_00651,PKJKAM_00634,ODDLKH_01531,LNHIMF_01160,AJBGEP_01127,HFCAGB_01176,GEGEGB_01889;GEGEGB_01890,
+group_3991,,hypothetical protein,0_refound_6_pseudo,IKCLMC_02338,PKJKAM_03202,3_refound_38_pseudo,,AJBGEP_00574,6_refound_70_pseudo,GEGEGB_02428,BEJGEH_00565
+group_3961,,hypothetical protein;Ureidoglycolate lyase,ONMMKP_01636,IKCLMC_02302,PKJKAM_03238,ODDLKH_01004,,AJBGEP_00538,HFCAGB_00543,GEGEGB_02463;GEGEGB_02464,BEJGEH_00529
+group_3958,,L-talarate permease;hypothetical protein;Major facilitator superfamily (MFS) profile domain-containing protein,ONMMKP_03132,IKCLMC_02704,PKJKAM_03676,ODDLKH_04143,,AJBGEP_03883,HFCAGB_03939,GEGEGB_04031;GEGEGB_04030,BEJGEH_03736
+ompD,;ompD,hypothetical protein;porin OmpD,ONMMKP_00473,IKCLMC_04620,PKJKAM_04623,ODDLKH_02056,LNHIMF_01631,AJBGEP_01658,HFCAGB_01711,,BEJGEH_01506
+group_3862,,hypothetical protein;Allantoin permease,ONMMKP_01630,IKCLMC_02308,PKJKAM_03232,ODDLKH_01010,,AJBGEP_00544,HFCAGB_00549,GEGEGB_02457;GEGEGB_02456,BEJGEH_00535
+group_2737,,hypothetical protein,ONMMKP_01575,IKCLMC_02419,PKJKAM_03122,ODDLKH_01066,,AJBGEP_00601,HFCAGB_00665,GEGEGB_02408,BEJGEH_00586
+group_4697,,hypothetical protein;Diol dehydratase reactivase ATPase-like domain-containing protein;Glycerol dehydratase,ONMMKP_01831,IKCLMC_02108,PKJKAM_03432,ODDLKH_00812;ODDLKH_00813,,AJBGEP_00345;AJBGEP_00346,HFCAGB_00346,,BEJGEH_00335
+group_4678,,hypothetical protein,ONMMKP_00025,IKCLMC_00069,PKJKAM_04169,ODDLKH_02494,,AJBGEP_02161,HFCAGB_02259,,BEJGEH_02002
+group_4665,,hypothetical protein;ATP-grasp domain-containing protein,,IKCLMC_00682,,ODDLKH_04461,LNHIMF_04056,AJBGEP_04211,HFCAGB_04256,GEGEGB_03796;GEGEGB_03795,BEJGEH_04063
+thiS,;thiS,hypothetical protein;Sulfur carrier protein ThiS,,IKCLMC_00269,PKJKAM_00227,ODDLKH_00019,LNHIMF_04197,AJBGEP_04360,HFCAGB_04409,,BEJGEH_04211
+group_4612,,hypothetical protein;Rac prophage protein,ONMMKP_00161,IKCLMC_04305,PKJKAM_04307,ODDLKH_02359,LNHIMF_01941,AJBGEP_01965,HFCAGB_01402,,
+group_4610,,hypothetical protein;Putative membrane protein,ONMMKP_03817,IKCLMC_03846,2_refound_31_pseudo,,LNHIMF_03070,5_refound_63_pseudo,HFCAGB_03250,GEGEGB_03092,
+group_4588,,hypothetical protein;Transposase;Integrase catalytic domain-containing protein,ONMMKP_01833,IKCLMC_02107,PKJKAM_03435,ODDLKH_00811,,AJBGEP_00344,HFCAGB_00343,,BEJGEH_00334
+group_4583,,hypothetical protein;Hydrolase (HAD superfamily),ONMMKP_01271,IKCLMC_01464,PKJKAM_01071,ODDLKH_01331,,AJBGEP_00867,HFCAGB_00921,,BEJGEH_00841
+group_4559,,Putative Tail Fiber Protein;Macro domain;hypothetical protein;Tail fiber assembly like-protein,ONMMKP_00169;ONMMKP_00168;ONMMKP_00170,IKCLMC_04311,PKJKAM_04314;PKJKAM_04313,ODDLKH_02354,LNHIMF_01935,AJBGEP_01960,HFCAGB_01408,,
+group_4487,,hypothetical protein,ONMMKP_01498,IKCLMC_02496,PKJKAM_00382,ODDLKH_01145,,AJBGEP_00678,HFCAGB_00747,,BEJGEH_00664
+group_4476,,hypothetical protein;Core-binding (CB) domain-containing protein,ONMMKP_00023,IKCLMC_00071,PKJKAM_04166;PKJKAM_04167,ODDLKH_02496,,AJBGEP_02163,HFCAGB_02262;HFCAGB_02261,,BEJGEH_02004
+lpfD,lpfD;,Long polar fimbrial protein LpfD;Putative minor fimbrial subunit;hypothetical protein;long polar fimbrial protein LpfD,ONMMKP_03198,IKCLMC_02768,PKJKAM_03740,ODDLKH_04080,,AJBGEP_03819;AJBGEP_03820,HFCAGB_03875,,BEJGEH_03671
+group_4470,,hypothetical protein,ONMMKP_00086,IKCLMC_04229,PKJKAM_04232,ODDLKH_02432,LNHIMF_02014,AJBGEP_02039,,,BEJGEH_01124
+group_4450,,hypothetical protein,ONMMKP_00444,IKCLMC_04591,PKJKAM_04594,ODDLKH_02085,,AJBGEP_01687,HFCAGB_01682,GEGEGB_01590,
+impA,;impA,hypothetical protein;ImpA N-terminal domain-containing protein,,IKCLMC_02037,PKJKAM_03503,ODDLKH_00753,LNHIMF_00278,AJBGEP_00281,HFCAGB_00281,GEGEGB_02730;GEGEGB_02729,
+group_4388,,hypothetical protein,,IKCLMC_02409,PKJKAM_03139,ODDLKH_01049,LNHIMF_00712,AJBGEP_00584,HFCAGB_00654,,BEJGEH_00575
+group_4325,;ridA,hypothetical protein;RidA family protein,ONMMKP_00500,IKCLMC_04643,PKJKAM_04649,ODDLKH_02030,LNHIMF_01601,AJBGEP_01632,,,BEJGEH_01535
+yibR,;yibR,Glycosyl transferase family 8;Uncharacterized protein YibR;hypothetical protein,ONMMKP_03109,IKCLMC_02681,PKJKAM_03653,ODDLKH_04166,,AJBGEP_03906,HFCAGB_03963,,BEJGEH_03759
+group_4179,,hypothetical protein,ONMMKP_00893,IKCLMC_00984,PKJKAM_00522,ODDLKH_01712,,AJBGEP_01315,HFCAGB_02054,,BEJGEH_01851
+impC~~~evpB,impC;;evpB,Uncharacterized protein ImpC;hypothetical protein;EvpB family type VI secretion protein,,IKCLMC_02047,PKJKAM_03495,ODDLKH_00761,LNHIMF_00288,AJBGEP_00289,HFCAGB_00289,GEGEGB_02719;GEGEGB_02718,
+group_4096,,hypothetical protein;Fructose-bisphosphate aldolase,ONMMKP_03053,,PKJKAM_03597,ODDLKH_04226,LNHIMF_03823,AJBGEP_03967,,GEGEGB_03940;GEGEGB_03941,BEJGEH_03826
+group_4087,,hypothetical protein;Major facilitator superfamily (MFS) profile domain-containing protein,ONMMKP_01829,IKCLMC_02110,PKJKAM_03429;PKJKAM_03430,ODDLKH_00815,,AJBGEP_00348,HFCAGB_00348,,BEJGEH_00337
+group_4069,,hypothetical protein;Side tail fiber protein,ONMMKP_04593,IKCLMC_01781,PKJKAM_03044;PKJKAM_03045,ODDLKH_02741,,AJBGEP_02407,HFCAGB_02499;HFCAGB_02498,GEGEGB_00666,
+group_4024,,hypothetical protein,ONMMKP_00947,IKCLMC_00858,,ODDLKH_01592,LNHIMF_01221,AJBGEP_01188,HFCAGB_02108,,8_refound_98
+group_4017,,hypothetical protein,ONMMKP_00171,IKCLMC_04312,PKJKAM_04316,ODDLKH_02352,LNHIMF_01933,AJBGEP_01958,HFCAGB_01409,,
+group_3997,,hypothetical protein;Fimbrial outer membrane usher protein,ONMMKP_04678,IKCLMC_01863,PKJKAM_03993,ODDLKH_02647,,AJBGEP_02313,,GEGEGB_00751;GEGEGB_00752,BEJGEH_02183
+group_3980,,hypothetical protein;PTS EIIA type-2 domain-containing protein,ONMMKP_03049,,PKJKAM_03593,ODDLKH_04230,LNHIMF_03827,AJBGEP_03971,,GEGEGB_03936,BEJGEH_03830
+group_3941,,hypothetical protein;Coproporphyrinogen III oxidase,,IKCLMC_00680,,ODDLKH_04459,LNHIMF_04054,AJBGEP_04209,HFCAGB_04254,GEGEGB_03798;GEGEGB_03799,BEJGEH_04061
+group_3901,,hypothetical protein;Regulatory protein,ONMMKP_04337,IKCLMC_01309,PKJKAM_02789,,LNHIMF_02625,,HFCAGB_02765,GEGEGB_00397;GEGEGB_00398,BEJGEH_02521
+ybeR,;ybeR,hypothetical protein;Uncharacterized protein YbeR,ONMMKP_01495,IKCLMC_02499,PKJKAM_00379,ODDLKH_01148,,AJBGEP_00681,HFCAGB_00750,,BEJGEH_00667
+group_3810,,hypothetical protein;DUF4261 domain-containing protein,ONMMKP_01272,IKCLMC_01463,PKJKAM_01073,ODDLKH_01330,,AJBGEP_00866,HFCAGB_00919,,BEJGEH_00840
+group_3797,,hypothetical protein,ONMMKP_01250,IKCLMC_01483,PKJKAM_01052,ODDLKH_01350,LNHIMF_00985,AJBGEP_00886,HFCAGB_00940,,
+group_3772,,hypothetical protein,ONMMKP_01088,IKCLMC_00571,PKJKAM_00247,ODDLKH_01700,LNHIMF_00689,AJBGEP_01047,HFCAGB_01395,,
+group_3452,,hypothetical protein,ONMMKP_00020,IKCLMC_00074,PKJKAM_04163,ODDLKH_02499,,AJBGEP_02166,HFCAGB_02265,,BEJGEH_02008
+group_4771,,hypothetical protein;DUF4102 domain-containing protein;Integrase;Integrase (Bacteriophage integrase),ONMMKP_02300,IKCLMC_03362,PKJKAM_02234,ODDLKH_00357,,,HFCAGB_04700,GEGEGB_04772,
+group_4738,,hypothetical protein;Host specificity protein J,ONMMKP_01089,IKCLMC_00018_pseudo;IKCLMC_00339,PKJKAM_00248,ODDLKH_01699,LNHIMF_00688,AJBGEP_01302,,,
+group_4731,,Coiled-coil protein;hypothetical protein,ONMMKP_00491,,PKJKAM_04641;PKJKAM_04642,ODDLKH_02038,,AJBGEP_01640,,GEGEGB_01548,BEJGEH_01524
+group_4706,,hypothetical protein;Fimbrial protein,ONMMKP_03823,IKCLMC_03852,PKJKAM_02357,ODDLKH_03452,LNHIMF_03064,,,,BEJGEH_03032
+group_4704,,hypothetical protein;HNH nuclease domain-containing protein,,IKCLMC_03336,PKJKAM_02228,ODDLKH_00370,,,HFCAGB_04718;HFCAGB_04717,GEGEGB_04790,BEJGEH_04600
+group_4662,,Putative DNA-binding protein;hypothetical protein,,,PKJKAM_00046,ODDLKH_01660,LNHIMF_02188,AJBGEP_01011,HFCAGB_01061,GEGEGB_02017,
+group_4543,,hypothetical protein,ONMMKP_00674,IKCLMC_04819,PKJKAM_00858,,,AJBGEP_01456,,GEGEGB_01316,BEJGEH_01710
+group_4539,,hypothetical protein,ONMMKP_01137,IKCLMC_01595,PKJKAM_00151,,,AJBGEP_01000,HFCAGB_01051,GEGEGB_02029,
+group_4448,,hypothetical protein,ONMMKP_02583,IKCLMC_01033,PKJKAM_01335,ODDLKH_00060,,AJBGEP_04400,,,BEJGEH_04255
+group_4421,,hypothetical protein;Glycosyl transferase,ONMMKP_01430,IKCLMC_00434,,ODDLKH_01215,LNHIMF_00863,AJBGEP_00748,,GEGEGB_02263;GEGEGB_02264,
+group_4409,,hypothetical protein,ONMMKP_01437,IKCLMC_00441,,ODDLKH_01208,LNHIMF_00856,AJBGEP_00741,,GEGEGB_02271,
+group_4400,,Cytoplasmic protein;hypothetical protein,ONMMKP_01427,IKCLMC_00431,,ODDLKH_01218,LNHIMF_00866,AJBGEP_00751,,GEGEGB_02259,
+group_4346,,hypothetical protein,,,,ODDLKH_02580,LNHIMF_02224,AJBGEP_02247,HFCAGB_02346,GEGEGB_00832,BEJGEH_02106
+group_4218,,hypothetical protein,ONMMKP_00322,,PKJKAM_04475,,LNHIMF_01781,,HFCAGB_01562,GEGEGB_01715,BEJGEH_01352
+group_4167,,hypothetical protein;Glycosyl transferase,ONMMKP_01428,IKCLMC_00432,,ODDLKH_01217,LNHIMF_00865,AJBGEP_00750,,GEGEGB_02260;GEGEGB_02261,
+group_4144,,CRISPR-associated endonuclease/helicase Cas3;hypothetical protein,ONMMKP_03918,IKCLMC_03941,,ODDLKH_03362,,AJBGEP_03100,HFCAGB_03148;HFCAGB_03149,,BEJGEH_02936
+group_4033,,hypothetical protein,ONMMKP_00162,IKCLMC_04306,PKJKAM_04308,ODDLKH_02358,,AJBGEP_01964,HFCAGB_01403,,
+group_3939,,hypothetical protein;dTDP-fucopyranose mutase,ONMMKP_01435,IKCLMC_00439,,ODDLKH_01210,LNHIMF_00858,AJBGEP_00743,,GEGEGB_02269,
+group_3889,,hypothetical protein;ABC transporter permease protein,ONMMKP_01432,IKCLMC_00436,,ODDLKH_01213,LNHIMF_00861,AJBGEP_00746,,GEGEGB_02266,
+group_3852,,hypothetical protein,ONMMKP_03280,IKCLMC_02850,PKJKAM_03822,ODDLKH_03998,,AJBGEP_03737,HFCAGB_03792,,
+tlde1,;tlde1,hypothetical protein;type VI secretion system effector tlde1 LD-transpeptidase,,IKCLMC_02064,PKJKAM_03479,ODDLKH_00775,,AJBGEP_00303,HFCAGB_00301,GEGEGB_02703,
+group_3519,,hypothetical protein,,,PKJKAM_02109,3_refound_35_pseudo,4_refound_46_pseudo,5_refound_58_pseudo,HFCAGB_00015,,BEJGEH_00015
+group_477,,hypothetical protein,ONMMKP_02572,IKCLMC_01045,PKJKAM_01324,ODDLKH_00072,,AJBGEP_04411,,,BEJGEH_04266
+group_366,,hypothetical protein,ONMMKP_02581,IKCLMC_01036,PKJKAM_01333,ODDLKH_00063,,AJBGEP_04402,,,BEJGEH_04257
+recT,;recT,hypothetical protein;Recombination protein RecT,,IKCLMC_00915,,ODDLKH_01649,,AJBGEP_01247,HFCAGB_01347,GEGEGB_01071,
+group_4734,,hypothetical protein,ONMMKP_03078,,,ODDLKH_04202,,AJBGEP_03942,HFCAGB_04001,GEGEGB_03970,
+group_4710,,hypothetical protein,ONMMKP_01132,IKCLMC_01598,,ODDLKH_01653,,AJBGEP_01250,HFCAGB_01055,,
+group_4634,,Exodeoxyribonuclease VIII;hypothetical protein,ONMMKP_01135,IKCLMC_01597,PKJKAM_00153,,,AJBGEP_01249;AJBGEP_01002,HFCAGB_01054,,
+group_4594,,hypothetical protein;RNA 3'-terminal-phosphate cyclase (ATP);RNA 3'-terminal phosphate cyclase,,IKCLMC_02894,,ODDLKH_03955,,AJBGEP_03693,HFCAGB_03748;HFCAGB_03747,,BEJGEH_03544
+group_4579,,hypothetical protein,,IKCLMC_03930,,ODDLKH_03373,LNHIMF_02986,AJBGEP_03111,,GEGEGB_03002,
+group_4544,,hypothetical protein,0_refound_9,,2_refound_30,ODDLKH_01853,LNHIMF_01424,,HFCAGB_01905,,
+group_4452,,hypothetical protein,,IKCLMC_02650,PKJKAM_03622,,LNHIMF_03795,,,GEGEGB_03969,BEJGEH_03801
+group_4449,,Phage tail protein;hypothetical protein;Putative side tail phage protein,ONMMKP_02585,IKCLMC_01031,PKJKAM_01337,,,AJBGEP_04398,,,BEJGEH_04253
+group_4395,;steA,hypothetical protein;Fimbrial protein SteA,ONMMKP_03906,,PKJKAM_02440,,,,HFCAGB_03160,GEGEGB_02993;GEGEGB_02994,BEJGEH_02947
+group_4311,,hypothetical protein,ONMMKP_00112,,,ODDLKH_02406,LNHIMF_01988,5_refound_62,,,8_refound_99
+dinI,;dinI,hypothetical protein;DinI family protein,,IKCLMC_00579,PKJKAM_00241,,,AJBGEP_01055,HFCAGB_01104,GEGEGB_01968,
+group_4184,,hypothetical protein;DNA breaking-rejoining protein;Enterohemolysin,ONMMKP_01136,IKCLMC_01596,PKJKAM_00152,,,AJBGEP_01001,HFCAGB_01052;HFCAGB_01053,,
+group_4095,,hypothetical protein,,,,ODDLKH_01043,,AJBGEP_00578,HFCAGB_00647,GEGEGB_02424,BEJGEH_00568
+ypfL,;ypfL,hypothetical protein;Uncharacterized protein YpfL,,,,ODDLKH_02957,,AJBGEP_02623,HFCAGB_02723,GEGEGB_00441,BEJGEH_02478
+group_4050,,putative periplasmic protein;hypothetical protein,,IKCLMC_02052,PKJKAM_03491,ODDLKH_00765,LNHIMF_00292,AJBGEP_00293,,,
+group_4009,,hypothetical protein,,IKCLMC_03526,PKJKAM_01700,ODDLKH_03777,,AJBGEP_03514,HFCAGB_03569,,
+group_3840,,hypothetical protein,ONMMKP_02368,,PKJKAM_02303,ODDLKH_00288,,AJBGEP_04615,,,BEJGEH_04485
+group_3498,,hypothetical protein,,,,ODDLKH_01044,,AJBGEP_00579,HFCAGB_00648,7_refound_82_pseudo,BEJGEH_00569
+group_2873,,hypothetical protein,,,,ODDLKH_02956,,AJBGEP_02622,HFCAGB_02722,GEGEGB_00442,BEJGEH_02477
+group_4774,,hypothetical protein,,IKCLMC_02374,PKJKAM_03167,,LNHIMF_00591,,HFCAGB_00614,,
+group_4756,,hypothetical protein,ONMMKP_04148,,,,,,HFCAGB_02953,GEGEGB_04563,BEJGEH_02740
+group_4732,,hypothetical protein,ONMMKP_00495,IKCLMC_04639,,ODDLKH_02035,,AJBGEP_01637,,,
+group_4695,,hypothetical protein,,1_refound_22_pseudo,PKJKAM_02776,,,,HFCAGB_02779,,8_refound_101_pseudo
+group_4605,,hypothetical protein,ONMMKP_02587,,,ODDLKH_00056,,AJBGEP_04396,,,BEJGEH_04251
+group_4591,,Integrase DNA-binding domain-containing protein;hypothetical protein,ONMMKP_01834,,PKJKAM_03436,,,,HFCAGB_00342,,BEJGEH_00333
+group_4542,,Regulatory protein CII;hypothetical protein,ONMMKP_04141,,,,,,HFCAGB_02960,GEGEGB_04571,BEJGEH_02747
+group_4512,,hypothetical protein;Ead/Ea22-like family protein,,,,,LNHIMF_02187,AJBGEP_01012,HFCAGB_01062,GEGEGB_02016,
+group_4339,,hypothetical protein,,,,,,AJBGEP_03723,HFCAGB_03778,GEGEGB_04193,BEJGEH_03575
+group_4312,,hypothetical protein;Viral protein,,,PKJKAM_02056,ODDLKH_00542,LNHIMF_00067,AJBGEP_00067,,,
+group_4192,,hypothetical protein;DUF1641 domain-containing protein,,,PKJKAM_04643,ODDLKH_02037,,AJBGEP_01639,HFCAGB_01729,,
+group_4165,,hypothetical protein;Putative cytoplasmic protein,,IKCLMC_04275,,ODDLKH_02386,,AJBGEP_01993;AJBGEP_01992,,,BEJGEH_01169
+group_4163,,hypothetical protein;DUF1202 domain-containing protein,ONMMKP_02466,IKCLMC_01151;IKCLMC_01150,PKJKAM_01219,,,,,,BEJGEH_04374
+group_4124,;tnp,hypothetical protein;IS3 family ISSen1 transposase ORF A,,IKCLMC_00059_pseudo,PKJKAM_00171,,LNHIMF_03237,,,,BEJGEH_03213
+group_4120,,hypothetical protein;DNA packaging protein,,IKCLMC_00240,PKJKAM_00260,ODDLKH_01687,,AJBGEP_02782;AJBGEP_02781,,,
+group_4010,,Cytoplasmic protein;hypothetical protein,0_refound_7_pseudo,,,,LNHIMF_03387,,,GEGEGB_03428,BEJGEH_03365
+group_3949,,hypothetical protein,ONMMKP_02667,,,,LNHIMF_04154,,,GEGEGB_03691,BEJGEH_04167
+group_3912,,hypothetical protein,ONMMKP_02465,IKCLMC_01152,PKJKAM_01218,,,,,,BEJGEH_04375
+group_3819,,hypothetical protein,,IKCLMC_04100,,ODDLKH_03202,,AJBGEP_02939,HFCAGB_02986,,
+group_3517,,hypothetical protein,,1_refound_14,,ODDLKH_03818,,AJBGEP_03555,HFCAGB_03610,,
+group_3499,,hypothetical protein,,,2_refound_25,ODDLKH_02353,LNHIMF_01934,AJBGEP_01959,,,
+group_3341,,hypothetical protein,ONMMKP_02467,IKCLMC_01149,PKJKAM_01220,,,,,,8_refound_92
+group_1959,,hypothetical protein,ONMMKP_04139,,,,,,HFCAGB_02962,GEGEGB_04573,BEJGEH_02749
+group_4785,,RHS repeat protein;hypothetical protein,,,PKJKAM_03473,,,,HFCAGB_00309,GEGEGB_02697,
+group_4780,,hypothetical protein,,IKCLMC_02375,PKJKAM_03166,,LNHIMF_00592,,,,
+group_4764,,hypothetical protein;Restriction inhibitor protein ral,ONMMKP_00782,,PKJKAM_03183,,,,HFCAGB_00601,,
+group_4746,,hypothetical protein;Dehydrogenase,ONMMKP_00494,,,,LNHIMF_01611,,,,BEJGEH_01525
+group_4733,,hypothetical protein,,IKCLMC_04638,,,LNHIMF_01609,,,,BEJGEH_01528
+sugR,;sugR,hypothetical protein;AAA family ATPase;AAA family ATPase SugR,,,,ODDLKH_04199,,AJBGEP_03939,HFCAGB_03996;HFCAGB_03997;HFCAGB_03998,,
+hsdM,;hsdM,hypothetical protein;site-specific DNA-methyltransferase (adenine-specific);type I restriction-modification system methyltransferase,,,,ODDLKH_00400,,AJBGEP_04728,,GEGEGB_04820;GEGEGB_04821,
+group_4632,,hypothetical protein,,,PKJKAM_03466,,,,HFCAGB_00313,,BEJGEH_00301
+group_4604,,CRISPR-associated endonuclease/helicase Cas3;hypothetical protein,,,PKJKAM_02451,,LNHIMF_02974,,,GEGEGB_02982,
+group_4600,,hypothetical protein,,,PKJKAM_02350,,LNHIMF_03072,,,,BEJGEH_03042
+group_4500,,Phage tail protein;hypothetical protein,ONMMKP_04164,,,,,,,GEGEGB_04547,BEJGEH_02724
+group_4391,,Exonuclease VIII;hypothetical protein,,IKCLMC_00916,,,,AJBGEP_01248,HFCAGB_01348,,
+group_4288,,hypothetical protein,ONMMKP_00847,,,,LNHIMF_01330,,,GEGEGB_01227,
+group_4207,,hypothetical protein,,IKCLMC_04322,PKJKAM_04325,,,,,,BEJGEH_01199
+group_4190,,hypothetical protein;fimbrial protein,,IKCLMC_04316,PKJKAM_04320,,LNHIMF_01928,,,,
+group_4185,;tnp,hypothetical protein;IS3 family ISSen1 transposase ORF A,ONMMKP_02684,IKCLMC_04285,,,,,,,BEJGEH_01961
+group_4178,,hypothetical protein,,,PKJKAM_03465,,,,HFCAGB_00314,,BEJGEH_00302
+group_4123,,hypothetical protein;Enterohemolysin,,IKCLMC_00113,,,LNHIMF_02198,AJBGEP_02823,,,
+group_4119,,hypothetical protein;DNA packaging protein,ONMMKP_01102,IKCLMC_00326,,,,AJBGEP_01289;AJBGEP_01288,,,
+group_4093,,hypothetical protein;Crp/Fnr family transcriptional regulator,,,,,LNHIMF_03952,,,GEGEGB_03565;GEGEGB_03566,BEJGEH_03953
+group_4058,,Rhs2 protein;hypothetical protein,,IKCLMC_02075,PKJKAM_03471,,,AJBGEP_00308,,,
+group_3973,,hypothetical protein,,,,ODDLKH_00187,LNHIMF_04405,,HFCAGB_04863,,
+group_3952,,hypothetical protein,,,,ODDLKH_00190,LNHIMF_04408,,HFCAGB_04860,,
+group_3874,,hypothetical protein;Phage prohead protease HK97 family,,,,,LNHIMF_02169,AJBGEP_02121,HFCAGB_02191;HFCAGB_02190,,
+group_3784,,hypothetical protein,,,,ODDLKH_01807,,AJBGEP_01410,,GEGEGB_01281,
+group_3767,,Fimbrial protein;hypothetical protein,ONMMKP_01858,,,,LNHIMF_00326,,,GEGEGB_02681,
+group_3712,,hypothetical protein,,IKCLMC_00114,,,LNHIMF_02199,AJBGEP_02824,,,
+group_3576,,hypothetical protein,,,,ODDLKH_01114,LNHIMF_00768,,,,BEJGEH_00634
+group_3575,,hypothetical protein,,IKCLMC_02044,,,LNHIMF_00285,,,GEGEGB_02722,
+group_3552,,hypothetical protein,ONMMKP_04625,,,,,,,GEGEGB_00697,BEJGEH_02234
+group_3509,,hypothetical protein,,,2_refound_24,ODDLKH_02020,,AJBGEP_01622,,,
+group_3496,,hypothetical protein,,IKCLMC_00975,,ODDLKH_01704,,5_refound_55,,,
+group_3480,,hypothetical protein,,,,,LNHIMF_02162,AJBGEP_02114,HFCAGB_02183,,
+group_3429,,hypothetical protein,,,,,LNHIMF_02171,AJBGEP_02123,HFCAGB_02193,,
+group_3369,,hypothetical protein,,,,,LNHIMF_02167,AJBGEP_02119,HFCAGB_02188,,
+group_2961,,hypothetical protein,,IKCLMC_00976,,ODDLKH_01705,,AJBGEP_01307,,,
+group_2804,,hypothetical protein,,,,ODDLKH_04200,,AJBGEP_03940,HFCAGB_03999,,
+group_865,,hypothetical protein,,IKCLMC_03432,,,,,HFCAGB_04624,GEGEGB_04683,
+group_530,,hypothetical protein,,IKCLMC_03431,,,,,HFCAGB_04625,GEGEGB_04684,
+group_411,,hypothetical protein,ONMMKP_00131,,PKJKAM_04276,,,,HFCAGB_01316,,
+group_4792,,Cytoplasmic protein;hypothetical protein,,,,,,AJBGEP_04805;AJBGEP_04804,HFCAGB_04879,,
+group_4789,,hypothetical protein,,,PKJKAM_03194,,LNHIMF_04266,,,,
+group_4788,,hypothetical protein;Eaa protein,ONMMKP_00795,,PKJKAM_03196,,,,,,
+group_4765,,hypothetical protein,,,,,,,HFCAGB_02243,,BEJGEH_01982
+group_4763,,hypothetical protein,ONMMKP_04183,,,,,,,GEGEGB_04532,
+group_4761,,hypothetical protein,ONMMKP_00728,,,,LNHIMF_00634,,,,
+group_4742,,Secreted protein;hypothetical protein,,,,,,,,GEGEGB_03001,BEJGEH_02954
+group_4728,,hypothetical protein;Ankyrin repeat domain-containing protein,,,,,LNHIMF_03214,,,GEGEGB_03243;GEGEGB_03244,
+group_4727,,hypothetical protein;Host cell division inhibitor Icd-like protein,,,,,LNHIMF_00354,,,,BEJGEH_04556
+group_4726,,Phage tail protein;hypothetical protein,ONMMKP_00746,,,,LNHIMF_00611,,,,
+group_4713,,hypothetical protein,,,,,,,HFCAGB_02165,,BEJGEH_01964
+group_4677,,hypothetical protein,,IKCLMC_00931,,,,AJBGEP_01265,,,
+group_4642,,hypothetical protein,,,,,LNHIMF_00356,,,,BEJGEH_04558
+group_4638,,hypothetical protein,,,,,,,,GEGEGB_00772,BEJGEH_02162
+group_4636,,hypothetical protein;Transposase //family protein,,,,,,,HFCAGB_02166,,BEJGEH_01966;BEJGEH_01965
+group_4622,,hypothetical protein;Phage integrase,,IKCLMC_02563,,,,AJBGEP_04034,,,
+group_4601,,hypothetical protein,,,,ODDLKH_00178,LNHIMF_04395,,,,
+group_4540,,hypothetical protein,,,,,,AJBGEP_04807,HFCAGB_04878,,
+group_4509,,hypothetical protein,,,,,LNHIMF_02081,,,,BEJGEH_02022
+group_4504,,hypothetical protein,,,,,LNHIMF_04313,,,GEGEGB_04541,
+group_4495,,hypothetical protein,,,,,LNHIMF_00309,AJBGEP_00310,,,
+group_4484,,Lipoprotein;hypothetical protein,,IKCLMC_02083,,,,,,GEGEGB_02691,
+group_4459,,hypothetical protein,,,,ODDLKH_03176,,AJBGEP_02913,,,
+group_4451,,hypothetical protein,ONMMKP_01853,,,,LNHIMF_00331,,,,
+group_4437,,hypothetical protein,ONMMKP_03911,,,,LNHIMF_02981,,,,
+group_4424,,hypothetical protein,,,,,,,,GEGEGB_03185,BEJGEH_03125
+group_4412,,hypothetical protein,,,,,,,HFCAGB_02248,,BEJGEH_01986
+group_4357,,hypothetical protein,,,,,LNHIMF_01755,,,GEGEGB_01689,
+group_4272,,hypothetical protein,,,,,LNHIMF_03215,,,GEGEGB_03246,
+group_4265,,hypothetical protein,,,PKJKAM_02300,,,AJBGEP_04618,,,
+group_4245,,hypothetical protein;Arsenical-resistance protein,,IKCLMC_02023,,,,,,,BEJGEH_02016;BEJGEH_02017
+group_4241,,hypothetical protein,,IKCLMC_02403,PKJKAM_03145,,,,,,
+group_4229,,hypothetical protein,,,,,LNHIMF_03212,,,GEGEGB_03241,
+group_4217,,hypothetical protein;Phage polarity suppression protein (Psu),,,,,LNHIMF_00359,,,,BEJGEH_04561
+group_4204,,hypothetical protein,,,,,,,HFCAGB_04696,,BEJGEH_04566
+group_4197,,hypothetical protein,,,,,,,HFCAGB_02167,,BEJGEH_01967
+group_4195,,hypothetical protein,,,,,,,,GEGEGB_03186,BEJGEH_03126
+sefD,sefD;,Putative adhesin SefD;hypothetical protein,,,,,,,HFCAGB_04705,GEGEGB_04776,
+group_4181,,hypothetical protein,,,,,,,HFCAGB_04709,GEGEGB_04780,
+group_4174,,hypothetical protein;site-specific DNA-methyltransferase (adenine-specific),,IKCLMC_03304,,,,,HFCAGB_04752;HFCAGB_04753,,
+group_4141,,hypothetical protein,,IKCLMC_02564,,,,AJBGEP_04033,,,
+group_4133,,hypothetical protein,,,,,,,,GEGEGB_00105,BEJGEH_00102
+group_4130,,hypothetical protein,,IKCLMC_04284,,,,,,,BEJGEH_01962
+group_4117,,hypothetical protein,,,,,,,HFCAGB_01187,,BEJGEH_01035
+group_4082,,hypothetical protein,,IKCLMC_01600,,,,,HFCAGB_01355,,
+group_4080,,hypothetical protein,,IKCLMC_04318,PKJKAM_04322,,,,,,
+group_4060,,hypothetical protein,,IKCLMC_03305,,,,,HFCAGB_04751,,
+group_4046,,hypothetical protein;Secreted protein,,,,,,,,GEGEGB_00771,BEJGEH_02164
+group_4036,,hypothetical protein,,,,,,,,GEGEGB_03190,BEJGEH_03130
+group_3968,,hypothetical protein,,,,,,,HFCAGB_01215,,BEJGEH_01067
+group_3955,,hypothetical protein;PTS system glucose-specific EIICB component,,,,ODDLKH_03167,,AJBGEP_02903;AJBGEP_02904,,,
+group_3953,,hypothetical protein;NERD domain-containing protein,,,,,,,,GEGEGB_04134,BEJGEH_03626
+group_3928,,hypothetical protein;Mutator family transposase,,,,,,,HFCAGB_02659,GEGEGB_00504;GEGEGB_00505,
+group_3839,,hypothetical protein,,,,,LNHIMF_02089,,,,BEJGEH_02030
+malI,malI;,Maltose regulon regulatory protein MalI;hypothetical protein,,,,,LNHIMF_01516,,,,BEJGEH_01620
+group_3788,,hypothetical protein,,IKCLMC_02951,,,,,,GEGEGB_04268,
+group_3766,,hypothetical protein;Glycosidase,,IKCLMC_02895,,,,,,,BEJGEH_03543
+group_3758,,hypothetical protein,,,,,,AJBGEP_00832,,GEGEGB_02160,
+group_3734,,hypothetical protein,,IKCLMC_04323,PKJKAM_04326,,,,,,
+group_3728,,hypothetical protein,,IKCLMC_00337,,,,AJBGEP_02770,,,
+group_3725,,hypothetical protein,,IKCLMC_00942,,,,AJBGEP_01274,,,
+group_3673,,hypothetical protein,,IKCLMC_00019,,,,AJBGEP_01303,,,
+group_3629,,hypothetical protein,,,,,,5_refound_61,,GEGEGB_01940,
+group_3622,,hypothetical protein,,,,,,5_refound_59,,GEGEGB_00262,
+group_3587,,hypothetical protein,,,,,,,HFCAGB_01186,,BEJGEH_01034
+group_3574,,hypothetical protein,,IKCLMC_00946,,,,AJBGEP_01278,,,
+group_3572,,hypothetical protein,,,,ODDLKH_02739,,AJBGEP_02405,,,
+group_3565,,hypothetical protein,,,,,,,,GEGEGB_04742,8_refound_96
+group_3560,,hypothetical protein,,IKCLMC_02354,PKJKAM_03187,,,,,,
+group_3544,,hypothetical protein,ONMMKP_04176,,,,,,,7_refound_77,
+group_3539,,hypothetical protein,,,2_refound_26,,,,HFCAGB_01406,,
+group_3532,,hypothetical protein,,,,,,AJBGEP_04849,HFCAGB_04838,,
+group_3514,,hypothetical protein,,,,,,AJBGEP_02100,HFCAGB_02170,,
+group_3503,,hypothetical protein,ONMMKP_04696,1_refound_11_pseudo,,,,,,,
+group_3501,,hypothetical protein,,,,,,,HFCAGB_04022,7_refound_83,
+group_3482,,hypothetical protein,,,,,,AJBGEP_04847,HFCAGB_04840,,
+group_3477,,hypothetical protein,,IKCLMC_02356,PKJKAM_03185,,,,,,
+group_3463,,hypothetical protein,,,2_refound_27,,,,,GEGEGB_02981,
+group_3460,,hypothetical protein,,,,,,AJBGEP_04806,6_refound_68_pseudo,,
+group_3455,,hypothetical protein,,IKCLMC_04327,PKJKAM_04330,,,,,,
+group_3449,,hypothetical protein,0_refound_4,,,,,,HFCAGB_00588,,
+group_3447,,hypothetical protein,,IKCLMC_02371,PKJKAM_03170,,,,,,
+group_3433,,hypothetical protein,ONMMKP_00749,,,,LNHIMF_00608,,,,
+group_3428,,hypothetical protein,,,,ODDLKH_03169,,AJBGEP_02906,,,
+group_3423,,hypothetical protein,,,,,,,HFCAGB_04711,GEGEGB_04782,
+group_3417,,hypothetical protein,,IKCLMC_01213,,,,AJBGEP_02762,,,
+group_3415,,hypothetical protein,ONMMKP_00758,,PKJKAM_03162,,,,,,
+group_3327,,hypothetical protein,,,,,,AJBGEP_04845,HFCAGB_04842,,
+group_3297,,hypothetical protein,,,,,,AJBGEP_04830,HFCAGB_04855,,
+group_3266,,hypothetical protein,,,,,,5_refound_60_pseudo,,GEGEGB_01675,
+group_3244,,hypothetical protein,,,,ODDLKH_02738,,AJBGEP_02404,,,
+group_3235,,hypothetical protein,,,,,,,HFCAGB_02778,,8_refound_95_pseudo
+group_3204,,hypothetical protein,,IKCLMC_01208,,,,AJBGEP_02767,,,
+group_3170,,hypothetical protein,,,,,,AJBGEP_01038,HFCAGB_01384,,
+group_3138,,hypothetical protein,,IKCLMC_00977,,,,AJBGEP_01308,,,
+group_3051,,hypothetical protein,,,PKJKAM_00242,,,,HFCAGB_01400,,
+group_3044,,hypothetical protein,,,,ODDLKH_03158,,AJBGEP_02894,,,
+group_2967,,hypothetical protein,,,,,,,,GEGEGB_00769,BEJGEH_02166
+group_2872,,hypothetical protein,,,,ODDLKH_02734,,AJBGEP_02400,,,
+group_2853,,hypothetical protein,,IKCLMC_01599,,,,,HFCAGB_01354,,
+group_2845,,hypothetical protein,,,,,,AJBGEP_04858,HFCAGB_04829,,
+group_2844,,hypothetical protein,,IKCLMC_00917,,,,,HFCAGB_01349,,
+group_2829,,hypothetical protein,,IKCLMC_03308,,,,,HFCAGB_04748,,
+group_2729,,hypothetical protein,,,,,LNHIMF_02082,,,,BEJGEH_02023
+group_2717,,hypothetical protein,,,,,,,HFCAGB_02939,GEGEGB_03602,
+group_2716,,hypothetical protein,,,,,,,HFCAGB_01216,,BEJGEH_01068
+group_2645,,hypothetical protein,,,,,,AJBGEP_01037,HFCAGB_01383,,
+group_2616,,hypothetical protein,,,,,LNHIMF_04314,,,GEGEGB_04540,
+group_2562,,hypothetical protein,ONMMKP_02929,,,,,,,,BEJGEH_03892
+group_2518,,hypothetical protein,,IKCLMC_03306,,,,,HFCAGB_04750,,
+group_2339,,hypothetical protein,,,,,,AJBGEP_01041,HFCAGB_01387,,
+group_2273,,hypothetical protein,,,,ODDLKH_02733,,AJBGEP_02399,,,
+group_2265,,hypothetical protein,,,,,,AJBGEP_04833,HFCAGB_04852,,
+group_2047,,hypothetical protein,,,,ODDLKH_03175,,AJBGEP_02912,,,
+group_1947,,hypothetical protein,,,,ODDLKH_03150,,AJBGEP_02886,,,
+group_1938,,hypothetical protein,,,,,LNHIMF_04584,,,,BEJGEH_04626
+group_1889,,hypothetical protein,,IKCLMC_00288,,,,AJBGEP_02818,,,
+group_1803,,hypothetical protein,ONMMKP_04379,,PKJKAM_02831,,,,,,
+group_1472,,hypothetical protein,,,,,,AJBGEP_02156,HFCAGB_02227,,
+group_983,,hypothetical protein,ONMMKP_01988,,PKJKAM_00752,,,,,,
+group_904,,hypothetical protein,,,,,,AJBGEP_04856,HFCAGB_04831,,
+group_715,,hypothetical protein,,,,ODDLKH_02732,,AJBGEP_02398,,,
+group_394,,hypothetical protein,,,,,,,HFCAGB_01257,,BEJGEH_01108
+group_306,,hypothetical protein,,,,ODDLKH_03168,,AJBGEP_02905,,,
+group_4143,,hypothetical protein,,,,,,,HFCAGB_00920,,
+group_3729,,hypothetical protein,,,,,,AJBGEP_01300,,,
+group_3670,,hypothetical protein,,,,,,,,,BEJGEH_04571
+group_3666,,hypothetical protein,,,,,,,,,BEJGEH_03502
+group_3665,,hypothetical protein,,,,,,,,,BEJGEH_03212
+group_3644,,hypothetical protein,,,,,,,,GEGEGB_03139,
+group_3642,,hypothetical protein,,,,,,,,GEGEGB_03064,
+group_3608,,hypothetical protein,,IKCLMC_02388,,,,,,,
+group_3602,,hypothetical protein,,IKCLMC_00922,,,,,,,
+group_3596,,hypothetical protein,,IKCLMC_00227,,,,,,,
+group_3593,,hypothetical protein,ONMMKP_04172,,,,,,,,
+group_3586,,hypothetical protein,,,,,,,,GEGEGB_04599,
+group_3585,,hypothetical protein,,,,,,,HFCAGB_00615,,
+group_3584,,hypothetical protein,,,,,,,HFCAGB_00307,,
+group_3583,,hypothetical protein,,,,,LNHIMF_02779,,,,
+group_3582,,hypothetical protein,,,,,,,,,BEJGEH_01993
+group_3581,,hypothetical protein,,,,,,,,GEGEGB_04460,
+group_3580,,hypothetical protein,,,,,,,,GEGEGB_00106,
+group_3579,,hypothetical protein,,,,,LNHIMF_00597,,,,
+group_3578,,hypothetical protein,ONMMKP_00759,,,,,,,,
+group_3573,,hypothetical protein,,,,,,,,,BEJGEH_01201
+group_3568,,hypothetical protein,,,,,,,,,BEJGEH_03800
+group_3567,,hypothetical protein,,,,,,,,,BEJGEH_03035
+group_3566,,hypothetical protein,,,,,,,,,BEJGEH_01532
+group_3564,,hypothetical protein,,,,,,,,,BEJGEH_04588
+group_3563,,hypothetical protein,,,,,,,HFCAGB_01353,,
+group_3561,,hypothetical protein,,,,ODDLKH_01666,,,,,
+group_3558,,hypothetical protein,,,,,,,,,BEJGEH_03182
+group_3557,,hypothetical protein,,,,,,,HFCAGB_01206,,
+group_3556,,hypothetical protein,,,,,,,,GEGEGB_01080,
+group_3554,,hypothetical protein,,,,,,AJBGEP_04820,,,
+group_3548,,hypothetical protein,,,,,LNHIMF_04702,,,,
+group_3547,,hypothetical protein,,,,,LNHIMF_04696,,,,
+group_3546,,hypothetical protein,,,,,LNHIMF_00311,,,,
+group_3543,,hypothetical protein,ONMMKP_01364,,,,,,,,
+group_3541,,hypothetical protein,ONMMKP_02956,,,,,,,,
+group_3540,,hypothetical protein,,,,,,,,GEGEGB_01802,
+group_3536,,hypothetical protein,,,,,,,,,BEJGEH_03183
+group_3535,,hypothetical protein,,,,,,,,GEGEGB_01185,
+group_3534,,hypothetical protein,,,,,,,HFCAGB_00306,,
+group_3533,,hypothetical protein,,,,,,,,GEGEGB_00411,
+group_3531,,hypothetical protein,,,,,LNHIMF_04396,,,,
+group_3530,,hypothetical protein,,,,,LNHIMF_00575,,,,
+group_3529,,hypothetical protein,ONMMKP_02281,,,,,,,,
+group_3527,,hypothetical protein,,,,,,,,,BEJGEH_00068
+group_3526,,hypothetical protein,,,,,,,,GEGEGB_01430,
+group_3525,,hypothetical protein,,,,,,,,GEGEGB_00899,
+group_3522,,hypothetical protein,,IKCLMC_02348,,,,,,,
+group_3521,,hypothetical protein,,,,,,,,GEGEGB_04145,
+group_3520,,hypothetical protein,,,,,,,HFCAGB_00598,,
+group_3513,,hypothetical protein,,,PKJKAM_04030,,,,,,
+group_3512,,hypothetical protein,,,,,,,HFCAGB_02253,,
+group_3510,,hypothetical protein,,,,,LNHIMF_00574,,,,
+group_3505,,hypothetical protein,,IKCLMC_03350,,,,,,,
+group_3502,,hypothetical protein,ONMMKP_02291,,,,,,,,
+group_3497,,hypothetical protein,,,,,,,,,BEJGEH_00304
+group_3493,,hypothetical protein,ONMMKP_01593,,,,,,,,
+group_3492,,hypothetical protein,ONMMKP_00784,,,,,,,,
+group_3490,,hypothetical protein,,,,,,AJBGEP_04039,,,
+group_3489,,hypothetical protein,,,,,LNHIMF_03821,,,,
+group_3485,,hypothetical protein,ONMMKP_00738,,,,,,,,
+group_3484,,hypothetical protein,,,,,,,,,BEJGEH_01852
+group_3483,,hypothetical protein,,,,,,,,GEGEGB_01453,
+group_3481,,hypothetical protein,,,,,LNHIMF_04301,,,,
+group_3479,,hypothetical protein,,,,,LNHIMF_01286,,,,
+group_3474,,hypothetical protein,,,,,LNHIMF_00363,,,,
+group_3473,,hypothetical protein,,,,ODDLKH_02949,,,,,
+group_3464,,hypothetical protein,,,,,,,,,BEJGEH_03791
+group_3462,,hypothetical protein,,,,,,,,GEGEGB_02798,
+group_3458,,hypothetical protein,,,,,LNHIMF_02149,,,,
+group_3456,,hypothetical protein,,,,,LNHIMF_00353,,,,
+group_3451,,hypothetical protein,,,,,,,,GEGEGB_04466,
+group_3450,,hypothetical protein,,,,,,,HFCAGB_04873,,
+group_3448,,hypothetical protein,,IKCLMC_03349,,,,,,,
+group_3446,,hypothetical protein,ONMMKP_01367,,,,,,,,
+group_3445,,hypothetical protein,ONMMKP_00769,,,,,,,,
+group_3444,,hypothetical protein,ONMMKP_00730,,,,,,,,
+group_3441,,hypothetical protein,,,,,,,HFCAGB_00100,,
+group_3438,,hypothetical protein,,IKCLMC_00919,,,,,,,
+group_3435,,hypothetical protein,ONMMKP_01870,,,,,,,,
+group_3434,,hypothetical protein,ONMMKP_00765,,,,,,,,
+group_3427,,hypothetical protein,,,PKJKAM_01841,,,,,,
+group_3422,,hypothetical protein,,,,,,,HFCAGB_01346,,
+group_3421,,hypothetical protein,,,,,,AJBGEP_04816,,,
+group_3420,,hypothetical protein,,,,,,AJBGEP_01262,,,
+group_3419,,hypothetical protein,,IKCLMC_02343,,,,,,,
+group_3412,,hypothetical protein,,,,,,,,GEGEGB_03589,
+group_3409,,hypothetical protein,,,PKJKAM_00633,,,,,,
+group_3408,,hypothetical protein,,IKCLMC_00948,,,,,,,
+group_3407,,hypothetical protein,,IKCLMC_00920,,,,,,,
+group_3406,,hypothetical protein,ONMMKP_01875,,,,,,,,
+group_3404,,hypothetical protein,,,,,,,,GEGEGB_04694,
+group_3402,,hypothetical protein,,,,,LNHIMF_02226,,,,
+group_3400,,hypothetical protein,,,PKJKAM_02231,,,,,,
+group_3391,,hypothetical protein,,,,,,,,GEGEGB_04789,
+group_3390,,hypothetical protein,,,,,,,,GEGEGB_04767,
+group_3389,,hypothetical protein,,,,,,,,GEGEGB_01458,
+group_3387,,hypothetical protein,,IKCLMC_04123,,,,,,,
+group_3386,,hypothetical protein,ONMMKP_04105,,,,,,,,
+group_3383,,hypothetical protein,,,,,,,,,BEJGEH_00905
+group_3381,,hypothetical protein,,,,,LNHIMF_02780,,,,
+group_3372,,hypothetical protein,,,,,,,,GEGEGB_04570,
+group_3371,,hypothetical protein,,,,,,,,GEGEGB_02023,
+group_3370,,hypothetical protein,,,,,LNHIMF_04273,,,,
+group_3365,,hypothetical protein,,,,,,,,GEGEGB_03100,
+group_3364,,hypothetical protein,,,,,,,,GEGEGB_01638,
+group_3363,,hypothetical protein,,,,,,,,GEGEGB_01547,
+group_3362,,hypothetical protein,,,,,,,HFCAGB_04871,,
+group_3360,,hypothetical protein,,,,,LNHIMF_01608,,,,
+group_3353,,hypothetical protein,ONMMKP_01358,,,,,,,,
+group_3352,,hypothetical protein,ONMMKP_00766,,,,,,,,
+group_3347,,hypothetical protein,,,,,LNHIMF_02147,,,,
+group_3345,,hypothetical protein,,,PKJKAM_01849,,,,,,
+group_3342,,hypothetical protein,,IKCLMC_01705,,,,,,,
+group_3339,,hypothetical protein,ONMMKP_00781,,,,,,,,
+group_3338,,hypothetical protein,,,,,,,,GEGEGB_04521,
+group_3335,,hypothetical protein,,,,,,AJBGEP_04827,,,
+group_3329,,hypothetical protein,,,,,,,,GEGEGB_01427,
+group_3324,,hypothetical protein,ONMMKP_04110,,,,,,,,
+group_3322,,hypothetical protein,ONMMKP_00729,,,,,,,,
+group_3319,,hypothetical protein,,,,,,,,,BEJGEH_01527
+group_3317,,hypothetical protein,,,,,,,,,BEJGEH_01042
+group_3309,,hypothetical protein,,IKCLMC_02345,,,,,,,
+group_3303,,hypothetical protein,,,,,,,,,BEJGEH_02677
+group_3302,,hypothetical protein,,,,,,,,GEGEGB_04469,
+group_3298,,hypothetical protein,,,,,,,HFCAGB_01184,,
+group_3296,,hypothetical protein,,,,,,AJBGEP_01019,,,
+group_3295,,hypothetical protein,,IKCLMC_02381,,,,,,,
+group_3293,,hypothetical protein,ONMMKP_04150,,,,,,,,
+group_3285,,hypothetical protein,,,,,LNHIMF_00642,,,,
+group_3281,,hypothetical protein,ONMMKP_01270,,,,,,,,
+group_3280,,hypothetical protein,,,,,,,,GEGEGB_04605,
+group_3278,,hypothetical protein,,,,,,,,GEGEGB_02067,
+group_3275,,hypothetical protein,,,,,LNHIMF_02784,,,,
+group_3274,,hypothetical protein,,,,,LNHIMF_00617,,,,
+group_3265,,hypothetical protein,,,,,,,,GEGEGB_01074,
+group_3263,,hypothetical protein,,,,,,AJBGEP_03278,,,
+group_3260,,hypothetical protein,,,,,LNHIMF_00652,,,,
+group_3258,,hypothetical protein,,IKCLMC_02390,,,,,,,
+group_3253,,hypothetical protein,ONMMKP_02950,,,,,,,,
+group_3249,,hypothetical protein,,,,,,,,GEGEGB_01464,
+group_3247,,hypothetical protein,,,,,,AJBGEP_02150,,,
+group_3246,,hypothetical protein,,,,,LNHIMF_02791,,,,
+group_3245,,hypothetical protein,,,,,LNHIMF_00693,,,,
+group_3237,,hypothetical protein,,,,,,,,GEGEGB_03577,
+group_3236,,hypothetical protein,,,,,,,,GEGEGB_02526,
+group_3232,,hypothetical protein,ONMMKP_01592,,,,,,,,
+group_3228,,hypothetical protein,,,,,LNHIMF_04458,,,,
+group_3223,,hypothetical protein,,,,,,,,,BEJGEH_01039
+group_3220,,hypothetical protein,,,,,LNHIMF_00632,,,,
+group_3219,,hypothetical protein,,IKCLMC_01882,,,,,,,
+group_3210,,hypothetical protein,,,,,,,HFCAGB_02201,,
+group_3209,,hypothetical protein,,,,,LNHIMF_00677,,,,
+group_3207,,hypothetical protein,,,PKJKAM_04645,,,,,,
+group_3203,,hypothetical protein,,IKCLMC_00330,,,,,,,
+group_3200,,hypothetical protein,ONMMKP_04137,,,,,,,,
+group_3195,,hypothetical protein,ONMMKP_01326,,,,,,,,
+group_3194,,hypothetical protein,,,,,,,HFCAGB_02218,,
+group_3192,,hypothetical protein,,,PKJKAM_04031,,,,,,
+group_3186,,hypothetical protein,,,,,,,,,BEJGEH_03799
+group_3182,,hypothetical protein,,,,,LNHIMF_04705,,,,
+group_3178,,hypothetical protein,ONMMKP_01357,,,,,,,,
+group_3174,,hypothetical protein,,,,,,,,GEGEGB_04485,
+group_3173,,hypothetical protein,,,,,,,,GEGEGB_01476,
+group_3168,,hypothetical protein,,,,,LNHIMF_00702,,,,
+group_3167,,hypothetical protein,,,,,LNHIMF_00669,,,,
+group_3163,,hypothetical protein,,,,,,,,GEGEGB_04496,
+group_3161,,hypothetical protein,,,,ODDLKH_00366,,,,,
+group_3155,,hypothetical protein,,,,,,,,,BEJGEH_01846
+group_3153,,hypothetical protein,,,,,,AJBGEP_02132,,,
+group_3152,,hypothetical protein,,,,,LNHIMF_00618,,,,
+group_3145,,hypothetical protein,,,,,,,,,BEJGEH_02752
+group_3143,,hypothetical protein,,,,,,,,,BEJGEH_01041
+group_3139,,hypothetical protein,,IKCLMC_01201,,,,,,,
+group_3132,,hypothetical protein,,,,,,,,GEGEGB_04448,
+group_3131,,hypothetical protein,,,,,,,,GEGEGB_01942,
+group_3130,,hypothetical protein,,,,,,AJBGEP_00307,,,
+group_3126,,hypothetical protein,ONMMKP_01362,,,,,,,,
+group_3123,,hypothetical protein,,,,,,,,,BEJGEH_04575
+group_3122,,hypothetical protein,,,,,,,,,BEJGEH_04091
+group_3120,,hypothetical protein,,,,,,,,GEGEGB_04759,
+group_3119,,hypothetical protein,,,,,,,,GEGEGB_03944,
+group_3117,,hypothetical protein,,,,,,,,GEGEGB_01424,
+group_3116,,hypothetical protein,,,,,,,HFCAGB_04858,,
+group_3114,,hypothetical protein,,,,,,,HFCAGB_01352,,
+group_3103,,hypothetical protein,,,,,,,,,BEJGEH_00292
+group_3100,,hypothetical protein,,,,,LNHIMF_04296,,,,
+group_3093,,hypothetical protein,,,,,,,,GEGEGB_01459,
+group_3088,,hypothetical protein,,,,,LNHIMF_00566,,,,
+group_3086,,hypothetical protein,,IKCLMC_00926,,,,,,,
+group_3079,,hypothetical protein,,,,,,,,GEGEGB_04791,
+group_3074,,hypothetical protein,,IKCLMC_02392,,,,,,,
+group_3064,,hypothetical protein,,,,,,,,,BEJGEH_02754
+group_3045,,hypothetical protein,,,,,,,HFCAGB_02217,,
+group_3035,,hypothetical protein,ONMMKP_00788,,,,,,,,
+group_3033,,hypothetical protein,,,,,,,,GEGEGB_00921,
+group_3032,,hypothetical protein,,,,,,,HFCAGB_02952,,
+group_3031,,hypothetical protein,,,,,,AJBGEP_04838,,,
+group_3030,,hypothetical protein,,,,,,AJBGEP_04686,,,
+group_3028,,hypothetical protein,,IKCLMC_03344,,,,,,,
+group_3020,,hypothetical protein,,,,,,,,,BEJGEH_04240
+group_3009,,hypothetical protein,ONMMKP_01595,,,,,,,,
+group_3007,,hypothetical protein,ONMMKP_01128,,,,,,,,
+group_3005,,hypothetical protein,,,,,,,,,BEJGEH_04578
+group_3004,,hypothetical protein,,,,,,,,GEGEGB_04523,
+group_3003,,hypothetical protein,,,,,,,,GEGEGB_00924,
+group_3002,,hypothetical protein,,,,,,,,GEGEGB_00922,
+group_2999,,hypothetical protein,,,,ODDLKH_00368,,,,,
+group_2998,,hypothetical protein,,IKCLMC_03338,,,,,,,
+group_2997,,hypothetical protein,,IKCLMC_00925,,,,,,,
+group_2990,,hypothetical protein,,,,,LNHIMF_00625,,,,
+group_2984,,hypothetical protein,ONMMKP_01335,,,,,,,,
+group_2979,,hypothetical protein,,,,,,,HFCAGB_00600,,
+group_2973,,hypothetical protein,ONMMKP_02960,,,,,,,,
+group_2970,,hypothetical protein,,,,,,,,,BEJGEH_04577
+group_2969,,hypothetical protein,,,,,,,,GEGEGB_04519,
+group_2965,,hypothetical protein,,,,,LNHIMF_04265,,,,
+group_2960,,hypothetical protein,,IKCLMC_00967,,,,,,,
+group_2955,,hypothetical protein,,,,,,,,GEGEGB_04503,
+group_2953,,hypothetical protein,,,,,LNHIMF_00655,,,,
+group_2952,,hypothetical protein,,,,,LNHIMF_00643,,,,
+group_2948,,hypothetical protein,,,,,,,,,BEJGEH_01995
+group_2947,,hypothetical protein,,,,,,,,,BEJGEH_00175
+group_2944,,hypothetical protein,ONMMKP_03728,,,,,,,,
+group_2941,,hypothetical protein,ONMMKP_01122,,,,,,,,
+group_2936,,hypothetical protein,,,,,,,,GEGEGB_00919,
+group_2934,,hypothetical protein,,IKCLMC_00937,,,,,,,
+group_2929,,hypothetical protein,ONMMKP_01361,,,,,,,,
+group_2926,,hypothetical protein,,,,,,,,GEGEGB_00931,
+group_2919,,hypothetical protein,ONMMKP_02280,,,,,,,,
+group_2915,,hypothetical protein,,,,,,,,GEGEGB_04472,
+group_2910,,hypothetical protein,,,,,,,,,BEJGEH_00493
+group_2896,,hypothetical protein,,,,,LNHIMF_04297,,,,
+group_2889,,hypothetical protein,ONMMKP_01346,,,,,,,,
+group_2884,,hypothetical protein,,,,ODDLKH_01665,,,,,
+group_2876,,hypothetical protein,,,,,,,,,BEJGEH_04378
+group_2875,,hypothetical protein,,,,,,,HFCAGB_02233,,
+group_2874,,hypothetical protein,,,,,,,HFCAGB_00637,,
+group_2860,,hypothetical protein,,,,,,,,GEGEGB_04510,
+group_2859,,hypothetical protein,,,,,,,,GEGEGB_03972,
+group_2858,,hypothetical protein,,,,,,,HFCAGB_01210,,
+group_2857,,hypothetical protein,,,,,,,HFCAGB_01094,,
+group_2854,,hypothetical protein,,,,,LNHIMF_00647,,,,
+group_2848,,hypothetical protein,,,,,,,,GEGEGB_01978,
+group_2846,,hypothetical protein,,,,,,,HFCAGB_04716,,
+group_2833,,hypothetical protein,,,,,,,HFCAGB_00308,,
+group_2832,,hypothetical protein,,,,,LNHIMF_04275,,,,
+group_2825,,hypothetical protein,ONMMKP_01594,,,,,,,,
+group_2815,,hypothetical protein,,,,,,,,,BEJGEH_00215
+group_2806,,hypothetical protein,,,,,,,,,BEJGEH_04242
+group_2793,,hypothetical protein,,,,,LNHIMF_00565,,,,
+group_2790,,hypothetical protein,,,,,,,,GEGEGB_04575,
+group_2782,,hypothetical protein,,,,,,,,,BEJGEH_00903
+group_2781,,hypothetical protein,,IKCLMC_02394,,,,,,,
+group_2775,,hypothetical protein,,,,,,,,GEGEGB_04773,
+group_2774,,hypothetical protein,,,,,,,,GEGEGB_04476,
+group_2769,,hypothetical protein,,IKCLMC_02347,,,,,,,
+group_2753,,hypothetical protein,ONMMKP_01355,,,,,,,,
+group_2744,,hypothetical protein,,,,,LNHIMF_04263,,,,
+group_2743,,hypothetical protein,,,,,LNHIMF_00322,,,,
+group_2736,,hypothetical protein,ONMMKP_01341,,,,,,,,
+group_2733,,hypothetical protein,,,,,,,,,BEJGEH_04243
+group_2730,,hypothetical protein,,,,,LNHIMF_03947,,,,
+group_2728,,hypothetical protein,,,,,LNHIMF_00312,,,,
+group_2724,,hypothetical protein,,IKCLMC_03343,,,,,,,
+group_2719,,hypothetical protein,,,,,,,,GEGEGB_04531,
+group_2711,,hypothetical protein,ONMMKP_00770,,,,,,,,
+group_2710,,hypothetical protein,,,,,,,,GEGEGB_04520,
+group_2709,,hypothetical protein,,,,,,,,GEGEGB_04147,
+group_2706,,hypothetical protein,,IKCLMC_01438,,,,,,,
+group_2700,,hypothetical protein,,,,,,,,GEGEGB_04007,
+group_2698,,hypothetical protein,,,,,LNHIMF_00656,,,,
+group_2693,,hypothetical protein,ONMMKP_01884,,,,,,,,
+group_2689,,hypothetical protein,,,,,,,,GEGEGB_04506,
+group_2688,,hypothetical protein,,,,,,,,GEGEGB_00920,
+group_2675,,hypothetical protein,,,,,,,,,BEJGEH_01530
+group_2660,,hypothetical protein,ONMMKP_02957,,,,,,,,
+group_2659,,hypothetical protein,ONMMKP_01352,,,,,,,,
+group_2658,,hypothetical protein,,,,,,,,GEGEGB_00923,
+group_2650,,hypothetical protein,ONMMKP_02284,,,,,,,,
+group_2633,,hypothetical protein,ONMMKP_01360,,,,,,,,
+group_2630,,hypothetical protein,,,,,,,,,BEJGEH_04598
+group_2622,,hypothetical protein,ONMMKP_04655,,,,,,,,
+group_2609,,hypothetical protein,,IKCLMC_01437,,,,,,,
+group_2591,,hypothetical protein,ONMMKP_00740,,,,,,,,
+group_2583,,hypothetical protein,,,,,,AJBGEP_02128,,,
+group_2581,,hypothetical protein,ONMMKP_02947,,,,,,,,
+group_2576,,hypothetical protein,,,PKJKAM_03158,,,,,,
+group_2572,,hypothetical protein,,,,,,,,GEGEGB_02716,
+group_2569,,hypothetical protein,,,PKJKAM_01842,,,,,,
+group_2560,,hypothetical protein,ONMMKP_01081,,,,,,,,
+group_2557,,hypothetical protein,,,,,,,HFCAGB_04746,,
+group_2550,,hypothetical protein,,,,,,,,,BEJGEH_00298
+group_2548,,hypothetical protein,,,,,,,,GEGEGB_01452,
+group_2538,,hypothetical protein,,,,,LNHIMF_01607,,,,
+group_2537,,hypothetical protein,,,,,LNHIMF_00644,,,,
+group_2529,,hypothetical protein,,,,,,,HFCAGB_00305,,
+group_2484,,hypothetical protein,ONMMKP_01879,,,,,,,,
+group_2468,,hypothetical protein,,,,,,,,GEGEGB_04524,
+group_2467,,hypothetical protein,,,,,,,,GEGEGB_01441,
+group_2441,,hypothetical protein,ONMMKP_01809,,,,,,,,
+group_2433,,hypothetical protein,,IKCLMC_01537,,,,,,,
+group_2428,,hypothetical protein,,,,,,,,,BEJGEH_04586
+group_2427,,hypothetical protein,,,,,,,,,BEJGEH_04354
+group_2421,,hypothetical protein,,IKCLMC_03348,,,,,,,
+group_2407,,hypothetical protein,,,,,LNHIMF_03173,,,,
+group_2390,,hypothetical protein,ONMMKP_02964,,,,,,,,
+group_2384,,hypothetical protein,,,PKJKAM_03190,,,,,,
+group_2379,,hypothetical protein,,,,,,AJBGEP_04837,,,
+group_2366,,hypothetical protein,,,,,,AJBGEP_04829,,,
+group_2360,,hypothetical protein,,,,,,,,,BEJGEH_04379
+group_2353,,hypothetical protein,,,,,,,,GEGEGB_04885,
+group_2351,,hypothetical protein,,,,,,,,GEGEGB_01692,
+group_2341,,hypothetical protein,,,,,,,HFCAGB_02232,,
+group_2340,,hypothetical protein,,,,,,,HFCAGB_01090,,
+group_2324,,hypothetical protein,,,,,LNHIMF_00568,,,,
+group_2320,,hypothetical protein,ONMMKP_01123,,,,,,,,
+group_2311,,hypothetical protein,ONMMKP_01363,,,,,,,,
+group_2306,,hypothetical protein,,,PKJKAM_03472,,,,,,
+group_2300,,hypothetical protein,,,,,,,,GEGEGB_00927,
+group_2298,,hypothetical protein,,IKCLMC_02386,,,,,,,
+group_2294,,hypothetical protein,,,,,,,,GEGEGB_03858,
+group_2254,,hypothetical protein,,IKCLMC_01196,,,,,,,
+group_2250,,hypothetical protein,,,,,,,,,BEJGEH_04591
+group_2240,,hypothetical protein,,,,,,,,GEGEGB_01451,
+group_2228,,hypothetical protein,,,,,LNHIMF_00670,,,,
+group_2220,,hypothetical protein,,,,,LNHIMF_00668,,,,
+group_2218,,hypothetical protein,ONMMKP_01868,,,,,,,,
+group_2199,,hypothetical protein,,IKCLMC_00323,,,,,,,
+group_2192,,hypothetical protein,,,,,,,,GEGEGB_01445,
+group_2182,,hypothetical protein,ONMMKP_02289,,,,,,,,
+group_2150,,hypothetical protein,,,,,,,HFCAGB_00629,,
+group_2114,,hypothetical protein,,,,,LNHIMF_04720,,,,
+group_2112,,hypothetical protein,ONMMKP_01330,,,,,,,,
+group_2091,,hypothetical protein,ONMMKP_01359,,,,,,,,
+group_2089,,hypothetical protein,,,,,,,,,BEJGEH_02751
+group_2072,,hypothetical protein,,,,,,,HFCAGB_01088,,
+group_2070,,hypothetical protein,,IKCLMC_02358,,,,,,,
+group_2038,,hypothetical protein,,,,,,,,,BEJGEH_01985
+group_2037,,hypothetical protein,,,,,LNHIMF_03778,,,,
+group_2022,,hypothetical protein,,,,,,,HFCAGB_02234,,
+group_2005,,hypothetical protein,,,,,,,,GEGEGB_01420,
+group_2004,,hypothetical protein,,,,,,AJBGEP_02152,,,
+group_1977,,hypothetical protein,ONMMKP_00793,,,,,,,,
+group_1962,,hypothetical protein,,,,,LNHIMF_04715,,,,
+group_1950,,hypothetical protein,,,,,,,,,BEJGEH_04576
+group_1949,,hypothetical protein,,,,,,,,,BEJGEH_04554
+group_1908,,Hypothetical bacteriophage protein,,,,,,AJBGEP_01260,,,
+group_1903,,hypothetical protein,ONMMKP_01873,,,,,,,,
+group_1890,,hypothetical protein,,,,,,,,GEGEGB_01320,
+group_1882,,hypothetical protein,,,,,,AJBGEP_01258,,,
+group_1856,,hypothetical protein,,,,,,,,GEGEGB_02699,
+group_1829,,hypothetical protein,,,,,,,,GEGEGB_00382,
+group_1821,,hypothetical protein,,,,,,,,GEGEGB_03245,
+group_1818,,hypothetical protein,ONMMKP_01356,,,,,,,,
+group_1813,,hypothetical protein,,IKCLMC_04132,,,,,,,
+group_1805,,hypothetical protein,,,,,LNHIMF_00698,,,,
+group_1732,,hypothetical protein,,,,,,,,GEGEGB_01977,
+group_1726,,hypothetical protein,ONMMKP_02288,,,,,,,,
+group_1688,,hypothetical protein,,,,,,,HFCAGB_02224,,
+group_1658,,hypothetical protein,,,PKJKAM_04041,,,,,,
+group_1644,,hypothetical protein,,IKCLMC_00243,,,,,,,
+group_1638,,hypothetical protein,,,,,LNHIMF_00695,,,,
+group_1624,,hypothetical protein,,,,,,,,GEGEGB_04464,
+group_1600,,hypothetical protein,,,,,,,HFCAGB_04745,,
+group_1544,,hypothetical protein,,,,,,,,GEGEGB_02784,
+group_1531,,hypothetical protein,,,,,LNHIMF_00351,,,,
+group_1510,,hypothetical protein,,,,,LNHIMF_00302,,,,
+group_1433,,hypothetical protein,,IKCLMC_03342,,,,,,,
+group_1420,,hypothetical protein,,,,,,,HFCAGB_00611,,
+group_1397,,hypothetical protein,,,,,,,HFCAGB_02235,,
+group_1384,,hypothetical protein,,,PKJKAM_02232,,,,,,
+group_1383,,hypothetical protein,,IKCLMC_02074,,,,,,,
+group_1373,,hypothetical protein,ONMMKP_00773,,,,,,,,
+group_1359,,hypothetical protein,,,,,,,,GEGEGB_04527,
+group_1333,,hypothetical protein,,,,,,,,GEGEGB_04526,
+group_1313,,hypothetical protein,ONMMKP_02298,,,,,,,,
+group_1263,,hypothetical protein,,,,,,,,,BEJGEH_04597
+group_1253,,hypothetical protein,,,,,,,,GEGEGB_04475,
+group_1246,,hypothetical protein,,,PKJKAM_03192,,,,,,
+group_1177,,hypothetical protein,,,,,LNHIMF_00576,,,,
+group_1162,,Phage conserved hypothetical protein C-terminal domain-containing protein,,,,,,,HFCAGB_02208,,
+group_1092,,hypothetical protein,,IKCLMC_00320,,,,,,,
+group_1030,,hypothetical protein,,,,,,,,,BEJGEH_04384
+group_1005,,hypothetical protein,,,,,,,,,BEJGEH_03178
+group_906,,hypothetical protein,,,,,,,,,BEJGEH_04590
+group_879,,hypothetical protein,,,,,,,,GEGEGB_01563,
+group_867,,hypothetical protein,,,,,,,,GEGEGB_02548,
+group_790,,hypothetical protein,,,,,,,,,BEJGEH_02588
+group_745,,hypothetical protein,,,PKJKAM_04032,,,,,,
+group_722,,hypothetical protein,,,,,,,,,BEJGEH_01040
+group_631,,hypothetical protein,,,,,,,,GEGEGB_00932,
+group_616,,hypothetical protein,,,,,,,,,BEJGEH_04574
+group_615,,hypothetical protein,,,,,,,,GEGEGB_03102,
+group_585,,hypothetical protein,,,,,LNHIMF_02778,,,,
+group_501,,hypothetical protein,ONMMKP_01872,,,,,,,,
+group_480,,hypothetical protein,,,,,,,,GEGEGB_01434,
+group_464,,hypothetical protein,,,,,,,,GEGEGB_00930,
+group_451,,hypothetical protein,,,,,,,HFCAGB_04021,,
+group_389,,hypothetical protein,,IKCLMC_00952,,,,,,,
+group_339,,hypothetical protein,,,,,,,HFCAGB_02245,,
+group_178,,hypothetical protein,,,,,,,,,BEJGEH_04580
+group_115,,hypothetical protein,,,,,,,,GEGEGB_04596,
+group_72,,hypothetical protein,,,,,,,,GEGEGB_04787,
+group_62,,hypothetical protein,,,,,,AJBGEP_04690,,,
+group_39,,hypothetical protein,ONMMKP_03720,,,,,,,,
