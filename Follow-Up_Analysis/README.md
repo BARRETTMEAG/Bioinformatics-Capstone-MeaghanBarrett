@@ -3,11 +3,15 @@ Follow-Up Analysis: Core Membrane Genes and Accessory Gene Functions
 
 This follow-up analysis examines the core/pangenome results for both conserved and variable genetic components. Firstly, by analyzing the core genes to identify genes associated with different membrane functions, like those that may act as potential host-cell receptors and are important for bacterial interaction with the environment or host. Secondly, predict the different functional characteristics of accessory genes (shell and cloud genes) between serovars, since these genes may contribute to strain-specific traits such as virulence, adaptation, and horizontal gene transfer.
 
+<br>
+
 2. **Pipeline (GitHub-ready script)**
 
     Save as:
 
       scripts/PANAROO/followup_analysis.sh
+
+<br>
 
 Full reproducible script
 #!/bin/bash
@@ -90,6 +94,8 @@ grep -i "hypothetical" \
 
 echo "Analysis complete."
 
+<br>
+
 3. **Key Results Summary**
 **Core Genome**
 Core genes: 3686
@@ -113,6 +119,7 @@ Lipoproteins
 Fimbrial proteins
 Transposases
 
+<br> 
 
 4. **Biological Interpretation**
 **Core genes: Membrane-associated functions**
@@ -154,6 +161,7 @@ The high number of hypothetical proteins indicates:
 Many unknown serovar-specific functions 
 Undiscovered potential biological mechanisms
 
+<br>
 
 5. **Final Report Paragraph (~1 paragraph)**
 
