@@ -126,7 +126,7 @@ Transposases
 4. **Biological Interpretation** <br>
 **Core genes: Membrane-associated functions** <br>
 
-The conserved membrane-associated core genes are shown across all strains, this suggests the important role played in bacterial survival. These proteins are located on or near the cell surface and may function as host-cell receptors, transport proteins, or structural components. This conservation indicates a critical fundamental process for nutrient uptake and environmental sensing.
+The conserved membrane-associated core genes are shown across all strains, and suggests the important role played in bacterial survival. These proteins are located on or near the cell surface and may function as host-cell receptors, transport proteins, or structural components. This conservation indicates a critical fundamental process for nutrient uptake and environmental sensing.
 
 
 **Accessory genes: Serovar differences** <br>
@@ -167,5 +167,5 @@ Undiscovered potential biological mechanisms <br>
 
 5. **Final Report Paragraph (~1 paragraph)** <br>
 
-Analyzing the core and accessory genomes reveals distinct roles in bacterial function and diversity. Core genes including multiple conserved membrane-associated proteins found across all strains, plays an essential role in cellular processing, like transport and environmental sensing. These proteins also function as host-cell receptors due to surface localization. Whereas, the accessory genome shows functional variability, with high numbers of hypothetical proteins and genes associated with mobile genetic elements such as phages and transposases. The presence of fimbrial, lipoprotein, and membrane-associated genes suggests different variation among serovars may have in their ability to adhere to host cells and adapt to environmental conditions. Overall, the results indicate that while the core genome maintains essential functions, the accessory genome drives strain-specific differences, including potential variation in virulence, adaptability, and evolutionary flexibility.
+Analyzing the core and accessory genomes reveals distinct roles in bacterial function and diversity. Core genes including multiple conserved membrane-associated proteins found across all strains, play essential roles in cellular processing, like transport and environmental sensing. These proteins also function as host-cell receptors due to surface localization. Whereas, the accessory genome shows functional variability, with high numbers of hypothetical proteins and genes associated with mobile genetic elements such as phages and transposases. The presence of fimbrial, lipoprotein, and membrane-associated genes suggest different variations among serovars in their ability to adhere to host cells and adapt to environmental conditions. Overall, the results indicate that while the core genome maintain essential functions, the accessory genome drives strain-specific differences, including potential variation in virulence, adaptability, and evolutionary flexibility.
 
