@@ -5,6 +5,19 @@ This project evaluates the bacterial genome assemblies of Salmonella Serovars to
 
 <br>
 
+# Salmonella Serovars Genomes <br>
+Typhi str. Ty2 (GCF_000007545.1) <br>
+Schwarzengrund str. CVM19633 (GCF_000020745.1) <br>
+Agona str. SL483 (GCF_000020885.1) <br>
+Dublin str. CT_02021853 (GCF_000020925.1) <br>
+Typhimurium str. 14028S (GCF_000022165.1) <br>
+Saintpaul str. SARA23 (GCF_000170215.1) <br>
+Newport str. SL317 (GCF_000171415.1) <br>
+Hadar str. RI_05P066 (GCF_000171515.1) <br>
+Virchow str. SL491 (GCF_000171535.2) <br>
+
+Names were not used until the end of the study to guard against bias. <br>
+
 # Purpose<br>
 
 The Purpose of the Project:
