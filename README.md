@@ -94,7 +94,7 @@ The Purpose of the Project:
 
 <br>
 
-# Scripts are reproducible: 
+# Scripts Are Reproducible: 
 - BUSCO: Used to measure completeness.
     - BUSCO/download_genomes.sh: download genomes from NCBI
     - BUSCO/run_busco.sh: runs BUSCO on each genome.
